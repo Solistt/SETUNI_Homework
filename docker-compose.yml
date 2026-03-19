@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: adtech_mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: adtech_db
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "3306:3306"
+    volumes:
+
+      - homework1:/var/lib/mysql
+
+volumes:
+  homework1:
+    external: true
+
