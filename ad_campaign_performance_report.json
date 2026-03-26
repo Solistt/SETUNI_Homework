@@ -1,0 +1,5572 @@
+{
+    "top_campaigns_ctr": [
+        {
+            "campaign_name": "Campaign_350",
+            "ctr_percentage": "50.0000"
+        },
+        {
+            "campaign_name": "Campaign_527",
+            "ctr_percentage": "40.0000"
+        },
+        {
+            "campaign_name": "Campaign_396",
+            "ctr_percentage": "25.0000"
+        },
+        {
+            "campaign_name": "Campaign_713",
+            "ctr_percentage": "25.0000"
+        },
+        {
+            "campaign_name": "Campaign_883",
+            "ctr_percentage": "25.0000"
+        }
+    ],
+    "advertiser_spending": [
+        {
+            "advertiser_name": "Advertiser_19",
+            "total_spent": "3481.6800"
+        },
+        {
+            "advertiser_name": "Advertiser_12",
+            "total_spent": "3324.9100"
+        },
+        {
+            "advertiser_name": "Advertiser_99",
+            "total_spent": "3190.6400"
+        },
+        {
+            "advertiser_name": "Advertiser_59",
+            "total_spent": "3047.4800"
+        },
+        {
+            "advertiser_name": "Advertiser_87",
+            "total_spent": "2824.2700"
+        },
+        {
+            "advertiser_name": "Advertiser_39",
+            "total_spent": "2812.0900"
+        },
+        {
+            "advertiser_name": "Advertiser_66",
+            "total_spent": "2779.0200"
+        },
+        {
+            "advertiser_name": "Advertiser_11",
+            "total_spent": "2649.0500"
+        },
+        {
+            "advertiser_name": "Advertiser_95",
+            "total_spent": "2570.0000"
+        },
+        {
+            "advertiser_name": "Advertiser_52",
+            "total_spent": "2520.7100"
+        },
+        {
+            "advertiser_name": "Advertiser_67",
+            "total_spent": "2340.2600"
+        },
+        {
+            "advertiser_name": "Advertiser_49",
+            "total_spent": "2339.7000"
+        },
+        {
+            "advertiser_name": "Advertiser_33",
+            "total_spent": "2337.5500"
+        },
+        {
+            "advertiser_name": "Advertiser_4",
+            "total_spent": "2334.3400"
+        },
+        {
+            "advertiser_name": "Advertiser_91",
+            "total_spent": "2312.4500"
+        },
+        {
+            "advertiser_name": "Advertiser_42",
+            "total_spent": "2290.0200"
+        },
+        {
+            "advertiser_name": "Advertiser_57",
+            "total_spent": "2238.8100"
+        },
+        {
+            "advertiser_name": "Advertiser_34",
+            "total_spent": "2226.9000"
+        },
+        {
+            "advertiser_name": "Advertiser_92",
+            "total_spent": "2215.7400"
+        },
+        {
+            "advertiser_name": "Advertiser_9",
+            "total_spent": "2198.0300"
+        },
+        {
+            "advertiser_name": "Advertiser_86",
+            "total_spent": "2151.0700"
+        },
+        {
+            "advertiser_name": "Advertiser_45",
+            "total_spent": "2126.5500"
+        },
+        {
+            "advertiser_name": "Advertiser_54",
+            "total_spent": "2125.5400"
+        },
+        {
+            "advertiser_name": "Advertiser_71",
+            "total_spent": "2105.6000"
+        },
+        {
+            "advertiser_name": "Advertiser_46",
+            "total_spent": "2092.8000"
+        },
+        {
+            "advertiser_name": "Advertiser_30",
+            "total_spent": "2092.2700"
+        },
+        {
+            "advertiser_name": "Advertiser_36",
+            "total_spent": "2091.3000"
+        },
+        {
+            "advertiser_name": "Advertiser_25",
+            "total_spent": "2090.9100"
+        },
+        {
+            "advertiser_name": "Advertiser_6",
+            "total_spent": "2087.8700"
+        },
+        {
+            "advertiser_name": "Advertiser_78",
+            "total_spent": "2079.0200"
+        },
+        {
+            "advertiser_name": "Advertiser_48",
+            "total_spent": "2077.9400"
+        },
+        {
+            "advertiser_name": "Advertiser_65",
+            "total_spent": "2074.1300"
+        },
+        {
+            "advertiser_name": "Advertiser_97",
+            "total_spent": "2030.7300"
+        },
+        {
+            "advertiser_name": "Advertiser_85",
+            "total_spent": "2021.1100"
+        },
+        {
+            "advertiser_name": "Advertiser_21",
+            "total_spent": "2004.5700"
+        },
+        {
+            "advertiser_name": "Advertiser_58",
+            "total_spent": "1985.1300"
+        },
+        {
+            "advertiser_name": "Advertiser_76",
+            "total_spent": "1941.7400"
+        },
+        {
+            "advertiser_name": "Advertiser_26",
+            "total_spent": "1922.6600"
+        },
+        {
+            "advertiser_name": "Advertiser_23",
+            "total_spent": "1896.7200"
+        },
+        {
+            "advertiser_name": "Advertiser_82",
+            "total_spent": "1886.8000"
+        },
+        {
+            "advertiser_name": "Advertiser_8",
+            "total_spent": "1883.9600"
+        },
+        {
+            "advertiser_name": "Advertiser_73",
+            "total_spent": "1881.8900"
+        },
+        {
+            "advertiser_name": "Advertiser_37",
+            "total_spent": "1870.5300"
+        },
+        {
+            "advertiser_name": "Advertiser_1",
+            "total_spent": "1854.3200"
+        },
+        {
+            "advertiser_name": "Advertiser_60",
+            "total_spent": "1840.7900"
+        },
+        {
+            "advertiser_name": "Advertiser_44",
+            "total_spent": "1821.7200"
+        },
+        {
+            "advertiser_name": "Advertiser_64",
+            "total_spent": "1815.5600"
+        },
+        {
+            "advertiser_name": "Advertiser_80",
+            "total_spent": "1773.6900"
+        },
+        {
+            "advertiser_name": "Advertiser_98",
+            "total_spent": "1767.0300"
+        },
+        {
+            "advertiser_name": "Advertiser_51",
+            "total_spent": "1706.5900"
+        },
+        {
+            "advertiser_name": "Advertiser_84",
+            "total_spent": "1704.5300"
+        },
+        {
+            "advertiser_name": "Advertiser_83",
+            "total_spent": "1699.7000"
+        },
+        {
+            "advertiser_name": "Advertiser_22",
+            "total_spent": "1584.7300"
+        },
+        {
+            "advertiser_name": "Advertiser_31",
+            "total_spent": "1565.9900"
+        },
+        {
+            "advertiser_name": "Advertiser_50",
+            "total_spent": "1564.8000"
+        },
+        {
+            "advertiser_name": "Advertiser_72",
+            "total_spent": "1560.5800"
+        },
+        {
+            "advertiser_name": "Advertiser_68",
+            "total_spent": "1560.4900"
+        },
+        {
+            "advertiser_name": "Advertiser_61",
+            "total_spent": "1555.0200"
+        },
+        {
+            "advertiser_name": "Advertiser_69",
+            "total_spent": "1528.2500"
+        },
+        {
+            "advertiser_name": "Advertiser_77",
+            "total_spent": "1527.5300"
+        },
+        {
+            "advertiser_name": "Advertiser_74",
+            "total_spent": "1524.7800"
+        },
+        {
+            "advertiser_name": "Advertiser_5",
+            "total_spent": "1509.6900"
+        },
+        {
+            "advertiser_name": "Advertiser_40",
+            "total_spent": "1494.0000"
+        },
+        {
+            "advertiser_name": "Advertiser_24",
+            "total_spent": "1446.6400"
+        },
+        {
+            "advertiser_name": "Advertiser_88",
+            "total_spent": "1435.5300"
+        },
+        {
+            "advertiser_name": "Advertiser_10",
+            "total_spent": "1434.8800"
+        },
+        {
+            "advertiser_name": "Advertiser_56",
+            "total_spent": "1422.9600"
+        },
+        {
+            "advertiser_name": "Advertiser_16",
+            "total_spent": "1411.7200"
+        },
+        {
+            "advertiser_name": "Advertiser_100",
+            "total_spent": "1398.4600"
+        },
+        {
+            "advertiser_name": "Advertiser_47",
+            "total_spent": "1357.6100"
+        },
+        {
+            "advertiser_name": "Advertiser_41",
+            "total_spent": "1356.4400"
+        },
+        {
+            "advertiser_name": "Advertiser_90",
+            "total_spent": "1334.3200"
+        },
+        {
+            "advertiser_name": "Advertiser_14",
+            "total_spent": "1320.3900"
+        },
+        {
+            "advertiser_name": "Advertiser_17",
+            "total_spent": "1314.0500"
+        },
+        {
+            "advertiser_name": "Advertiser_13",
+            "total_spent": "1276.5200"
+        },
+        {
+            "advertiser_name": "Advertiser_7",
+            "total_spent": "1236.7000"
+        },
+        {
+            "advertiser_name": "Advertiser_79",
+            "total_spent": "1233.2700"
+        },
+        {
+            "advertiser_name": "Advertiser_89",
+            "total_spent": "1230.3400"
+        },
+        {
+            "advertiser_name": "Advertiser_55",
+            "total_spent": "1196.9800"
+        },
+        {
+            "advertiser_name": "Advertiser_93",
+            "total_spent": "1196.1500"
+        },
+        {
+            "advertiser_name": "Advertiser_29",
+            "total_spent": "1161.8000"
+        },
+        {
+            "advertiser_name": "Advertiser_15",
+            "total_spent": "1133.9500"
+        },
+        {
+            "advertiser_name": "Advertiser_43",
+            "total_spent": "1130.2200"
+        },
+        {
+            "advertiser_name": "Advertiser_94",
+            "total_spent": "1072.3400"
+        },
+        {
+            "advertiser_name": "Advertiser_70",
+            "total_spent": "1025.7400"
+        },
+        {
+            "advertiser_name": "Advertiser_18",
+            "total_spent": "968.5600"
+        },
+        {
+            "advertiser_name": "Advertiser_3",
+            "total_spent": "960.4500"
+        },
+        {
+            "advertiser_name": "Advertiser_20",
+            "total_spent": "926.8500"
+        },
+        {
+            "advertiser_name": "Advertiser_35",
+            "total_spent": "898.1500"
+        },
+        {
+            "advertiser_name": "Advertiser_2",
+            "total_spent": "778.0900"
+        },
+        {
+            "advertiser_name": "Advertiser_28",
+            "total_spent": "776.9100"
+        },
+        {
+            "advertiser_name": "Advertiser_96",
+            "total_spent": "762.5200"
+        },
+        {
+            "advertiser_name": "Advertiser_63",
+            "total_spent": "745.6500"
+        },
+        {
+            "advertiser_name": "Advertiser_62",
+            "total_spent": "739.1800"
+        },
+        {
+            "advertiser_name": "Advertiser_53",
+            "total_spent": "712.5100"
+        },
+        {
+            "advertiser_name": "Advertiser_32",
+            "total_spent": "707.8700"
+        },
+        {
+            "advertiser_name": "Advertiser_75",
+            "total_spent": "639.7600"
+        },
+        {
+            "advertiser_name": "Advertiser_38",
+            "total_spent": "486.3600"
+        },
+        {
+            "advertiser_name": "Advertiser_81",
+            "total_spent": "430.5900"
+        },
+        {
+            "advertiser_name": "Advertiser_27",
+            "total_spent": "425.0400"
+        }
+    ],
+    "cost_efficiency": [
+        {
+            "campaign_name": "Campaign_1",
+            "avg_cpc": "25.89833333",
+            "avg_cpm": "2285.14705800"
+        },
+        {
+            "campaign_name": "Campaign_2",
+            "avg_cpc": "65.81600000",
+            "avg_cpm": "2367.48201400"
+        },
+        {
+            "campaign_name": "Campaign_3",
+            "avg_cpc": "48.40500000",
+            "avg_cpm": "2059.78723400"
+        },
+        {
+            "campaign_name": "Campaign_4",
+            "avg_cpc": "35.02545455",
+            "avg_cpm": "2266.35294100"
+        },
+        {
+            "campaign_name": "Campaign_5",
+            "avg_cpc": "29.78833333",
+            "avg_cpm": "2351.71052600"
+        },
+        {
+            "campaign_name": "Campaign_6",
+            "avg_cpc": "50.90285714",
+            "avg_cpm": "2474.44444400"
+        },
+        {
+            "campaign_name": "Campaign_7",
+            "avg_cpc": "57.80142857",
+            "avg_cpm": "2338.78612700"
+        },
+        {
+            "campaign_name": "Campaign_8",
+            "avg_cpc": "23.33076923",
+            "avg_cpm": "2213.86861300"
+        },
+        {
+            "campaign_name": "Campaign_9",
+            "avg_cpc": "34.21909091",
+            "avg_cpm": "2267.53012000"
+        },
+        {
+            "campaign_name": "Campaign_10",
+            "avg_cpc": "38.65500000",
+            "avg_cpm": "2224.74820100"
+        },
+        {
+            "campaign_name": "Campaign_11",
+            "avg_cpc": "137.53000000",
+            "avg_cpm": "2148.90625000"
+        },
+        {
+            "campaign_name": "Campaign_12",
+            "avg_cpc": "25.38461538",
+            "avg_cpm": "2323.94366100"
+        },
+        {
+            "campaign_name": "Campaign_13",
+            "avg_cpc": "49.68833333",
+            "avg_cpm": "2192.13235200"
+        },
+        {
+            "campaign_name": "Campaign_14",
+            "avg_cpc": "65.43000000",
+            "avg_cpm": "2166.55629100"
+        },
+        {
+            "campaign_name": "Campaign_15",
+            "avg_cpc": "61.31833333",
+            "avg_cpm": "2164.17647000"
+        },
+        {
+            "campaign_name": "Campaign_16",
+            "avg_cpc": "56.30333333",
+            "avg_cpm": "2329.79310300"
+        },
+        {
+            "campaign_name": "Campaign_17",
+            "avg_cpc": "81.70600000",
+            "avg_cpm": "2417.33727800"
+        },
+        {
+            "campaign_name": "Campaign_18",
+            "avg_cpc": "74.41000000",
+            "avg_cpm": "2289.53846100"
+        },
+        {
+            "campaign_name": "Campaign_19",
+            "avg_cpc": "57.34500000",
+            "avg_cpm": "2356.64383500"
+        },
+        {
+            "campaign_name": "Campaign_20",
+            "avg_cpc": "57.38166667",
+            "avg_cpm": "2235.64935000"
+        },
+        {
+            "campaign_name": "Campaign_21",
+            "avg_cpc": "74.38500000",
+            "avg_cpm": "2254.09090900"
+        },
+        {
+            "campaign_name": "Campaign_22",
+            "avg_cpc": "28.87000000",
+            "avg_cpm": "2294.30463500"
+        },
+        {
+            "campaign_name": "Campaign_23",
+            "avg_cpc": "77.33250000",
+            "avg_cpm": "2209.50000000"
+        },
+        {
+            "campaign_name": "Campaign_24",
+            "avg_cpc": "43.99888889",
+            "avg_cpm": "2385.48192700"
+        },
+        {
+            "campaign_name": "Campaign_25",
+            "avg_cpc": "62.98333333",
+            "avg_cpm": "2422.43589700"
+        },
+        {
+            "campaign_name": "Campaign_26",
+            "avg_cpc": "57.58000000",
+            "avg_cpm": "2228.90322500"
+        },
+        {
+            "campaign_name": "Campaign_27",
+            "avg_cpc": "39.30111111",
+            "avg_cpm": "2358.06666600"
+        },
+        {
+            "campaign_name": "Campaign_28",
+            "avg_cpc": "37.99444444",
+            "avg_cpm": "2191.98717900"
+        },
+        {
+            "campaign_name": "Campaign_29",
+            "avg_cpc": "57.72800000",
+            "avg_cpm": "2203.35877800"
+        },
+        {
+            "campaign_name": "Campaign_30",
+            "avg_cpc": "53.45000000",
+            "avg_cpm": "2138.00000000"
+        },
+        {
+            "campaign_name": "Campaign_31",
+            "avg_cpc": "41.07125000",
+            "avg_cpm": "2330.28368700"
+        },
+        {
+            "campaign_name": "Campaign_32",
+            "avg_cpc": "77.65000000",
+            "avg_cpm": "2396.60493800"
+        },
+        {
+            "campaign_name": "Campaign_33",
+            "avg_cpc": "48.63500000",
+            "avg_cpm": "2198.19209000"
+        },
+        {
+            "campaign_name": "Campaign_34",
+            "avg_cpc": "41.17444444",
+            "avg_cpm": "2232.34939700"
+        },
+        {
+            "campaign_name": "Campaign_35",
+            "avg_cpc": "159.27500000",
+            "avg_cpm": "2395.11278100"
+        },
+        {
+            "campaign_name": "Campaign_36",
+            "avg_cpc": "35.27100000",
+            "avg_cpm": "2177.22222200"
+        },
+        {
+            "campaign_name": "Campaign_37",
+            "avg_cpc": "36.00600000",
+            "avg_cpm": "2353.33333300"
+        },
+        {
+            "campaign_name": "Campaign_38",
+            "avg_cpc": "76.51750000",
+            "avg_cpm": "2040.46666600"
+        },
+        {
+            "campaign_name": "Campaign_39",
+            "avg_cpc": "38.48875000",
+            "avg_cpm": "2108.97260200"
+        },
+        {
+            "campaign_name": "Campaign_40",
+            "avg_cpc": "52.39500000",
+            "avg_cpm": "2095.80000000"
+        },
+        {
+            "campaign_name": "Campaign_41",
+            "avg_cpc": "35.16300000",
+            "avg_cpm": "2313.35526300"
+        },
+        {
+            "campaign_name": "Campaign_42",
+            "avg_cpc": "34.25100000",
+            "avg_cpm": "2268.27814500"
+        },
+        {
+            "campaign_name": "Campaign_43",
+            "avg_cpc": "45.02428571",
+            "avg_cpm": "2352.01492500"
+        },
+        {
+            "campaign_name": "Campaign_44",
+            "avg_cpc": "26.50166667",
+            "avg_cpm": "2223.91608300"
+        },
+        {
+            "campaign_name": "Campaign_45",
+            "avg_cpc": "48.70857143",
+            "avg_cpm": "2452.94964000"
+        },
+        {
+            "campaign_name": "Campaign_46",
+            "avg_cpc": "28.85800000",
+            "avg_cpm": "2121.91176400"
+        },
+        {
+            "campaign_name": "Campaign_47",
+            "avg_cpc": "41.04222222",
+            "avg_cpm": "2280.12345600"
+        },
+        {
+            "campaign_name": "Campaign_48",
+            "avg_cpc": "85.14250000",
+            "avg_cpm": "2316.80272100"
+        },
+        {
+            "campaign_name": "Campaign_49",
+            "avg_cpc": "58.51000000",
+            "avg_cpm": "2199.62406000"
+        },
+        {
+            "campaign_name": "Campaign_50",
+            "avg_cpc": "38.83500000",
+            "avg_cpm": "2485.44000000"
+        },
+        {
+            "campaign_name": "Campaign_51",
+            "avg_cpc": "52.99333333",
+            "avg_cpm": "2192.82758600"
+        },
+        {
+            "campaign_name": "Campaign_52",
+            "avg_cpc": "56.83333333",
+            "avg_cpm": "2214.28571400"
+        },
+        {
+            "campaign_name": "Campaign_53",
+            "avg_cpc": "104.14000000",
+            "avg_cpm": "2297.20588200"
+        },
+        {
+            "campaign_name": "Campaign_54",
+            "avg_cpc": "54.44000000",
+            "avg_cpm": "2396.72955900"
+        },
+        {
+            "campaign_name": "Campaign_55",
+            "avg_cpc": "42.87714286",
+            "avg_cpm": "2143.85714200"
+        },
+        {
+            "campaign_name": "Campaign_56",
+            "avg_cpc": "31.56909091",
+            "avg_cpm": "2240.38709600"
+        },
+        {
+            "campaign_name": "Campaign_57",
+            "avg_cpc": "47.02000000",
+            "avg_cpm": "2137.27272700"
+        },
+        {
+            "campaign_name": "Campaign_58",
+            "avg_cpc": "30.97272727",
+            "avg_cpm": "2090.18404900"
+        },
+        {
+            "campaign_name": "Campaign_59",
+            "avg_cpc": "34.73555556",
+            "avg_cpm": "2170.97222200"
+        },
+        {
+            "campaign_name": "Campaign_60",
+            "avg_cpc": "41.29125000",
+            "avg_cpm": "2173.22368400"
+        },
+        {
+            "campaign_name": "Campaign_61",
+            "avg_cpc": "58.25833333",
+            "avg_cpm": "2410.68965500"
+        },
+        {
+            "campaign_name": "Campaign_62",
+            "avg_cpc": "45.57714286",
+            "avg_cpm": "2200.27586200"
+        },
+        {
+            "campaign_name": "Campaign_63",
+            "avg_cpc": "64.79600000",
+            "avg_cpm": "2249.86111100"
+        },
+        {
+            "campaign_name": "Campaign_64",
+            "avg_cpc": "102.36666667",
+            "avg_cpm": "2178.01418400"
+        },
+        {
+            "campaign_name": "Campaign_65",
+            "avg_cpc": "45.48285714",
+            "avg_cpm": "2195.72413700"
+        },
+        {
+            "campaign_name": "Campaign_66",
+            "avg_cpc": "72.44400000",
+            "avg_cpm": "2352.07792200"
+        },
+        {
+            "campaign_name": "Campaign_67",
+            "avg_cpc": "340.37000000",
+            "avg_cpm": "2284.36241600"
+        },
+        {
+            "campaign_name": "Campaign_68",
+            "avg_cpc": "57.63142857",
+            "avg_cpm": "2241.22222200"
+        },
+        {
+            "campaign_name": "Campaign_69",
+            "avg_cpc": "47.52142857",
+            "avg_cpm": "2326.22377600"
+        },
+        {
+            "campaign_name": "Campaign_70",
+            "avg_cpc": "63.90333333",
+            "avg_cpm": "2381.49068300"
+        },
+        {
+            "campaign_name": "Campaign_71",
+            "avg_cpc": "33.66300000",
+            "avg_cpm": "2229.33774800"
+        },
+        {
+            "campaign_name": "Campaign_72",
+            "avg_cpc": "53.82500000",
+            "avg_cpm": "2306.78571400"
+        },
+        {
+            "campaign_name": "Campaign_73",
+            "avg_cpc": "41.58500000",
+            "avg_cpm": "2232.75167700"
+        },
+        {
+            "campaign_name": "Campaign_74",
+            "avg_cpc": "50.84714286",
+            "avg_cpm": "2131.31736500"
+        },
+        {
+            "campaign_name": "Campaign_75",
+            "avg_cpc": "59.15333333",
+            "avg_cpm": "2304.67532400"
+        },
+        {
+            "campaign_name": "Campaign_76",
+            "avg_cpc": "78.74000000",
+            "avg_cpm": "2202.51748200"
+        },
+        {
+            "campaign_name": "Campaign_77",
+            "avg_cpc": "28.24846154",
+            "avg_cpm": "2266.85185100"
+        },
+        {
+            "campaign_name": "Campaign_78",
+            "avg_cpc": "39.44888889",
+            "avg_cpm": "2320.52287500"
+        },
+        {
+            "campaign_name": "Campaign_79",
+            "avg_cpc": "41.12875000",
+            "avg_cpm": "2300.90909000"
+        },
+        {
+            "campaign_name": "Campaign_80",
+            "avg_cpc": "37.18333333",
+            "avg_cpm": "2407.55395600"
+        },
+        {
+            "campaign_name": "Campaign_81",
+            "avg_cpc": "37.51400000",
+            "avg_cpm": "2301.47239200"
+        },
+        {
+            "campaign_name": "Campaign_82",
+            "avg_cpc": "39.20111111",
+            "avg_cpm": "2321.11842100"
+        },
+        {
+            "campaign_name": "Campaign_83",
+            "avg_cpc": "52.86666667",
+            "avg_cpm": "2298.55072400"
+        },
+        {
+            "campaign_name": "Campaign_84",
+            "avg_cpc": "74.64750000",
+            "avg_cpm": "2245.03759300"
+        },
+        {
+            "campaign_name": "Campaign_85",
+            "avg_cpc": "48.90000000",
+            "avg_cpm": "2062.04819200"
+        },
+        {
+            "campaign_name": "Campaign_86",
+            "avg_cpc": "73.28500000",
+            "avg_cpm": "2308.18897600"
+        },
+        {
+            "campaign_name": "Campaign_87",
+            "avg_cpc": "44.78142857",
+            "avg_cpm": "2288.10218900"
+        },
+        {
+            "campaign_name": "Campaign_88",
+            "avg_cpc": "62.57400000",
+            "avg_cpm": "2334.85074600"
+        },
+        {
+            "campaign_name": "Campaign_89",
+            "avg_cpc": "40.86000000",
+            "avg_cpm": "2150.52631500"
+        },
+        {
+            "campaign_name": "Campaign_90",
+            "avg_cpc": "54.54400000",
+            "avg_cpm": "2291.76470500"
+        },
+        {
+            "campaign_name": "Campaign_91",
+            "avg_cpc": "52.53833333",
+            "avg_cpm": "2352.46268600"
+        },
+        {
+            "campaign_name": "Campaign_92",
+            "avg_cpc": "36.40700000",
+            "avg_cpm": "2443.42281800"
+        },
+        {
+            "campaign_name": "Campaign_93",
+            "avg_cpc": "47.71333333",
+            "avg_cpm": "2105.00000000"
+        },
+        {
+            "campaign_name": "Campaign_94",
+            "avg_cpc": "31.78363636",
+            "avg_cpm": "2241.15384600"
+        },
+        {
+            "campaign_name": "Campaign_95",
+            "avg_cpc": "38.78300000",
+            "avg_cpm": "2439.18238900"
+        },
+        {
+            "campaign_name": "Campaign_96",
+            "avg_cpc": "74.23500000",
+            "avg_cpm": "2215.97014900"
+        },
+        {
+            "campaign_name": "Campaign_97",
+            "avg_cpc": "39.68222222",
+            "avg_cpm": "2396.91275100"
+        },
+        {
+            "campaign_name": "Campaign_98",
+            "avg_cpc": "66.03800000",
+            "avg_cpm": "2277.17241300"
+        },
+        {
+            "campaign_name": "Campaign_99",
+            "avg_cpc": "64.04400000",
+            "avg_cpm": "2255.07042200"
+        },
+        {
+            "campaign_name": "Campaign_100",
+            "avg_cpc": "35.94700000",
+            "avg_cpm": "2205.33742300"
+        },
+        {
+            "campaign_name": "Campaign_101",
+            "avg_cpc": "33.39636364",
+            "avg_cpm": "2281.73913000"
+        },
+        {
+            "campaign_name": "Campaign_102",
+            "avg_cpc": "34.08000000",
+            "avg_cpm": "2400.00000000"
+        },
+        {
+            "campaign_name": "Campaign_103",
+            "avg_cpc": "86.01400000",
+            "avg_cpm": "2239.94791600"
+        },
+        {
+            "campaign_name": "Campaign_104",
+            "avg_cpc": "65.85333333",
+            "avg_cpm": "2394.66666600"
+        },
+        {
+            "campaign_name": "Campaign_105",
+            "avg_cpc": "27.56666667",
+            "avg_cpm": "2346.09929000"
+        },
+        {
+            "campaign_name": "Campaign_106",
+            "avg_cpc": "103.46666667",
+            "avg_cpm": "2425.00000000"
+        },
+        {
+            "campaign_name": "Campaign_107",
+            "avg_cpc": "43.52428571",
+            "avg_cpm": "2256.81481400"
+        },
+        {
+            "campaign_name": "Campaign_108",
+            "avg_cpc": "28.53384615",
+            "avg_cpm": "2169.23976600"
+        },
+        {
+            "campaign_name": "Campaign_109",
+            "avg_cpc": "40.28333333",
+            "avg_cpm": "2449.66216200"
+        },
+        {
+            "campaign_name": "Campaign_110",
+            "avg_cpc": "34.12818182",
+            "avg_cpm": "2317.34567900"
+        },
+        {
+            "campaign_name": "Campaign_111",
+            "avg_cpc": "50.81500000",
+            "avg_cpm": "2391.29411700"
+        },
+        {
+            "campaign_name": "Campaign_112",
+            "avg_cpc": "47.05714286",
+            "avg_cpm": "2210.73825500"
+        },
+        {
+            "campaign_name": "Campaign_113",
+            "avg_cpc": "47.87250000",
+            "avg_cpm": "2321.09090900"
+        },
+        {
+            "campaign_name": "Campaign_114",
+            "avg_cpc": "61.53000000",
+            "avg_cpm": "2092.85714200"
+        },
+        {
+            "campaign_name": "Campaign_115",
+            "avg_cpc": "42.20000000",
+            "avg_cpm": "2250.66666600"
+        },
+        {
+            "campaign_name": "Campaign_116",
+            "avg_cpc": "30.91363636",
+            "avg_cpm": "2394.71830900"
+        },
+        {
+            "campaign_name": "Campaign_117",
+            "avg_cpc": "42.27125000",
+            "avg_cpm": "2126.85534500"
+        },
+        {
+            "campaign_name": "Campaign_118",
+            "avg_cpc": "172.82000000",
+            "avg_cpm": "2335.40540500"
+        },
+        {
+            "campaign_name": "Campaign_119",
+            "avg_cpc": "74.93600000",
+            "avg_cpm": "2312.83950600"
+        },
+        {
+            "campaign_name": "Campaign_120",
+            "avg_cpc": "52.26500000",
+            "avg_cpm": "2272.39130400"
+        },
+        {
+            "campaign_name": "Campaign_121",
+            "avg_cpc": "29.61727273",
+            "avg_cpm": "2310.56737500"
+        },
+        {
+            "campaign_name": "Campaign_122",
+            "avg_cpc": "43.64375000",
+            "avg_cpm": "2209.81012600"
+        },
+        {
+            "campaign_name": "Campaign_123",
+            "avg_cpc": "78.76500000",
+            "avg_cpm": "2351.19402900"
+        },
+        {
+            "campaign_name": "Campaign_124",
+            "avg_cpc": "29.28300000",
+            "avg_cpm": "2106.69064700"
+        },
+        {
+            "campaign_name": "Campaign_125",
+            "avg_cpc": "71.86750000",
+            "avg_cpm": "2228.44961200"
+        },
+        {
+            "campaign_name": "Campaign_126",
+            "avg_cpc": "31.53272727",
+            "avg_cpm": "2127.97546000"
+        },
+        {
+            "campaign_name": "Campaign_127",
+            "avg_cpc": "46.91428571",
+            "avg_cpm": "2234.01360500"
+        },
+        {
+            "campaign_name": "Campaign_128",
+            "avg_cpc": "70.08400000",
+            "avg_cpm": "2231.97452200"
+        },
+        {
+            "campaign_name": "Campaign_129",
+            "avg_cpc": "64.36000000",
+            "avg_cpm": "2369.07975400"
+        },
+        {
+            "campaign_name": "Campaign_130",
+            "avg_cpc": "103.54000000",
+            "avg_cpm": "2250.86956500"
+        },
+        {
+            "campaign_name": "Campaign_131",
+            "avg_cpc": "42.43250000",
+            "avg_cpm": "2162.16560500"
+        },
+        {
+            "campaign_name": "Campaign_132",
+            "avg_cpc": "58.38166667",
+            "avg_cpm": "2289.47712400"
+        },
+        {
+            "campaign_name": "Campaign_133",
+            "avg_cpc": "39.69375000",
+            "avg_cpm": "2284.53237400"
+        },
+        {
+            "campaign_name": "Campaign_134",
+            "avg_cpc": "38.32666667",
+            "avg_cpm": "2269.34210500"
+        },
+        {
+            "campaign_name": "Campaign_135",
+            "avg_cpc": "57.74166667",
+            "avg_cpm": "2340.87837800"
+        },
+        {
+            "campaign_name": "Campaign_136",
+            "avg_cpc": "42.51285714",
+            "avg_cpm": "2271.67938900"
+        },
+        {
+            "campaign_name": "Campaign_137",
+            "avg_cpc": "55.98428571",
+            "avg_cpm": "2346.64670600"
+        },
+        {
+            "campaign_name": "Campaign_138",
+            "avg_cpc": "48.48714286",
+            "avg_cpm": "2340.75862000"
+        },
+        {
+            "campaign_name": "Campaign_139",
+            "avg_cpc": "34.09363636",
+            "avg_cpm": "2373.60759400"
+        },
+        {
+            "campaign_name": "Campaign_140",
+            "avg_cpc": "34.84800000",
+            "avg_cpm": "2323.20000000"
+        },
+        {
+            "campaign_name": "Campaign_141",
+            "avg_cpc": "35.12300000",
+            "avg_cpm": "2357.24832200"
+        },
+        {
+            "campaign_name": "Campaign_142",
+            "avg_cpc": "46.64166667",
+            "avg_cpm": "2221.03174600"
+        },
+        {
+            "campaign_name": "Campaign_143",
+            "avg_cpc": "54.68166667",
+            "avg_cpm": "2394.81751800"
+        },
+        {
+            "campaign_name": "Campaign_144",
+            "avg_cpc": "45.62142857",
+            "avg_cpm": "2217.70833300"
+        },
+        {
+            "campaign_name": "Campaign_145",
+            "avg_cpc": "69.20200000",
+            "avg_cpm": "2203.88535000"
+        },
+        {
+            "campaign_name": "Campaign_146",
+            "avg_cpc": "35.01555556",
+            "avg_cpm": "2334.37037000"
+        },
+        {
+            "campaign_name": "Campaign_147",
+            "avg_cpc": "21.27888889",
+            "avg_cpm": "2321.33333300"
+        },
+        {
+            "campaign_name": "Campaign_148",
+            "avg_cpc": "44.93857143",
+            "avg_cpm": "2199.79020900"
+        },
+        {
+            "campaign_name": "Campaign_149",
+            "avg_cpc": "34.48222222",
+            "avg_cpm": "2155.13888800"
+        },
+        {
+            "campaign_name": "Campaign_150",
+            "avg_cpc": "39.53285714",
+            "avg_cpm": "2325.46218400"
+        },
+        {
+            "campaign_name": "Campaign_151",
+            "avg_cpc": "62.19400000",
+            "avg_cpm": "2237.19424400"
+        },
+        {
+            "campaign_name": "Campaign_152",
+            "avg_cpc": "36.19888889",
+            "avg_cpm": "2262.43055500"
+        },
+        {
+            "campaign_name": "Campaign_153",
+            "avg_cpc": "63.85000000",
+            "avg_cpm": "2217.01388800"
+        },
+        {
+            "campaign_name": "Campaign_154",
+            "avg_cpc": "38.72375000",
+            "avg_cpm": "2197.09219800"
+        },
+        {
+            "campaign_name": "Campaign_155",
+            "avg_cpc": "36.12100000",
+            "avg_cpm": "2243.54037200"
+        },
+        {
+            "campaign_name": "Campaign_156",
+            "avg_cpc": "30.27545455",
+            "avg_cpm": "2176.66666600"
+        },
+        {
+            "campaign_name": "Campaign_157",
+            "avg_cpc": "31.22100000",
+            "avg_cpm": "2246.11510700"
+        },
+        {
+            "campaign_name": "Campaign_158",
+            "avg_cpc": "51.94000000",
+            "avg_cpm": "2226.00000000"
+        },
+        {
+            "campaign_name": "Campaign_159",
+            "avg_cpc": "44.22000000",
+            "avg_cpm": "2374.22818700"
+        },
+        {
+            "campaign_name": "Campaign_160",
+            "avg_cpc": "123.51000000",
+            "avg_cpm": "2205.53571400"
+        },
+        {
+            "campaign_name": "Campaign_161",
+            "avg_cpc": "41.18666667",
+            "avg_cpm": "2407.01298700"
+        },
+        {
+            "campaign_name": "Campaign_162",
+            "avg_cpc": "45.48285714",
+            "avg_cpm": "2307.10144900"
+        },
+        {
+            "campaign_name": "Campaign_163",
+            "avg_cpc": "36.23777778",
+            "avg_cpm": "2188.85906000"
+        },
+        {
+            "campaign_name": "Campaign_164",
+            "avg_cpc": "102.20333333",
+            "avg_cpm": "2414.25196800"
+        },
+        {
+            "campaign_name": "Campaign_165",
+            "avg_cpc": "47.98714286",
+            "avg_cpm": "2365.56338000"
+        },
+        {
+            "campaign_name": "Campaign_166",
+            "avg_cpc": "32.78400000",
+            "avg_cpm": "2128.83116800"
+        },
+        {
+            "campaign_name": "Campaign_167",
+            "avg_cpc": "31.89000000",
+            "avg_cpm": "2084.31372500"
+        },
+        {
+            "campaign_name": "Campaign_168",
+            "avg_cpc": "47.52857143",
+            "avg_cpm": "2174.50980300"
+        },
+        {
+            "campaign_name": "Campaign_169",
+            "avg_cpc": "45.14625000",
+            "avg_cpm": "2345.25974000"
+        },
+        {
+            "campaign_name": "Campaign_170",
+            "avg_cpc": "49.73000000",
+            "avg_cpm": "2290.19736800"
+        },
+        {
+            "campaign_name": "Campaign_171",
+            "avg_cpc": "84.20250000",
+            "avg_cpm": "2355.31468500"
+        },
+        {
+            "campaign_name": "Campaign_172",
+            "avg_cpc": "37.77555556",
+            "avg_cpm": "2344.68965500"
+        },
+        {
+            "campaign_name": "Campaign_173",
+            "avg_cpc": "81.30250000",
+            "avg_cpm": "2168.06666600"
+        },
+        {
+            "campaign_name": "Campaign_174",
+            "avg_cpc": "113.29666667",
+            "avg_cpm": "2312.17687000"
+        },
+        {
+            "campaign_name": "Campaign_175",
+            "avg_cpc": "64.87000000",
+            "avg_cpm": "2387.85276000"
+        },
+        {
+            "campaign_name": "Campaign_176",
+            "avg_cpc": "108.68666667",
+            "avg_cpm": "2218.09523800"
+        },
+        {
+            "campaign_name": "Campaign_177",
+            "avg_cpc": "38.24714286",
+            "avg_cpm": "2369.29203500"
+        },
+        {
+            "campaign_name": "Campaign_178",
+            "avg_cpc": "59.13833333",
+            "avg_cpm": "2274.55128200"
+        },
+        {
+            "campaign_name": "Campaign_179",
+            "avg_cpc": "43.12000000",
+            "avg_cpm": "2356.28415300"
+        },
+        {
+            "campaign_name": "Campaign_180",
+            "avg_cpc": "45.08125000",
+            "avg_cpm": "2404.33333300"
+        },
+        {
+            "campaign_name": "Campaign_181",
+            "avg_cpc": "76.91250000",
+            "avg_cpm": "2262.13235200"
+        },
+        {
+            "campaign_name": "Campaign_182",
+            "avg_cpc": "41.11666667",
+            "avg_cpm": "2483.55704600"
+        },
+        {
+            "campaign_name": "Campaign_183",
+            "avg_cpc": "44.22285714",
+            "avg_cpm": "2195.46099200"
+        },
+        {
+            "campaign_name": "Campaign_184",
+            "avg_cpc": "41.09750000",
+            "avg_cpm": "2348.42857100"
+        },
+        {
+            "campaign_name": "Campaign_185",
+            "avg_cpc": "40.31000000",
+            "avg_cpm": "2170.53846100"
+        },
+        {
+            "campaign_name": "Campaign_186",
+            "avg_cpc": "26.78733333",
+            "avg_cpm": "2309.25287300"
+        },
+        {
+            "campaign_name": "Campaign_187",
+            "avg_cpc": "46.35125000",
+            "avg_cpm": "2423.59477100"
+        },
+        {
+            "campaign_name": "Campaign_188",
+            "avg_cpc": "47.23250000",
+            "avg_cpm": "2304.02439000"
+        },
+        {
+            "campaign_name": "Campaign_189",
+            "avg_cpc": "43.35285714",
+            "avg_cpm": "2247.92592500"
+        },
+        {
+            "campaign_name": "Campaign_190",
+            "avg_cpc": "39.91111111",
+            "avg_cpm": "2138.09523800"
+        },
+        {
+            "campaign_name": "Campaign_191",
+            "avg_cpc": "31.83888889",
+            "avg_cpm": "2091.60583900"
+        },
+        {
+            "campaign_name": "Campaign_192",
+            "avg_cpc": "32.71636364",
+            "avg_cpm": "2336.88311600"
+        },
+        {
+            "campaign_name": "Campaign_193",
+            "avg_cpc": "56.56833333",
+            "avg_cpm": "2203.96103800"
+        },
+        {
+            "campaign_name": "Campaign_194",
+            "avg_cpc": "65.67200000",
+            "avg_cpm": "2296.22377600"
+        },
+        {
+            "campaign_name": "Campaign_195",
+            "avg_cpc": "36.40666667",
+            "avg_cpm": "2213.91891800"
+        },
+        {
+            "campaign_name": "Campaign_196",
+            "avg_cpc": "40.61666667",
+            "avg_cpm": "2437.00000000"
+        },
+        {
+            "campaign_name": "Campaign_197",
+            "avg_cpc": "48.02285714",
+            "avg_cpm": "2182.85714200"
+        },
+        {
+            "campaign_name": "Campaign_198",
+            "avg_cpc": "66.93800000",
+            "avg_cpm": "2460.95588200"
+        },
+        {
+            "campaign_name": "Campaign_199",
+            "avg_cpc": "65.09400000",
+            "avg_cpm": "2229.24657500"
+        },
+        {
+            "campaign_name": "Campaign_200",
+            "avg_cpc": "36.54750000",
+            "avg_cpm": "2249.07692300"
+        },
+        {
+            "campaign_name": "Campaign_201",
+            "avg_cpc": "64.11000000",
+            "avg_cpm": "2180.61224400"
+        },
+        {
+            "campaign_name": "Campaign_202",
+            "avg_cpc": "34.03800000",
+            "avg_cpm": "2168.02547700"
+        },
+        {
+            "campaign_name": "Campaign_203",
+            "avg_cpc": "35.66900000",
+            "avg_cpm": "2301.22580600"
+        },
+        {
+            "campaign_name": "Campaign_204",
+            "avg_cpc": "48.09142857",
+            "avg_cpm": "2171.87096700"
+        },
+        {
+            "campaign_name": "Campaign_205",
+            "avg_cpc": "64.73000000",
+            "avg_cpm": "2379.77941100"
+        },
+        {
+            "campaign_name": "Campaign_206",
+            "avg_cpc": "32.55500000",
+            "avg_cpm": "2214.62585000"
+        },
+        {
+            "campaign_name": "Campaign_207",
+            "avg_cpc": "124.86333333",
+            "avg_cpm": "2480.72847600"
+        },
+        {
+            "campaign_name": "Campaign_208",
+            "avg_cpc": "34.90090909",
+            "avg_cpm": "2355.27607300"
+        },
+        {
+            "campaign_name": "Campaign_209",
+            "avg_cpc": "35.19125000",
+            "avg_cpm": "2216.77165300"
+        },
+        {
+            "campaign_name": "Campaign_210",
+            "avg_cpc": "32.64444444",
+            "avg_cpm": "2260.00000000"
+        },
+        {
+            "campaign_name": "Campaign_211",
+            "avg_cpc": "31.92818182",
+            "avg_cpm": "2357.11409300"
+        },
+        {
+            "campaign_name": "Campaign_212",
+            "avg_cpc": "53.56714286",
+            "avg_cpm": "2450.78431300"
+        },
+        {
+            "campaign_name": "Campaign_213",
+            "avg_cpc": "59.41833333",
+            "avg_cpm": "2425.23809500"
+        },
+        {
+            "campaign_name": "Campaign_214",
+            "avg_cpc": "39.66375000",
+            "avg_cpm": "2282.80575500"
+        },
+        {
+            "campaign_name": "Campaign_215",
+            "avg_cpc": "37.72555556",
+            "avg_cpm": "2278.72483200"
+        },
+        {
+            "campaign_name": "Campaign_216",
+            "avg_cpc": "35.03000000",
+            "avg_cpm": "2251.92857100"
+        },
+        {
+            "campaign_name": "Campaign_217",
+            "avg_cpc": "85.99250000",
+            "avg_cpm": "2293.13333300"
+        },
+        {
+            "campaign_name": "Campaign_218",
+            "avg_cpc": "54.97285714",
+            "avg_cpm": "2250.35087700"
+        },
+        {
+            "campaign_name": "Campaign_219",
+            "avg_cpc": "58.54000000",
+            "avg_cpm": "2251.53846100"
+        },
+        {
+            "campaign_name": "Campaign_220",
+            "avg_cpc": "62.87666667",
+            "avg_cpm": "2219.17647000"
+        },
+        {
+            "campaign_name": "Campaign_221",
+            "avg_cpc": "36.44666667",
+            "avg_cpm": "2143.92156800"
+        },
+        {
+            "campaign_name": "Campaign_222",
+            "avg_cpc": "54.19500000",
+            "avg_cpm": "2289.92957700"
+        },
+        {
+            "campaign_name": "Campaign_223",
+            "avg_cpc": "40.47625000",
+            "avg_cpm": "2233.17241300"
+        },
+        {
+            "campaign_name": "Campaign_224",
+            "avg_cpc": "321.47000000",
+            "avg_cpm": "2296.21428500"
+        },
+        {
+            "campaign_name": "Campaign_225",
+            "avg_cpc": "49.64857143",
+            "avg_cpm": "2364.21768700"
+        },
+        {
+            "campaign_name": "Campaign_226",
+            "avg_cpc": "31.59000000",
+            "avg_cpm": "2163.69863000"
+        },
+        {
+            "campaign_name": "Campaign_227",
+            "avg_cpc": "37.11700000",
+            "avg_cpm": "2379.29487100"
+        },
+        {
+            "campaign_name": "Campaign_228",
+            "avg_cpc": "64.35800000",
+            "avg_cpm": "2189.04761900"
+        },
+        {
+            "campaign_name": "Campaign_229",
+            "avg_cpc": "59.44833333",
+            "avg_cpm": "2346.64473600"
+        },
+        {
+            "campaign_name": "Campaign_230",
+            "avg_cpc": "80.03500000",
+            "avg_cpm": "2120.13245000"
+        },
+        {
+            "campaign_name": "Campaign_231",
+            "avg_cpc": "182.66000000",
+            "avg_cpm": "2269.06832200"
+        },
+        {
+            "campaign_name": "Campaign_232",
+            "avg_cpc": "84.93000000",
+            "avg_cpm": "2311.02040800"
+        },
+        {
+            "campaign_name": "Campaign_233",
+            "avg_cpc": "60.24800000",
+            "avg_cpm": "2353.43750000"
+        },
+        {
+            "campaign_name": "Campaign_234",
+            "avg_cpc": "30.56909091",
+            "avg_cpm": "2197.77777700"
+        },
+        {
+            "campaign_name": "Campaign_235",
+            "avg_cpc": "39.18454545",
+            "avg_cpm": "2317.36559100"
+        },
+        {
+            "campaign_name": "Campaign_236",
+            "avg_cpc": "35.89000000",
+            "avg_cpm": "2080.57971000"
+        },
+        {
+            "campaign_name": "Campaign_237",
+            "avg_cpc": "325.40000000",
+            "avg_cpm": "2154.96688700"
+        },
+        {
+            "campaign_name": "Campaign_238",
+            "avg_cpc": "68.37000000",
+            "avg_cpm": "2234.31372500"
+        },
+        {
+            "campaign_name": "Campaign_239",
+            "avg_cpc": "39.07777778",
+            "avg_cpm": "2184.47204900"
+        },
+        {
+            "campaign_name": "Campaign_240",
+            "avg_cpc": "25.28692308",
+            "avg_cpm": "2267.10344800"
+        },
+        {
+            "campaign_name": "Campaign_241",
+            "avg_cpc": "44.88500000",
+            "avg_cpm": "2163.13253000"
+        },
+        {
+            "campaign_name": "Campaign_242",
+            "avg_cpc": "39.98666667",
+            "avg_cpm": "2263.39622600"
+        },
+        {
+            "campaign_name": "Campaign_243",
+            "avg_cpc": "59.89333333",
+            "avg_cpm": "2218.27160400"
+        },
+        {
+            "campaign_name": "Campaign_244",
+            "avg_cpc": "99.68666667",
+            "avg_cpm": "2318.29457300"
+        },
+        {
+            "campaign_name": "Campaign_245",
+            "avg_cpc": "32.32000000",
+            "avg_cpm": "2169.12751600"
+        },
+        {
+            "campaign_name": "Campaign_246",
+            "avg_cpc": "47.48000000",
+            "avg_cpm": "2225.62500000"
+        },
+        {
+            "campaign_name": "Campaign_247",
+            "avg_cpc": "36.28333333",
+            "avg_cpm": "2383.57664200"
+        },
+        {
+            "campaign_name": "Campaign_248",
+            "avg_cpc": "40.73625000",
+            "avg_cpm": "2172.60000000"
+        },
+        {
+            "campaign_name": "Campaign_249",
+            "avg_cpc": "37.52375000",
+            "avg_cpm": "2223.62962900"
+        },
+        {
+            "campaign_name": "Campaign_250",
+            "avg_cpc": "75.88250000",
+            "avg_cpm": "2334.84615300"
+        },
+        {
+            "campaign_name": "Campaign_251",
+            "avg_cpc": "40.16000000",
+            "avg_cpm": "2287.59493600"
+        },
+        {
+            "campaign_name": "Campaign_252",
+            "avg_cpc": "38.49777778",
+            "avg_cpm": "2309.86666600"
+        },
+        {
+            "campaign_name": "Campaign_253",
+            "avg_cpc": "53.07333333",
+            "avg_cpm": "2274.57142800"
+        },
+        {
+            "campaign_name": "Campaign_254",
+            "avg_cpc": "51.06666667",
+            "avg_cpm": "2220.28985500"
+        },
+        {
+            "campaign_name": "Campaign_255",
+            "avg_cpc": "38.13875000",
+            "avg_cpm": "2276.94029800"
+        },
+        {
+            "campaign_name": "Campaign_256",
+            "avg_cpc": "49.87714286",
+            "avg_cpm": "2168.57142800"
+        },
+        {
+            "campaign_name": "Campaign_257",
+            "avg_cpc": "30.17250000",
+            "avg_cpm": "2168.08383200"
+        },
+        {
+            "campaign_name": "Campaign_258",
+            "avg_cpc": "61.74400000",
+            "avg_cpm": "2205.14285700"
+        },
+        {
+            "campaign_name": "Campaign_259",
+            "avg_cpc": "61.50333333",
+            "avg_cpm": "2365.51282000"
+        },
+        {
+            "campaign_name": "Campaign_260",
+            "avg_cpc": "68.81800000",
+            "avg_cpm": "2309.32885900"
+        },
+        {
+            "campaign_name": "Campaign_261",
+            "avg_cpc": "36.36600000",
+            "avg_cpm": "2244.81481400"
+        },
+        {
+            "campaign_name": "Campaign_262",
+            "avg_cpc": "61.13000000",
+            "avg_cpm": "2093.49315000"
+        },
+        {
+            "campaign_name": "Campaign_263",
+            "avg_cpc": "108.05000000",
+            "avg_cpm": "2266.78321600"
+        },
+        {
+            "campaign_name": "Campaign_264",
+            "avg_cpc": "46.89428571",
+            "avg_cpm": "2248.35616400"
+        },
+        {
+            "campaign_name": "Campaign_265",
+            "avg_cpc": "31.29875000",
+            "avg_cpm": "2276.27272700"
+        },
+        {
+            "campaign_name": "Campaign_266",
+            "avg_cpc": "39.64000000",
+            "avg_cpm": "2249.07801400"
+        },
+        {
+            "campaign_name": "Campaign_267",
+            "avg_cpc": "31.91500000",
+            "avg_cpm": "2231.81818100"
+        },
+        {
+            "campaign_name": "Campaign_268",
+            "avg_cpc": "62.51600000",
+            "avg_cpm": "2185.87412500"
+        },
+        {
+            "campaign_name": "Campaign_269",
+            "avg_cpc": "24.73416667",
+            "avg_cpm": "2318.82812500"
+        },
+        {
+            "campaign_name": "Campaign_270",
+            "avg_cpc": "63.89800000",
+            "avg_cpm": "2315.14492700"
+        },
+        {
+            "campaign_name": "Campaign_271",
+            "avg_cpc": "64.18200000",
+            "avg_cpm": "2213.17241300"
+        },
+        {
+            "campaign_name": "Campaign_272",
+            "avg_cpc": "34.63800000",
+            "avg_cpm": "2086.62650600"
+        },
+        {
+            "campaign_name": "Campaign_273",
+            "avg_cpc": "37.57777778",
+            "avg_cpm": "2398.58156000"
+        },
+        {
+            "campaign_name": "Campaign_274",
+            "avg_cpc": "39.96875000",
+            "avg_cpm": "2317.02898500"
+        },
+        {
+            "campaign_name": "Campaign_275",
+            "avg_cpc": "108.93333333",
+            "avg_cpm": "2178.66666600"
+        },
+        {
+            "campaign_name": "Campaign_276",
+            "avg_cpc": "36.73625000",
+            "avg_cpm": "2278.21705400"
+        },
+        {
+            "campaign_name": "Campaign_277",
+            "avg_cpc": "45.64000000",
+            "avg_cpm": "2218.61111100"
+        },
+        {
+            "campaign_name": "Campaign_278",
+            "avg_cpc": "44.27500000",
+            "avg_cpm": "2241.77215100"
+        },
+        {
+            "campaign_name": "Campaign_279",
+            "avg_cpc": "35.62000000",
+            "avg_cpm": "2226.25000000"
+        },
+        {
+            "campaign_name": "Campaign_280",
+            "avg_cpc": "53.98857143",
+            "avg_cpm": "2318.52760700"
+        },
+        {
+            "campaign_name": "Campaign_281",
+            "avg_cpc": "34.61250000",
+            "avg_cpm": "2066.41791000"
+        },
+        {
+            "campaign_name": "Campaign_282",
+            "avg_cpc": "59.09500000",
+            "avg_cpm": "2202.29813600"
+        },
+        {
+            "campaign_name": "Campaign_283",
+            "avg_cpc": "289.52000000",
+            "avg_cpm": "2334.83870900"
+        },
+        {
+            "campaign_name": "Campaign_284",
+            "avg_cpc": "63.24400000",
+            "avg_cpm": "2377.59398400"
+        },
+        {
+            "campaign_name": "Campaign_285",
+            "avg_cpc": "51.97166667",
+            "avg_cpm": "2344.58646600"
+        },
+        {
+            "campaign_name": "Campaign_286",
+            "avg_cpc": "82.75000000",
+            "avg_cpm": "2314.68531400"
+        },
+        {
+            "campaign_name": "Campaign_287",
+            "avg_cpc": "56.65000000",
+            "avg_cpm": "2312.24489700"
+        },
+        {
+            "campaign_name": "Campaign_288",
+            "avg_cpc": "42.54714286",
+            "avg_cpm": "2097.39436600"
+        },
+        {
+            "campaign_name": "Campaign_289",
+            "avg_cpc": "71.10400000",
+            "avg_cpm": "2338.94736800"
+        },
+        {
+            "campaign_name": "Campaign_290",
+            "avg_cpc": "27.44916667",
+            "avg_cpm": "2167.03947300"
+        },
+        {
+            "campaign_name": "Campaign_291",
+            "avg_cpc": "46.27142857",
+            "avg_cpm": "2364.23357600"
+        },
+        {
+            "campaign_name": "Campaign_292",
+            "avg_cpc": "39.21200000",
+            "avg_cpm": "2362.16867400"
+        },
+        {
+            "campaign_name": "Campaign_293",
+            "avg_cpc": "50.69166667",
+            "avg_cpm": "2433.20000000"
+        },
+        {
+            "campaign_name": "Campaign_294",
+            "avg_cpc": "49.36571429",
+            "avg_cpm": "2258.56209100"
+        },
+        {
+            "campaign_name": "Campaign_295",
+            "avg_cpc": "46.23285714",
+            "avg_cpm": "2247.43055500"
+        },
+        {
+            "campaign_name": "Campaign_296",
+            "avg_cpc": "26.50307692",
+            "avg_cpm": "2359.86301300"
+        },
+        {
+            "campaign_name": "Campaign_297",
+            "avg_cpc": "54.07142857",
+            "avg_cpm": "2395.56962000"
+        },
+        {
+            "campaign_name": "Campaign_298",
+            "avg_cpc": "42.46875000",
+            "avg_cpm": "2177.88461500"
+        },
+        {
+            "campaign_name": "Campaign_299",
+            "avg_cpc": "29.09230769",
+            "avg_cpm": "2440.00000000"
+        },
+        {
+            "campaign_name": "Campaign_300",
+            "avg_cpc": "29.96727273",
+            "avg_cpm": "2183.04635700"
+        },
+        {
+            "campaign_name": "Campaign_301",
+            "avg_cpc": "34.00500000",
+            "avg_cpm": "2222.54901900"
+        },
+        {
+            "campaign_name": "Campaign_302",
+            "avg_cpc": "47.22571429",
+            "avg_cpm": "2233.64864800"
+        },
+        {
+            "campaign_name": "Campaign_303",
+            "avg_cpc": "86.94250000",
+            "avg_cpm": "2349.79729700"
+        },
+        {
+            "campaign_name": "Campaign_304",
+            "avg_cpc": "25.74000000",
+            "avg_cpm": "2295.28662400"
+        },
+        {
+            "campaign_name": "Campaign_305",
+            "avg_cpc": "60.93400000",
+            "avg_cpm": "2290.75187900"
+        },
+        {
+            "campaign_name": "Campaign_306",
+            "avg_cpc": "34.07555556",
+            "avg_cpm": "2129.72222200"
+        },
+        {
+            "campaign_name": "Campaign_307",
+            "avg_cpc": "30.46600000",
+            "avg_cpm": "2191.79856100"
+        },
+        {
+            "campaign_name": "Campaign_308",
+            "avg_cpc": "59.13500000",
+            "avg_cpm": "2231.50943300"
+        },
+        {
+            "campaign_name": "Campaign_309",
+            "avg_cpc": "80.38750000",
+            "avg_cpm": "2296.78571400"
+        },
+        {
+            "campaign_name": "Campaign_310",
+            "avg_cpc": "52.64200000",
+            "avg_cpm": "2249.65811900"
+        },
+        {
+            "campaign_name": "Campaign_311",
+            "avg_cpc": "40.59250000",
+            "avg_cpm": "2255.13888800"
+        },
+        {
+            "campaign_name": "Campaign_312",
+            "avg_cpc": "84.21750000",
+            "avg_cpm": "2276.14864800"
+        },
+        {
+            "campaign_name": "Campaign_313",
+            "avg_cpc": "93.45500000",
+            "avg_cpm": "2307.53086400"
+        },
+        {
+            "campaign_name": "Campaign_314",
+            "avg_cpc": "37.65250000",
+            "avg_cpm": "2281.96969600"
+        },
+        {
+            "campaign_name": "Campaign_315",
+            "avg_cpc": "35.94444444",
+            "avg_cpm": "2246.52777700"
+        },
+        {
+            "campaign_name": "Campaign_316",
+            "avg_cpc": "31.16500000",
+            "avg_cpm": "2134.58904100"
+        },
+        {
+            "campaign_name": "Campaign_317",
+            "avg_cpc": "52.69571429",
+            "avg_cpm": "2157.13450200"
+        },
+        {
+            "campaign_name": "Campaign_318",
+            "avg_cpc": "47.70833333",
+            "avg_cpm": "2236.32812500"
+        },
+        {
+            "campaign_name": "Campaign_319",
+            "avg_cpc": "112.20666667",
+            "avg_cpm": "2404.42857100"
+        },
+        {
+            "campaign_name": "Campaign_320",
+            "avg_cpc": "79.49500000",
+            "avg_cpm": "2304.20289800"
+        },
+        {
+            "campaign_name": "Campaign_321",
+            "avg_cpc": "52.16833333",
+            "avg_cpm": "2335.89552200"
+        },
+        {
+            "campaign_name": "Campaign_322",
+            "avg_cpc": "90.89000000",
+            "avg_cpm": "2019.77777700"
+        },
+        {
+            "campaign_name": "Campaign_323",
+            "avg_cpc": "28.75000000",
+            "avg_cpm": "2136.82432400"
+        },
+        {
+            "campaign_name": "Campaign_324",
+            "avg_cpc": "82.83000000",
+            "avg_cpm": "2316.92307600"
+        },
+        {
+            "campaign_name": "Campaign_325",
+            "avg_cpc": "37.92750000",
+            "avg_cpm": "2064.08163200"
+        },
+        {
+            "campaign_name": "Campaign_326",
+            "avg_cpc": "53.28000000",
+            "avg_cpm": "2251.26760500"
+        },
+        {
+            "campaign_name": "Campaign_327",
+            "avg_cpc": "55.57500000",
+            "avg_cpm": "2179.41176400"
+        },
+        {
+            "campaign_name": "Campaign_328",
+            "avg_cpc": "39.30142857",
+            "avg_cpm": "2331.44067700"
+        },
+        {
+            "campaign_name": "Campaign_329",
+            "avg_cpc": "23.17000000",
+            "avg_cpm": "2268.39160800"
+        },
+        {
+            "campaign_name": "Campaign_330",
+            "avg_cpc": "115.43333333",
+            "avg_cpm": "2191.77215100"
+        },
+        {
+            "campaign_name": "Campaign_331",
+            "avg_cpc": "87.34750000",
+            "avg_cpm": "2298.61842100"
+        },
+        {
+            "campaign_name": "Campaign_332",
+            "avg_cpc": "62.61333333",
+            "avg_cpm": "2209.88235200"
+        },
+        {
+            "campaign_name": "Campaign_333",
+            "avg_cpc": "59.48400000",
+            "avg_cpm": "2323.59375000"
+        },
+        {
+            "campaign_name": "Campaign_334",
+            "avg_cpc": "34.97800000",
+            "avg_cpm": "2271.29870100"
+        },
+        {
+            "campaign_name": "Campaign_335",
+            "avg_cpc": "45.32142857",
+            "avg_cpm": "2266.07142800"
+        },
+        {
+            "campaign_name": "Campaign_336",
+            "avg_cpc": "31.44333333",
+            "avg_cpm": "2343.60248400"
+        },
+        {
+            "campaign_name": "Campaign_337",
+            "avg_cpc": "29.67000000",
+            "avg_cpm": "2119.28571400"
+        },
+        {
+            "campaign_name": "Campaign_338",
+            "avg_cpc": "30.02750000",
+            "avg_cpm": "2280.56962000"
+        },
+        {
+            "campaign_name": "Campaign_339",
+            "avg_cpc": "117.03000000",
+            "avg_cpm": "2236.24203800"
+        },
+        {
+            "campaign_name": "Campaign_340",
+            "avg_cpc": "50.98833333",
+            "avg_cpm": "2185.21428500"
+        },
+        {
+            "campaign_name": "Campaign_341",
+            "avg_cpc": "48.22428571",
+            "avg_cpm": "2235.56291300"
+        },
+        {
+            "campaign_name": "Campaign_342",
+            "avg_cpc": "51.24333333",
+            "avg_cpm": "2211.94244600"
+        },
+        {
+            "campaign_name": "Campaign_343",
+            "avg_cpc": "39.34000000",
+            "avg_cpm": "2284.25806400"
+        },
+        {
+            "campaign_name": "Campaign_344",
+            "avg_cpc": "40.60857143",
+            "avg_cpm": "2169.92366400"
+        },
+        {
+            "campaign_name": "Campaign_345",
+            "avg_cpc": "25.47714286",
+            "avg_cpm": "2215.40372600"
+        },
+        {
+            "campaign_name": "Campaign_346",
+            "avg_cpc": "47.55857143",
+            "avg_cpm": "2377.92857100"
+        },
+        {
+            "campaign_name": "Campaign_347",
+            "avg_cpc": "36.82200000",
+            "avg_cpm": "2272.96296200"
+        },
+        {
+            "campaign_name": "Campaign_348",
+            "avg_cpc": "44.58250000",
+            "avg_cpm": "2243.14465400"
+        },
+        {
+            "campaign_name": "Campaign_349",
+            "avg_cpc": "50.36000000",
+            "avg_cpm": "2245.35031800"
+        },
+        {
+            "campaign_name": "Campaign_350",
+            "avg_cpc": "34.87200000",
+            "avg_cpm": "2279.21568600"
+        },
+        {
+            "campaign_name": "Campaign_351",
+            "avg_cpc": "42.68125000",
+            "avg_cpm": "2261.25827800"
+        },
+        {
+            "campaign_name": "Campaign_352",
+            "avg_cpc": "30.67000000",
+            "avg_cpm": "2453.60000000"
+        },
+        {
+            "campaign_name": "Campaign_353",
+            "avg_cpc": "37.19666667",
+            "avg_cpm": "2217.01986700"
+        },
+        {
+            "campaign_name": "Campaign_354",
+            "avg_cpc": "55.98333333",
+            "avg_cpm": "2254.36241600"
+        },
+        {
+            "campaign_name": "Campaign_355",
+            "avg_cpc": "41.58625000",
+            "avg_cpm": "2376.35714200"
+        },
+        {
+            "campaign_name": "Campaign_356",
+            "avg_cpc": "272.57000000",
+            "avg_cpm": "2290.50420100"
+        },
+        {
+            "campaign_name": "Campaign_357",
+            "avg_cpc": "50.82500000",
+            "avg_cpm": "2327.86259500"
+        },
+        {
+            "campaign_name": "Campaign_358",
+            "avg_cpc": "61.74500000",
+            "avg_cpm": "2390.12903200"
+        },
+        {
+            "campaign_name": "Campaign_359",
+            "avg_cpc": "75.45200000",
+            "avg_cpm": "2433.93548300"
+        },
+        {
+            "campaign_name": "Campaign_360",
+            "avg_cpc": "75.25500000",
+            "avg_cpm": "2246.41791000"
+        },
+        {
+            "campaign_name": "Campaign_361",
+            "avg_cpc": "44.77714286",
+            "avg_cpm": "2287.88321100"
+        },
+        {
+            "campaign_name": "Campaign_362",
+            "avg_cpc": "40.18444444",
+            "avg_cpm": "2232.46913500"
+        },
+        {
+            "campaign_name": "Campaign_363",
+            "avg_cpc": "40.74000000",
+            "avg_cpm": "2414.22222200"
+        },
+        {
+            "campaign_name": "Campaign_364",
+            "avg_cpc": "33.23363636",
+            "avg_cpm": "2299.18238900"
+        },
+        {
+            "campaign_name": "Campaign_365",
+            "avg_cpc": "147.54000000",
+            "avg_cpm": "2218.64661600"
+        },
+        {
+            "campaign_name": "Campaign_366",
+            "avg_cpc": "27.78923077",
+            "avg_cpm": "2202.80487800"
+        },
+        {
+            "campaign_name": "Campaign_367",
+            "avg_cpc": "46.71142857",
+            "avg_cpm": "2369.42028900"
+        },
+        {
+            "campaign_name": "Campaign_368",
+            "avg_cpc": "42.67250000",
+            "avg_cpm": "2421.13475100"
+        },
+        {
+            "campaign_name": "Campaign_369",
+            "avg_cpc": "101.65666667",
+            "avg_cpm": "2147.67605600"
+        },
+        {
+            "campaign_name": "Campaign_370",
+            "avg_cpc": "43.83375000",
+            "avg_cpm": "2205.47169800"
+        },
+        {
+            "campaign_name": "Campaign_371",
+            "avg_cpc": "32.39272727",
+            "avg_cpm": "2059.65317900"
+        },
+        {
+            "campaign_name": "Campaign_372",
+            "avg_cpc": "30.75500000",
+            "avg_cpm": "2244.89051000"
+        },
+        {
+            "campaign_name": "Campaign_373",
+            "avg_cpc": "42.50444444",
+            "avg_cpm": "2290.65868200"
+        },
+        {
+            "campaign_name": "Campaign_374",
+            "avg_cpc": "34.92700000",
+            "avg_cpm": "2442.44755200"
+        },
+        {
+            "campaign_name": "Campaign_375",
+            "avg_cpc": "99.60000000",
+            "avg_cpm": "2165.21739100"
+        },
+        {
+            "campaign_name": "Campaign_376",
+            "avg_cpc": "41.28125000",
+            "avg_cpm": "2501.89393900"
+        },
+        {
+            "campaign_name": "Campaign_377",
+            "avg_cpc": "95.05750000",
+            "avg_cpm": "2304.42424200"
+        },
+        {
+            "campaign_name": "Campaign_378",
+            "avg_cpc": "55.05142857",
+            "avg_cpm": "2307.54491000"
+        },
+        {
+            "campaign_name": "Campaign_379",
+            "avg_cpc": "90.68500000",
+            "avg_cpm": "2434.49664400"
+        },
+        {
+            "campaign_name": "Campaign_380",
+            "avg_cpc": "47.10285714",
+            "avg_cpm": "2155.03267900"
+        },
+        {
+            "campaign_name": "Campaign_381",
+            "avg_cpc": "31.15363636",
+            "avg_cpm": "2269.47019800"
+        },
+        {
+            "campaign_name": "Campaign_382",
+            "avg_cpc": "42.17333333",
+            "avg_cpm": "2259.28571400"
+        },
+        {
+            "campaign_name": "Campaign_383",
+            "avg_cpc": "39.60000000",
+            "avg_cpm": "2140.54054000"
+        },
+        {
+            "campaign_name": "Campaign_384",
+            "avg_cpc": "59.80500000",
+            "avg_cpm": "2315.03225800"
+        },
+        {
+            "campaign_name": "Campaign_385",
+            "avg_cpc": "44.15625000",
+            "avg_cpm": "2235.75949300"
+        },
+        {
+            "campaign_name": "Campaign_386",
+            "avg_cpc": "52.89166667",
+            "avg_cpm": "2203.81944400"
+        },
+        {
+            "campaign_name": "Campaign_387",
+            "avg_cpc": "39.76125000",
+            "avg_cpm": "2288.41726600"
+        },
+        {
+            "campaign_name": "Campaign_388",
+            "avg_cpc": "29.71100000",
+            "avg_cpm": "2107.16312000"
+        },
+        {
+            "campaign_name": "Campaign_389",
+            "avg_cpc": "49.49571429",
+            "avg_cpm": "2389.44827500"
+        },
+        {
+            "campaign_name": "Campaign_390",
+            "avg_cpc": "37.12222222",
+            "avg_cpm": "2288.35616400"
+        },
+        {
+            "campaign_name": "Campaign_391",
+            "avg_cpc": "115.73666667",
+            "avg_cpm": "2346.01351300"
+        },
+        {
+            "campaign_name": "Campaign_392",
+            "avg_cpc": "40.01375000",
+            "avg_cpm": "2254.29577400"
+        },
+        {
+            "campaign_name": "Campaign_393",
+            "avg_cpc": "64.24000000",
+            "avg_cpm": "2155.70469700"
+        },
+        {
+            "campaign_name": "Campaign_394",
+            "avg_cpc": "123.49666667",
+            "avg_cpm": "2205.29761900"
+        },
+        {
+            "campaign_name": "Campaign_395",
+            "avg_cpc": "30.99636364",
+            "avg_cpm": "2157.97468300"
+        },
+        {
+            "campaign_name": "Campaign_396",
+            "avg_cpc": "55.54166667",
+            "avg_cpm": "2150.00000000"
+        },
+        {
+            "campaign_name": "Campaign_397",
+            "avg_cpc": "39.39555556",
+            "avg_cpm": "2348.07947000"
+        },
+        {
+            "campaign_name": "Campaign_398",
+            "avg_cpc": "53.28500000",
+            "avg_cpm": "2300.07194200"
+        },
+        {
+            "campaign_name": "Campaign_399",
+            "avg_cpc": "26.52545455",
+            "avg_cpm": "2114.34782600"
+        },
+        {
+            "campaign_name": "Campaign_400",
+            "avg_cpc": "35.44111111",
+            "avg_cpm": "2398.27067600"
+        },
+        {
+            "campaign_name": "Campaign_401",
+            "avg_cpc": "49.15428571",
+            "avg_cpm": "2293.86666600"
+        },
+        {
+            "campaign_name": "Campaign_402",
+            "avg_cpc": "83.69500000",
+            "avg_cpm": "2324.86111100"
+        },
+        {
+            "campaign_name": "Campaign_403",
+            "avg_cpc": "75.39000000",
+            "avg_cpm": "2355.93750000"
+        },
+        {
+            "campaign_name": "Campaign_404",
+            "avg_cpc": "36.86111111",
+            "avg_cpm": "2287.93103400"
+        },
+        {
+            "campaign_name": "Campaign_405",
+            "avg_cpc": "43.59625000",
+            "avg_cpm": "2279.54248300"
+        },
+        {
+            "campaign_name": "Campaign_406",
+            "avg_cpc": "25.03846154",
+            "avg_cpm": "2358.69565200"
+        },
+        {
+            "campaign_name": "Campaign_407",
+            "avg_cpc": "34.33875000",
+            "avg_cpm": "2163.07086600"
+        },
+        {
+            "campaign_name": "Campaign_408",
+            "avg_cpc": "113.99333333",
+            "avg_cpm": "2442.71428500"
+        },
+        {
+            "campaign_name": "Campaign_409",
+            "avg_cpc": "58.51400000",
+            "avg_cpm": "2233.35877800"
+        },
+        {
+            "campaign_name": "Campaign_410",
+            "avg_cpc": "71.92800000",
+            "avg_cpm": "2320.25806400"
+        },
+        {
+            "campaign_name": "Campaign_411",
+            "avg_cpc": "56.63166667",
+            "avg_cpm": "2220.84967300"
+        },
+        {
+            "campaign_name": "Campaign_412",
+            "avg_cpc": "79.37000000",
+            "avg_cpm": "2145.13513500"
+        },
+        {
+            "campaign_name": "Campaign_413",
+            "avg_cpc": "36.28700000",
+            "avg_cpm": "2212.62195100"
+        },
+        {
+            "campaign_name": "Campaign_414",
+            "avg_cpc": "31.06555556",
+            "avg_cpm": "2254.75806400"
+        },
+        {
+            "campaign_name": "Campaign_415",
+            "avg_cpc": "44.23625000",
+            "avg_cpm": "2239.81012600"
+        },
+        {
+            "campaign_name": "Campaign_416",
+            "avg_cpc": "107.87000000",
+            "avg_cpm": "2278.94366100"
+        },
+        {
+            "campaign_name": "Campaign_417",
+            "avg_cpc": "77.17750000",
+            "avg_cpm": "2269.92647000"
+        },
+        {
+            "campaign_name": "Campaign_418",
+            "avg_cpc": "51.35285714",
+            "avg_cpm": "2275.12658200"
+        },
+        {
+            "campaign_name": "Campaign_419",
+            "avg_cpc": "54.93857143",
+            "avg_cpm": "2262.17647000"
+        },
+        {
+            "campaign_name": "Campaign_420",
+            "avg_cpc": "36.63444444",
+            "avg_cpm": "2305.66433500"
+        },
+        {
+            "campaign_name": "Campaign_421",
+            "avg_cpc": "25.94083333",
+            "avg_cpm": "2103.31081000"
+        },
+        {
+            "campaign_name": "Campaign_422",
+            "avg_cpc": "49.04857143",
+            "avg_cpm": "2335.64625800"
+        },
+        {
+            "campaign_name": "Campaign_423",
+            "avg_cpc": "56.69666667",
+            "avg_cpm": "2330.00000000"
+        },
+        {
+            "campaign_name": "Campaign_424",
+            "avg_cpc": "44.99285714",
+            "avg_cpm": "2157.19178000"
+        },
+        {
+            "campaign_name": "Campaign_425",
+            "avg_cpc": "46.32857143",
+            "avg_cpm": "2147.68211900"
+        },
+        {
+            "campaign_name": "Campaign_426",
+            "avg_cpc": "33.97800000",
+            "avg_cpm": "2123.62500000"
+        },
+        {
+            "campaign_name": "Campaign_427",
+            "avg_cpc": "105.73333333",
+            "avg_cpm": "2282.01438800"
+        },
+        {
+            "campaign_name": "Campaign_428",
+            "avg_cpc": "21.31714286",
+            "avg_cpm": "2131.71428500"
+        },
+        {
+            "campaign_name": "Campaign_429",
+            "avg_cpc": "46.20142857",
+            "avg_cpm": "2360.65693400"
+        },
+        {
+            "campaign_name": "Campaign_430",
+            "avg_cpc": "125.55666667",
+            "avg_cpm": "2215.70588200"
+        },
+        {
+            "campaign_name": "Campaign_431",
+            "avg_cpc": "66.55600000",
+            "avg_cpm": "2310.97222200"
+        },
+        {
+            "campaign_name": "Campaign_432",
+            "avg_cpc": "29.77800000",
+            "avg_cpm": "2222.23880500"
+        },
+        {
+            "campaign_name": "Campaign_433",
+            "avg_cpc": "59.43166667",
+            "avg_cpm": "2393.22147600"
+        },
+        {
+            "campaign_name": "Campaign_434",
+            "avg_cpc": "27.85083333",
+            "avg_cpm": "2128.72611400"
+        },
+        {
+            "campaign_name": "Campaign_435",
+            "avg_cpc": "29.10000000",
+            "avg_cpm": "2078.57142800"
+        },
+        {
+            "campaign_name": "Campaign_436",
+            "avg_cpc": "39.30666667",
+            "avg_cpm": "2267.69230700"
+        },
+        {
+            "campaign_name": "Campaign_437",
+            "avg_cpc": "72.65000000",
+            "avg_cpm": "2228.52760700"
+        },
+        {
+            "campaign_name": "Campaign_438",
+            "avg_cpc": "44.10333333",
+            "avg_cpm": "2334.88235200"
+        },
+        {
+            "campaign_name": "Campaign_439",
+            "avg_cpc": "40.01125000",
+            "avg_cpm": "2254.15492900"
+        },
+        {
+            "campaign_name": "Campaign_440",
+            "avg_cpc": "34.55888889",
+            "avg_cpm": "2159.93055500"
+        },
+        {
+            "campaign_name": "Campaign_441",
+            "avg_cpc": "44.44571429",
+            "avg_cpm": "2145.65517200"
+        },
+        {
+            "campaign_name": "Campaign_442",
+            "avg_cpc": "83.78750000",
+            "avg_cpm": "2295.54794500"
+        },
+        {
+            "campaign_name": "Campaign_443",
+            "avg_cpc": "46.17571429",
+            "avg_cpm": "2292.41134700"
+        },
+        {
+            "campaign_name": "Campaign_444",
+            "avg_cpc": "43.64222222",
+            "avg_cpm": "2337.97619000"
+        },
+        {
+            "campaign_name": "Campaign_445",
+            "avg_cpc": "38.44250000",
+            "avg_cpm": "2165.77464700"
+        },
+        {
+            "campaign_name": "Campaign_446",
+            "avg_cpc": "39.83625000",
+            "avg_cpm": "2138.85906000"
+        },
+        {
+            "campaign_name": "Campaign_447",
+            "avg_cpc": "33.36400000",
+            "avg_cpm": "2316.94444400"
+        },
+        {
+            "campaign_name": "Campaign_448",
+            "avg_cpc": "38.65222222",
+            "avg_cpm": "2288.61842100"
+        },
+        {
+            "campaign_name": "Campaign_449",
+            "avg_cpc": "51.12500000",
+            "avg_cpm": "2306.39097700"
+        },
+        {
+            "campaign_name": "Campaign_450",
+            "avg_cpc": "68.94800000",
+            "avg_cpm": "2313.69127500"
+        },
+        {
+            "campaign_name": "Campaign_451",
+            "avg_cpc": "36.47500000",
+            "avg_cpm": "2237.73006100"
+        },
+        {
+            "campaign_name": "Campaign_452",
+            "avg_cpc": "43.94000000",
+            "avg_cpm": "2245.10948900"
+        },
+        {
+            "campaign_name": "Campaign_453",
+            "avg_cpc": "24.88533333",
+            "avg_cpm": "2333.00000000"
+        },
+        {
+            "campaign_name": "Campaign_454",
+            "avg_cpc": "59.88400000",
+            "avg_cpm": "2108.59154900"
+        },
+        {
+            "campaign_name": "Campaign_455",
+            "avg_cpc": "168.00000000",
+            "avg_cpm": "2366.19718300"
+        },
+        {
+            "campaign_name": "Campaign_456",
+            "avg_cpc": "37.40555556",
+            "avg_cpm": "2421.94244600"
+        },
+        {
+            "campaign_name": "Campaign_457",
+            "avg_cpc": "49.64714286",
+            "avg_cpm": "2364.14965900"
+        },
+        {
+            "campaign_name": "Campaign_458",
+            "avg_cpc": "32.27200000",
+            "avg_cpm": "2225.65517200"
+        },
+        {
+            "campaign_name": "Campaign_459",
+            "avg_cpc": "63.22166667",
+            "avg_cpm": "2463.18181800"
+        },
+        {
+            "campaign_name": "Campaign_460",
+            "avg_cpc": "40.70222222",
+            "avg_cpm": "2275.27950300"
+        },
+        {
+            "campaign_name": "Campaign_461",
+            "avg_cpc": "39.86125000",
+            "avg_cpm": "2261.63120500"
+        },
+        {
+            "campaign_name": "Campaign_462",
+            "avg_cpc": "106.99000000",
+            "avg_cpm": "2360.07352900"
+        },
+        {
+            "campaign_name": "Campaign_463",
+            "avg_cpc": "57.13166667",
+            "avg_cpm": "2255.19736800"
+        },
+        {
+            "campaign_name": "Campaign_464",
+            "avg_cpc": "63.14000000",
+            "avg_cpm": "2192.36111100"
+        },
+        {
+            "campaign_name": "Campaign_465",
+            "avg_cpc": "22.38882353",
+            "avg_cpm": "2335.03067400"
+        },
+        {
+            "campaign_name": "Campaign_466",
+            "avg_cpc": "40.21555556",
+            "avg_cpm": "2320.12820500"
+        },
+        {
+            "campaign_name": "Campaign_467",
+            "avg_cpc": "43.50500000",
+            "avg_cpm": "2109.33333300"
+        },
+        {
+            "campaign_name": "Campaign_468",
+            "avg_cpc": "64.98800000",
+            "avg_cpm": "2256.52777700"
+        },
+        {
+            "campaign_name": "Campaign_469",
+            "avg_cpc": "37.71888889",
+            "avg_cpm": "2263.13333300"
+        },
+        {
+            "campaign_name": "Campaign_470",
+            "avg_cpc": "121.43333333",
+            "avg_cpm": "2547.55244700"
+        },
+        {
+            "campaign_name": "Campaign_471",
+            "avg_cpc": "87.43750000",
+            "avg_cpm": "2300.98684200"
+        },
+        {
+            "campaign_name": "Campaign_472",
+            "avg_cpc": "43.69142857",
+            "avg_cpm": "2334.65648800"
+        },
+        {
+            "campaign_name": "Campaign_473",
+            "avg_cpc": "70.51200000",
+            "avg_cpm": "2203.50000000"
+        },
+        {
+            "campaign_name": "Campaign_474",
+            "avg_cpc": "35.29875000",
+            "avg_cpm": "2295.85365800"
+        },
+        {
+            "campaign_name": "Campaign_475",
+            "avg_cpc": "37.49333333",
+            "avg_cpm": "2191.16883100"
+        },
+        {
+            "campaign_name": "Campaign_476",
+            "avg_cpc": "93.09250000",
+            "avg_cpm": "2256.78787800"
+        },
+        {
+            "campaign_name": "Campaign_477",
+            "avg_cpc": "39.19500000",
+            "avg_cpm": "2133.06122400"
+        },
+        {
+            "campaign_name": "Campaign_478",
+            "avg_cpc": "33.63888889",
+            "avg_cpm": "2102.43055500"
+        },
+        {
+            "campaign_name": "Campaign_479",
+            "avg_cpc": "46.71714286",
+            "avg_cpm": "2137.38562000"
+        },
+        {
+            "campaign_name": "Campaign_480",
+            "avg_cpc": "59.30166667",
+            "avg_cpm": "2470.90277700"
+        },
+        {
+            "campaign_name": "Campaign_481",
+            "avg_cpc": "49.91000000",
+            "avg_cpm": "2239.55128200"
+        },
+        {
+            "campaign_name": "Campaign_482",
+            "avg_cpc": "58.58833333",
+            "avg_cpm": "2210.88050300"
+        },
+        {
+            "campaign_name": "Campaign_483",
+            "avg_cpc": "60.42666667",
+            "avg_cpm": "2280.25157200"
+        },
+        {
+            "campaign_name": "Campaign_484",
+            "avg_cpc": "69.51400000",
+            "avg_cpm": "2213.82165600"
+        },
+        {
+            "campaign_name": "Campaign_485",
+            "avg_cpc": "52.10375000",
+            "avg_cpm": "2354.97175100"
+        },
+        {
+            "campaign_name": "Campaign_486",
+            "avg_cpc": "31.46363636",
+            "avg_cpm": "2454.60992900"
+        },
+        {
+            "campaign_name": "Campaign_487",
+            "avg_cpc": "58.07600000",
+            "avg_cpm": "2304.60317400"
+        },
+        {
+            "campaign_name": "Campaign_488",
+            "avg_cpc": "70.49600000",
+            "avg_cpm": "2216.85534500"
+        },
+        {
+            "campaign_name": "Campaign_489",
+            "avg_cpc": "36.24300000",
+            "avg_cpm": "2293.86075900"
+        },
+        {
+            "campaign_name": "Campaign_490",
+            "avg_cpc": "59.53000000",
+            "avg_cpm": "2289.61538400"
+        },
+        {
+            "campaign_name": "Campaign_491",
+            "avg_cpc": "41.95142857",
+            "avg_cpm": "2127.97101400"
+        },
+        {
+            "campaign_name": "Campaign_492",
+            "avg_cpc": "65.95333333",
+            "avg_cpm": "2341.53846100"
+        },
+        {
+            "campaign_name": "Campaign_493",
+            "avg_cpc": "64.21800000",
+            "avg_cpm": "2154.96644200"
+        },
+        {
+            "campaign_name": "Campaign_494",
+            "avg_cpc": "43.72857143",
+            "avg_cpm": "2284.32835800"
+        },
+        {
+            "campaign_name": "Campaign_495",
+            "avg_cpc": "34.67181818",
+            "avg_cpm": "2444.80769200"
+        },
+        {
+            "campaign_name": "Campaign_496",
+            "avg_cpc": "64.73800000",
+            "avg_cpm": "2201.97278900"
+        },
+        {
+            "campaign_name": "Campaign_497",
+            "avg_cpc": "26.77636364",
+            "avg_cpm": "2198.05970100"
+        },
+        {
+            "campaign_name": "Campaign_498",
+            "avg_cpc": "36.57777778",
+            "avg_cpm": "2165.78947300"
+        },
+        {
+            "campaign_name": "Campaign_499",
+            "avg_cpc": "82.13500000",
+            "avg_cpm": "2297.48251700"
+        },
+        {
+            "campaign_name": "Campaign_500",
+            "avg_cpc": "30.67700000",
+            "avg_cpm": "2191.21428500"
+        },
+        {
+            "campaign_name": "Campaign_501",
+            "avg_cpc": "40.92000000",
+            "avg_cpm": "2242.19178000"
+        },
+        {
+            "campaign_name": "Campaign_502",
+            "avg_cpc": "34.30700000",
+            "avg_cpm": "2399.09090900"
+        },
+        {
+            "campaign_name": "Campaign_503",
+            "avg_cpc": "33.16583333",
+            "avg_cpm": "2186.75824100"
+        },
+        {
+            "campaign_name": "Campaign_504",
+            "avg_cpc": "41.02571429",
+            "avg_cpm": "2096.20437900"
+        },
+        {
+            "campaign_name": "Campaign_505",
+            "avg_cpc": "71.08800000",
+            "avg_cpm": "2278.46153800"
+        },
+        {
+            "campaign_name": "Campaign_506",
+            "avg_cpc": "63.07800000",
+            "avg_cpm": "2047.98701200"
+        },
+        {
+            "campaign_name": "Campaign_507",
+            "avg_cpc": "49.41166667",
+            "avg_cpm": "2044.62068900"
+        },
+        {
+            "campaign_name": "Campaign_508",
+            "avg_cpc": "34.46444444",
+            "avg_cpm": "2349.84848400"
+        },
+        {
+            "campaign_name": "Campaign_509",
+            "avg_cpc": "37.67888889",
+            "avg_cpm": "2216.40522800"
+        },
+        {
+            "campaign_name": "Campaign_510",
+            "avg_cpc": "86.85750000",
+            "avg_cpm": "2316.20000000"
+        },
+        {
+            "campaign_name": "Campaign_511",
+            "avg_cpc": "63.54000000",
+            "avg_cpm": "2161.22448900"
+        },
+        {
+            "campaign_name": "Campaign_512",
+            "avg_cpc": "80.83750000",
+            "avg_cpm": "2326.25899200"
+        },
+        {
+            "campaign_name": "Campaign_513",
+            "avg_cpc": "57.65166667",
+            "avg_cpm": "2275.72368400"
+        },
+        {
+            "campaign_name": "Campaign_514",
+            "avg_cpc": "29.91363636",
+            "avg_cpm": "2208.38926100"
+        },
+        {
+            "campaign_name": "Campaign_515",
+            "avg_cpc": "32.94111111",
+            "avg_cpm": "2148.33333300"
+        },
+        {
+            "campaign_name": "Campaign_516",
+            "avg_cpc": "54.20166667",
+            "avg_cpm": "2339.64028700"
+        },
+        {
+            "campaign_name": "Campaign_517",
+            "avg_cpc": "57.17714286",
+            "avg_cpm": "2411.08433700"
+        },
+        {
+            "campaign_name": "Campaign_518",
+            "avg_cpc": "109.65666667",
+            "avg_cpm": "2284.51388800"
+        },
+        {
+            "campaign_name": "Campaign_519",
+            "avg_cpc": "35.51250000",
+            "avg_cpm": "2387.39495700"
+        },
+        {
+            "campaign_name": "Campaign_520",
+            "avg_cpc": "31.87909091",
+            "avg_cpm": "2291.96078400"
+        },
+        {
+            "campaign_name": "Campaign_521",
+            "avg_cpc": "58.98833333",
+            "avg_cpm": "2171.34969300"
+        },
+        {
+            "campaign_name": "Campaign_522",
+            "avg_cpc": "63.38000000",
+            "avg_cpm": "2223.85964900"
+        },
+        {
+            "campaign_name": "Campaign_523",
+            "avg_cpc": "31.30363636",
+            "avg_cpm": "2265.39473600"
+        },
+        {
+            "campaign_name": "Campaign_524",
+            "avg_cpc": "37.26700000",
+            "avg_cpm": "2435.75163300"
+        },
+        {
+            "campaign_name": "Campaign_525",
+            "avg_cpc": "72.13000000",
+            "avg_cpm": "2388.41059600"
+        },
+        {
+            "campaign_name": "Campaign_526",
+            "avg_cpc": "59.01166667",
+            "avg_cpm": "2212.93750000"
+        },
+        {
+            "campaign_name": "Campaign_527",
+            "avg_cpc": "33.97900000",
+            "avg_cpm": "2206.42857100"
+        },
+        {
+            "campaign_name": "Campaign_528",
+            "avg_cpc": "80.51750000",
+            "avg_cpm": "2268.09859100"
+        },
+        {
+            "campaign_name": "Campaign_529",
+            "avg_cpc": "64.77200000",
+            "avg_cpm": "2264.75524400"
+        },
+        {
+            "campaign_name": "Campaign_530",
+            "avg_cpc": "33.05666667",
+            "avg_cpm": "2253.86363600"
+        },
+        {
+            "campaign_name": "Campaign_531",
+            "avg_cpc": "46.29285714",
+            "avg_cpm": "2160.33333300"
+        },
+        {
+            "campaign_name": "Campaign_532",
+            "avg_cpc": "76.05500000",
+            "avg_cpm": "2188.63309300"
+        },
+        {
+            "campaign_name": "Campaign_533",
+            "avg_cpc": "58.03333333",
+            "avg_cpm": "2217.83439400"
+        },
+        {
+            "campaign_name": "Campaign_534",
+            "avg_cpc": "40.69500000",
+            "avg_cpm": "2260.83333300"
+        },
+        {
+            "campaign_name": "Campaign_535",
+            "avg_cpc": "70.12000000",
+            "avg_cpm": "2247.43589700"
+        },
+        {
+            "campaign_name": "Campaign_536",
+            "avg_cpc": "32.96400000",
+            "avg_cpm": "2273.37931000"
+        },
+        {
+            "campaign_name": "Campaign_537",
+            "avg_cpc": "45.99166667",
+            "avg_cpm": "2207.60000000"
+        },
+        {
+            "campaign_name": "Campaign_538",
+            "avg_cpc": "35.20100000",
+            "avg_cpm": "2200.06250000"
+        },
+        {
+            "campaign_name": "Campaign_539",
+            "avg_cpc": "48.35714286",
+            "avg_cpm": "2241.72185400"
+        },
+        {
+            "campaign_name": "Campaign_540",
+            "avg_cpc": "29.14900000",
+            "avg_cpm": "2208.25757500"
+        },
+        {
+            "campaign_name": "Campaign_541",
+            "avg_cpc": "38.05444444",
+            "avg_cpm": "2345.82191700"
+        },
+        {
+            "campaign_name": "Campaign_542",
+            "avg_cpc": "32.80000000",
+            "avg_cpm": "2471.23287600"
+        },
+        {
+            "campaign_name": "Campaign_543",
+            "avg_cpc": "45.95142857",
+            "avg_cpm": "2314.10071900"
+        },
+        {
+            "campaign_name": "Campaign_544",
+            "avg_cpc": "33.90500000",
+            "avg_cpm": "2201.62337600"
+        },
+        {
+            "campaign_name": "Campaign_545",
+            "avg_cpc": "52.33666667",
+            "avg_cpm": "2259.13669000"
+        },
+        {
+            "campaign_name": "Campaign_546",
+            "avg_cpc": "52.60500000",
+            "avg_cpm": "2303.86861300"
+        },
+        {
+            "campaign_name": "Campaign_547",
+            "avg_cpc": "40.89888889",
+            "avg_cpm": "2230.84848400"
+        },
+        {
+            "campaign_name": "Campaign_548",
+            "avg_cpc": "41.72500000",
+            "avg_cpm": "2240.26845600"
+        },
+        {
+            "campaign_name": "Campaign_549",
+            "avg_cpc": "66.19600000",
+            "avg_cpm": "2163.26797300"
+        },
+        {
+            "campaign_name": "Campaign_550",
+            "avg_cpc": "49.77857143",
+            "avg_cpm": "2277.45098000"
+        },
+        {
+            "campaign_name": "Campaign_551",
+            "avg_cpc": "94.98750000",
+            "avg_cpm": "2235.00000000"
+        },
+        {
+            "campaign_name": "Campaign_552",
+            "avg_cpc": "46.95571429",
+            "avg_cpm": "2364.67625800"
+        },
+        {
+            "campaign_name": "Campaign_553",
+            "avg_cpc": "327.53000000",
+            "avg_cpm": "2274.51388800"
+        },
+        {
+            "campaign_name": "Campaign_554",
+            "avg_cpc": "59.83500000",
+            "avg_cpm": "2229.87577600"
+        },
+        {
+            "campaign_name": "Campaign_555",
+            "avg_cpc": "116.68666667",
+            "avg_cpm": "2258.45161200"
+        },
+        {
+            "campaign_name": "Campaign_556",
+            "avg_cpc": "37.35777778",
+            "avg_cpm": "2334.86111100"
+        },
+        {
+            "campaign_name": "Campaign_557",
+            "avg_cpc": "34.88444444",
+            "avg_cpm": "2180.27777700"
+        },
+        {
+            "campaign_name": "Campaign_558",
+            "avg_cpc": "33.09600000",
+            "avg_cpm": "2330.70422500"
+        },
+        {
+            "campaign_name": "Campaign_559",
+            "avg_cpc": "67.41400000",
+            "avg_cpm": "2308.69863000"
+        },
+        {
+            "campaign_name": "Campaign_560",
+            "avg_cpc": "47.45285714",
+            "avg_cpm": "2275.13698600"
+        },
+        {
+            "campaign_name": "Campaign_561",
+            "avg_cpc": "35.33666667",
+            "avg_cpm": "2239.64788700"
+        },
+        {
+            "campaign_name": "Campaign_562",
+            "avg_cpc": "39.33750000",
+            "avg_cpm": "2231.91489300"
+        },
+        {
+            "campaign_name": "Campaign_563",
+            "avg_cpc": "92.87250000",
+            "avg_cpm": "2265.18292600"
+        },
+        {
+            "campaign_name": "Campaign_564",
+            "avg_cpc": "36.45333333",
+            "avg_cpm": "2201.87919400"
+        },
+        {
+            "campaign_name": "Campaign_565",
+            "avg_cpc": "39.25444444",
+            "avg_cpm": "2387.09459400"
+        },
+        {
+            "campaign_name": "Campaign_566",
+            "avg_cpc": "77.44750000",
+            "avg_cpm": "2294.74074000"
+        },
+        {
+            "campaign_name": "Campaign_567",
+            "avg_cpc": "26.85583333",
+            "avg_cpm": "2237.98611100"
+        },
+        {
+            "campaign_name": "Campaign_568",
+            "avg_cpc": "81.25500000",
+            "avg_cpm": "2272.86713200"
+        },
+        {
+            "campaign_name": "Campaign_569",
+            "avg_cpc": "35.37888889",
+            "avg_cpm": "2258.22695000"
+        },
+        {
+            "campaign_name": "Campaign_570",
+            "avg_cpc": "39.98000000",
+            "avg_cpm": "2146.57718100"
+        },
+        {
+            "campaign_name": "Campaign_571",
+            "avg_cpc": "39.90222222",
+            "avg_cpm": "2442.99319700"
+        },
+        {
+            "campaign_name": "Campaign_572",
+            "avg_cpc": "33.56600000",
+            "avg_cpm": "2252.75167700"
+        },
+        {
+            "campaign_name": "Campaign_573",
+            "avg_cpc": "58.90500000",
+            "avg_cpm": "2325.19736800"
+        },
+        {
+            "campaign_name": "Campaign_574",
+            "avg_cpc": "71.07400000",
+            "avg_cpm": "2193.64197500"
+        },
+        {
+            "campaign_name": "Campaign_575",
+            "avg_cpc": "50.45833333",
+            "avg_cpm": "2346.89922400"
+        },
+        {
+            "campaign_name": "Campaign_576",
+            "avg_cpc": "82.82750000",
+            "avg_cpm": "2284.89655100"
+        },
+        {
+            "campaign_name": "Campaign_577",
+            "avg_cpc": "33.86600000",
+            "avg_cpm": "2303.80952300"
+        },
+        {
+            "campaign_name": "Campaign_578",
+            "avg_cpc": "24.12923077",
+            "avg_cpm": "2148.49315000"
+        },
+        {
+            "campaign_name": "Campaign_579",
+            "avg_cpc": "97.59000000",
+            "avg_cpm": "2287.26562500"
+        },
+        {
+            "campaign_name": "Campaign_580",
+            "avg_cpc": "24.19307692",
+            "avg_cpm": "2214.85915400"
+        },
+        {
+            "campaign_name": "Campaign_581",
+            "avg_cpc": "53.49500000",
+            "avg_cpm": "2395.29850700"
+        },
+        {
+            "campaign_name": "Campaign_582",
+            "avg_cpc": "33.12800000",
+            "avg_cpm": "2110.06369400"
+        },
+        {
+            "campaign_name": "Campaign_583",
+            "avg_cpc": "36.94375000",
+            "avg_cpm": "2273.46153800"
+        },
+        {
+            "campaign_name": "Campaign_584",
+            "avg_cpc": "47.46875000",
+            "avg_cpm": "2260.41666600"
+        },
+        {
+            "campaign_name": "Campaign_585",
+            "avg_cpc": "68.46600000",
+            "avg_cpm": "2377.29166600"
+        },
+        {
+            "campaign_name": "Campaign_586",
+            "avg_cpc": "41.67222222",
+            "avg_cpm": "2329.50310500"
+        },
+        {
+            "campaign_name": "Campaign_587",
+            "avg_cpc": "35.96750000",
+            "avg_cpm": "2283.65079300"
+        },
+        {
+            "campaign_name": "Campaign_588",
+            "avg_cpc": "43.93125000",
+            "avg_cpm": "2358.72483200"
+        },
+        {
+            "campaign_name": "Campaign_589",
+            "avg_cpc": "57.54800000",
+            "avg_cpm": "2100.29197000"
+        },
+        {
+            "campaign_name": "Campaign_590",
+            "avg_cpc": "67.50400000",
+            "avg_cpm": "2376.90140800"
+        },
+        {
+            "campaign_name": "Campaign_591",
+            "avg_cpc": "37.14200000",
+            "avg_cpm": "2264.75609700"
+        },
+        {
+            "campaign_name": "Campaign_592",
+            "avg_cpc": "69.02600000",
+            "avg_cpm": "2413.49650300"
+        },
+        {
+            "campaign_name": "Campaign_593",
+            "avg_cpc": "66.05200000",
+            "avg_cpm": "2277.65517200"
+        },
+        {
+            "campaign_name": "Campaign_594",
+            "avg_cpc": "57.24166667",
+            "avg_cpm": "2336.39455700"
+        },
+        {
+            "campaign_name": "Campaign_595",
+            "avg_cpc": "38.32000000",
+            "avg_cpm": "2395.00000000"
+        },
+        {
+            "campaign_name": "Campaign_596",
+            "avg_cpc": "37.34800000",
+            "avg_cpm": "2394.10256400"
+        },
+        {
+            "campaign_name": "Campaign_597",
+            "avg_cpc": "33.20300000",
+            "avg_cpm": "2338.23943600"
+        },
+        {
+            "campaign_name": "Campaign_598",
+            "avg_cpc": "52.57125000",
+            "avg_cpm": "2349.55307200"
+        },
+        {
+            "campaign_name": "Campaign_599",
+            "avg_cpc": "37.38555556",
+            "avg_cpm": "2258.18791900"
+        },
+        {
+            "campaign_name": "Campaign_600",
+            "avg_cpc": "40.51500000",
+            "avg_cpm": "2315.14285700"
+        },
+        {
+            "campaign_name": "Campaign_601",
+            "avg_cpc": "34.20000000",
+            "avg_cpm": "2349.61832000"
+        },
+        {
+            "campaign_name": "Campaign_602",
+            "avg_cpc": "164.75000000",
+            "avg_cpm": "2387.68115900"
+        },
+        {
+            "campaign_name": "Campaign_603",
+            "avg_cpc": "54.00166667",
+            "avg_cpm": "2090.38709600"
+        },
+        {
+            "campaign_name": "Campaign_604",
+            "avg_cpc": "26.24083333",
+            "avg_cpm": "2298.46715300"
+        },
+        {
+            "campaign_name": "Campaign_605",
+            "avg_cpc": "66.58400000",
+            "avg_cpm": "2204.76821100"
+        },
+        {
+            "campaign_name": "Campaign_606",
+            "avg_cpc": "62.62800000",
+            "avg_cpm": "2319.55555500"
+        },
+        {
+            "campaign_name": "Campaign_607",
+            "avg_cpc": "47.22625000",
+            "avg_cpm": "2289.75757500"
+        },
+        {
+            "campaign_name": "Campaign_608",
+            "avg_cpc": "63.57000000",
+            "avg_cpm": "2133.22147600"
+        },
+        {
+            "campaign_name": "Campaign_609",
+            "avg_cpc": "43.09111111",
+            "avg_cpm": "2379.26380300"
+        },
+        {
+            "campaign_name": "Campaign_610",
+            "avg_cpc": "63.95400000",
+            "avg_cpm": "2317.17391300"
+        },
+        {
+            "campaign_name": "Campaign_611",
+            "avg_cpc": "51.74600000",
+            "avg_cpm": "2269.56140300"
+        },
+        {
+            "campaign_name": "Campaign_612",
+            "avg_cpc": "32.84000000",
+            "avg_cpm": "2065.40880500"
+        },
+        {
+            "campaign_name": "Campaign_613",
+            "avg_cpc": "110.48333333",
+            "avg_cpm": "2195.03311200"
+        },
+        {
+            "campaign_name": "Campaign_614",
+            "avg_cpc": "61.28166667",
+            "avg_cpm": "2341.97452200"
+        },
+        {
+            "campaign_name": "Campaign_615",
+            "avg_cpc": "151.59500000",
+            "avg_cpm": "2387.32283400"
+        },
+        {
+            "campaign_name": "Campaign_616",
+            "avg_cpc": "59.02500000",
+            "avg_cpm": "2284.83870900"
+        },
+        {
+            "campaign_name": "Campaign_617",
+            "avg_cpc": "96.17000000",
+            "avg_cpm": "2345.60975600"
+        },
+        {
+            "campaign_name": "Campaign_618",
+            "avg_cpc": "57.08200000",
+            "avg_cpm": "2283.28000000"
+        },
+        {
+            "campaign_name": "Campaign_619",
+            "avg_cpc": "37.68125000",
+            "avg_cpm": "2301.14503800"
+        },
+        {
+            "campaign_name": "Campaign_620",
+            "avg_cpc": "36.71100000",
+            "avg_cpm": "2238.47560900"
+        },
+        {
+            "campaign_name": "Campaign_621",
+            "avg_cpc": "59.22833333",
+            "avg_cpm": "2140.78313200"
+        },
+        {
+            "campaign_name": "Campaign_622",
+            "avg_cpc": "88.79500000",
+            "avg_cpm": "2352.18543000"
+        },
+        {
+            "campaign_name": "Campaign_623",
+            "avg_cpc": "24.89307692",
+            "avg_cpm": "2247.29166600"
+        },
+        {
+            "campaign_name": "Campaign_624",
+            "avg_cpc": "85.48500000",
+            "avg_cpm": "2264.50331100"
+        },
+        {
+            "campaign_name": "Campaign_625",
+            "avg_cpc": "26.89500000",
+            "avg_cpm": "2241.25000000"
+        },
+        {
+            "campaign_name": "Campaign_626",
+            "avg_cpc": "48.94142857",
+            "avg_cpm": "2253.88157800"
+        },
+        {
+            "campaign_name": "Campaign_627",
+            "avg_cpc": "109.56333333",
+            "avg_cpm": "2080.31645500"
+        },
+        {
+            "campaign_name": "Campaign_628",
+            "avg_cpc": "30.94583333",
+            "avg_cpm": "2250.60606000"
+        },
+        {
+            "campaign_name": "Campaign_629",
+            "avg_cpc": "71.98200000",
+            "avg_cpm": "2235.46583800"
+        },
+        {
+            "campaign_name": "Campaign_630",
+            "avg_cpc": "40.35250000",
+            "avg_cpm": "2166.57718100"
+        },
+        {
+            "campaign_name": "Campaign_631",
+            "avg_cpc": "43.29857143",
+            "avg_cpm": "2245.11111100"
+        },
+        {
+            "campaign_name": "Campaign_632",
+            "avg_cpc": "30.51100000",
+            "avg_cpm": "2243.45588200"
+        },
+        {
+            "campaign_name": "Campaign_633",
+            "avg_cpc": "42.92875000",
+            "avg_cpm": "2401.60839100"
+        },
+        {
+            "campaign_name": "Campaign_634",
+            "avg_cpc": "41.80000000",
+            "avg_cpm": "2229.33333300"
+        },
+        {
+            "campaign_name": "Campaign_635",
+            "avg_cpc": "33.97222222",
+            "avg_cpm": "2138.11188800"
+        },
+        {
+            "campaign_name": "Campaign_636",
+            "avg_cpc": "25.86230769",
+            "avg_cpm": "2271.68918900"
+        },
+        {
+            "campaign_name": "Campaign_637",
+            "avg_cpc": "81.96750000",
+            "avg_cpm": "2375.86956500"
+        },
+        {
+            "campaign_name": "Campaign_638",
+            "avg_cpc": "58.64200000",
+            "avg_cpm": "2155.95588200"
+        },
+        {
+            "campaign_name": "Campaign_639",
+            "avg_cpc": "45.60125000",
+            "avg_cpm": "2251.91358000"
+        },
+        {
+            "campaign_name": "Campaign_640",
+            "avg_cpc": "68.98800000",
+            "avg_cpm": "2315.03355700"
+        },
+        {
+            "campaign_name": "Campaign_641",
+            "avg_cpc": "48.61285714",
+            "avg_cpm": "2283.82550300"
+        },
+        {
+            "campaign_name": "Campaign_642",
+            "avg_cpc": "153.16000000",
+            "avg_cpm": "2188.00000000"
+        },
+        {
+            "campaign_name": "Campaign_643",
+            "avg_cpc": "30.58583333",
+            "avg_cpm": "2171.77514700"
+        },
+        {
+            "campaign_name": "Campaign_644",
+            "avg_cpc": "65.05666667",
+            "avg_cpm": "2470.50632900"
+        },
+        {
+            "campaign_name": "Campaign_645",
+            "avg_cpc": "47.39375000",
+            "avg_cpm": "2414.96815200"
+        },
+        {
+            "campaign_name": "Campaign_646",
+            "avg_cpc": "24.55266667",
+            "avg_cpm": "2205.32934100"
+        },
+        {
+            "campaign_name": "Campaign_647",
+            "avg_cpc": "38.13900000",
+            "avg_cpm": "2429.23566800"
+        },
+        {
+            "campaign_name": "Campaign_648",
+            "avg_cpc": "44.14875000",
+            "avg_cpm": "2522.78571400"
+        },
+        {
+            "campaign_name": "Campaign_649",
+            "avg_cpc": "63.09200000",
+            "avg_cpm": "2302.62773700"
+        },
+        {
+            "campaign_name": "Campaign_650",
+            "avg_cpc": "35.81111111",
+            "avg_cpm": "2302.14285700"
+        },
+        {
+            "campaign_name": "Campaign_651",
+            "avg_cpc": "43.84125000",
+            "avg_cpm": "2233.94904400"
+        },
+        {
+            "campaign_name": "Campaign_652",
+            "avg_cpc": "89.81250000",
+            "avg_cpm": "2164.15662600"
+        },
+        {
+            "campaign_name": "Campaign_653",
+            "avg_cpc": "32.66500000",
+            "avg_cpm": "2149.01315700"
+        },
+        {
+            "campaign_name": "Campaign_654",
+            "avg_cpc": "36.87111111",
+            "avg_cpm": "2242.16216200"
+        },
+        {
+            "campaign_name": "Campaign_655",
+            "avg_cpc": "27.65153846",
+            "avg_cpm": "2178.60606000"
+        },
+        {
+            "campaign_name": "Campaign_656",
+            "avg_cpc": "44.25000000",
+            "avg_cpm": "2360.00000000"
+        },
+        {
+            "campaign_name": "Campaign_657",
+            "avg_cpc": "30.30444444",
+            "avg_cpm": "2199.51612900"
+        },
+        {
+            "campaign_name": "Campaign_658",
+            "avg_cpc": "65.00000000",
+            "avg_cpm": "2096.77419300"
+        },
+        {
+            "campaign_name": "Campaign_659",
+            "avg_cpc": "57.59714286",
+            "avg_cpm": "2357.77777700"
+        },
+        {
+            "campaign_name": "Campaign_660",
+            "avg_cpc": "91.49750000",
+            "avg_cpm": "2316.39240500"
+        },
+        {
+            "campaign_name": "Campaign_661",
+            "avg_cpc": "50.32285714",
+            "avg_cpm": "2317.50000000"
+        },
+        {
+            "campaign_name": "Campaign_662",
+            "avg_cpc": "23.63733333",
+            "avg_cpm": "2363.73333300"
+        },
+        {
+            "campaign_name": "Campaign_663",
+            "avg_cpc": "163.90000000",
+            "avg_cpm": "2292.30769200"
+        },
+        {
+            "campaign_name": "Campaign_664",
+            "avg_cpc": "57.15000000",
+            "avg_cpm": "2316.89189100"
+        },
+        {
+            "campaign_name": "Campaign_665",
+            "avg_cpc": "42.67888889",
+            "avg_cpm": "2400.68750000"
+        },
+        {
+            "campaign_name": "Campaign_666",
+            "avg_cpc": "42.35888889",
+            "avg_cpm": "2242.52941100"
+        },
+        {
+            "campaign_name": "Campaign_667",
+            "avg_cpc": "55.52833333",
+            "avg_cpm": "2221.13333300"
+        },
+        {
+            "campaign_name": "Campaign_668",
+            "avg_cpc": "53.37000000",
+            "avg_cpm": "2389.70149200"
+        },
+        {
+            "campaign_name": "Campaign_669",
+            "avg_cpc": "44.33125000",
+            "avg_cpm": "2244.62025300"
+        },
+        {
+            "campaign_name": "Campaign_670",
+            "avg_cpc": "87.78250000",
+            "avg_cpm": "2310.06578900"
+        },
+        {
+            "campaign_name": "Campaign_671",
+            "avg_cpc": "37.51800000",
+            "avg_cpm": "2374.55696200"
+        },
+        {
+            "campaign_name": "Campaign_672",
+            "avg_cpc": "55.35000000",
+            "avg_cpm": "2290.34482700"
+        },
+        {
+            "campaign_name": "Campaign_673",
+            "avg_cpc": "61.13200000",
+            "avg_cpm": "2247.50000000"
+        },
+        {
+            "campaign_name": "Campaign_674",
+            "avg_cpc": "29.51181818",
+            "avg_cpm": "2223.49315000"
+        },
+        {
+            "campaign_name": "Campaign_675",
+            "avg_cpc": "31.76100000",
+            "avg_cpm": "2252.55319100"
+        },
+        {
+            "campaign_name": "Campaign_676",
+            "avg_cpc": "52.10000000",
+            "avg_cpm": "2279.37500000"
+        },
+        {
+            "campaign_name": "Campaign_677",
+            "avg_cpc": "119.31666667",
+            "avg_cpm": "2354.93421000"
+        },
+        {
+            "campaign_name": "Campaign_678",
+            "avg_cpc": "58.16400000",
+            "avg_cpm": "2203.18181800"
+        },
+        {
+            "campaign_name": "Campaign_679",
+            "avg_cpc": "47.23000000",
+            "avg_cpm": "2328.23943600"
+        },
+        {
+            "campaign_name": "Campaign_680",
+            "avg_cpc": "24.84083333",
+            "avg_cpm": "2293.00000000"
+        },
+        {
+            "campaign_name": "Campaign_681",
+            "avg_cpc": "54.44142857",
+            "avg_cpm": "2241.70588200"
+        },
+        {
+            "campaign_name": "Campaign_682",
+            "avg_cpc": "54.43428571",
+            "avg_cpm": "2281.67664600"
+        },
+        {
+            "campaign_name": "Campaign_683",
+            "avg_cpc": "49.37285714",
+            "avg_cpm": "2273.75000000"
+        },
+        {
+            "campaign_name": "Campaign_684",
+            "avg_cpc": "31.09833333",
+            "avg_cpm": "2392.17948700"
+        },
+        {
+            "campaign_name": "Campaign_685",
+            "avg_cpc": "37.54666667",
+            "avg_cpm": "2166.15384600"
+        },
+        {
+            "campaign_name": "Campaign_686",
+            "avg_cpc": "40.12000000",
+            "avg_cpm": "2329.54838700"
+        },
+        {
+            "campaign_name": "Campaign_687",
+            "avg_cpc": "40.88000000",
+            "avg_cpm": "2180.26666600"
+        },
+        {
+            "campaign_name": "Campaign_688",
+            "avg_cpc": "33.73600000",
+            "avg_cpm": "2108.50000000"
+        },
+        {
+            "campaign_name": "Campaign_689",
+            "avg_cpc": "68.47200000",
+            "avg_cpm": "2344.93150600"
+        },
+        {
+            "campaign_name": "Campaign_690",
+            "avg_cpc": "34.78300000",
+            "avg_cpm": "2215.47770700"
+        },
+        {
+            "campaign_name": "Campaign_691",
+            "avg_cpc": "56.03000000",
+            "avg_cpm": "2241.20000000"
+        },
+        {
+            "campaign_name": "Campaign_692",
+            "avg_cpc": "33.17363636",
+            "avg_cpm": "2354.25806400"
+        },
+        {
+            "campaign_name": "Campaign_693",
+            "avg_cpc": "42.29875000",
+            "avg_cpm": "2301.97278900"
+        },
+        {
+            "campaign_name": "Campaign_694",
+            "avg_cpc": "29.36636364",
+            "avg_cpm": "2227.79310300"
+        },
+        {
+            "campaign_name": "Campaign_695",
+            "avg_cpc": "46.33857143",
+            "avg_cpm": "2252.56944400"
+        },
+        {
+            "campaign_name": "Campaign_696",
+            "avg_cpc": "56.94200000",
+            "avg_cpm": "2207.05426300"
+        },
+        {
+            "campaign_name": "Campaign_697",
+            "avg_cpc": "39.82666667",
+            "avg_cpm": "2342.74509800"
+        },
+        {
+            "campaign_name": "Campaign_698",
+            "avg_cpc": "141.67500000",
+            "avg_cpm": "2213.67187500"
+        },
+        {
+            "campaign_name": "Campaign_699",
+            "avg_cpc": "42.63166667",
+            "avg_cpm": "2325.36363600"
+        },
+        {
+            "campaign_name": "Campaign_700",
+            "avg_cpc": "79.26750000",
+            "avg_cpm": "2232.88732300"
+        },
+        {
+            "campaign_name": "Campaign_701",
+            "avg_cpc": "314.72000000",
+            "avg_cpm": "2232.05673700"
+        },
+        {
+            "campaign_name": "Campaign_702",
+            "avg_cpc": "64.47200000",
+            "avg_cpm": "2149.06666600"
+        },
+        {
+            "campaign_name": "Campaign_703",
+            "avg_cpc": "36.38900000",
+            "avg_cpm": "2442.21476500"
+        },
+        {
+            "campaign_name": "Campaign_704",
+            "avg_cpc": "39.68200000",
+            "avg_cpm": "2480.12500000"
+        },
+        {
+            "campaign_name": "Campaign_705",
+            "avg_cpc": "34.88100000",
+            "avg_cpm": "2235.96153800"
+        },
+        {
+            "campaign_name": "Campaign_706",
+            "avg_cpc": "93.65500000",
+            "avg_cpm": "2386.11464900"
+        },
+        {
+            "campaign_name": "Campaign_707",
+            "avg_cpc": "118.82000000",
+            "avg_cpm": "2214.03726700"
+        },
+        {
+            "campaign_name": "Campaign_708",
+            "avg_cpc": "34.40500000",
+            "avg_cpm": "2219.67741900"
+        },
+        {
+            "campaign_name": "Campaign_709",
+            "avg_cpc": "42.49428571",
+            "avg_cpm": "2342.20472400"
+        },
+        {
+            "campaign_name": "Campaign_710",
+            "avg_cpc": "34.39777778",
+            "avg_cpm": "2293.18518500"
+        },
+        {
+            "campaign_name": "Campaign_711",
+            "avg_cpc": "30.61416667",
+            "avg_cpm": "2213.07228900"
+        },
+        {
+            "campaign_name": "Campaign_712",
+            "avg_cpc": "55.53333333",
+            "avg_cpm": "2313.88888800"
+        },
+        {
+            "campaign_name": "Campaign_713",
+            "avg_cpc": "87.99750000",
+            "avg_cpm": "2256.34615300"
+        },
+        {
+            "campaign_name": "Campaign_714",
+            "avg_cpc": "80.31750000",
+            "avg_cpm": "2072.70967700"
+        },
+        {
+            "campaign_name": "Campaign_715",
+            "avg_cpc": "40.65428571",
+            "avg_cpm": "2206.04651100"
+        },
+        {
+            "campaign_name": "Campaign_716",
+            "avg_cpc": "48.84000000",
+            "avg_cpm": "2294.49664400"
+        },
+        {
+            "campaign_name": "Campaign_717",
+            "avg_cpc": "29.24000000",
+            "avg_cpm": "2165.92592500"
+        },
+        {
+            "campaign_name": "Campaign_718",
+            "avg_cpc": "48.86166667",
+            "avg_cpm": "2290.39062500"
+        },
+        {
+            "campaign_name": "Campaign_719",
+            "avg_cpc": "55.05666667",
+            "avg_cpm": "2202.26666600"
+        },
+        {
+            "campaign_name": "Campaign_720",
+            "avg_cpc": "33.97000000",
+            "avg_cpm": "2215.43478200"
+        },
+        {
+            "campaign_name": "Campaign_721",
+            "avg_cpc": "51.94666667",
+            "avg_cpm": "2064.10596000"
+        },
+        {
+            "campaign_name": "Campaign_722",
+            "avg_cpc": "46.00125000",
+            "avg_cpm": "2359.03846100"
+        },
+        {
+            "campaign_name": "Campaign_723",
+            "avg_cpc": "39.31000000",
+            "avg_cpm": "2211.18750000"
+        },
+        {
+            "campaign_name": "Campaign_724",
+            "avg_cpc": "59.65833333",
+            "avg_cpm": "2309.35483800"
+        },
+        {
+            "campaign_name": "Campaign_725",
+            "avg_cpc": "39.25333333",
+            "avg_cpm": "2294.02597400"
+        },
+        {
+            "campaign_name": "Campaign_726",
+            "avg_cpc": "46.54571429",
+            "avg_cpm": "2378.24817500"
+        },
+        {
+            "campaign_name": "Campaign_727",
+            "avg_cpc": "47.65428571",
+            "avg_cpm": "2300.55172400"
+        },
+        {
+            "campaign_name": "Campaign_728",
+            "avg_cpc": "40.44111111",
+            "avg_cpm": "2219.32926800"
+        },
+        {
+            "campaign_name": "Campaign_729",
+            "avg_cpc": "49.38142857",
+            "avg_cpm": "2259.28104500"
+        },
+        {
+            "campaign_name": "Campaign_730",
+            "avg_cpc": "44.50000000",
+            "avg_cpm": "2342.10526300"
+        },
+        {
+            "campaign_name": "Campaign_731",
+            "avg_cpc": "51.57285714",
+            "avg_cpm": "2174.75903600"
+        },
+        {
+            "campaign_name": "Campaign_732",
+            "avg_cpc": "47.64142857",
+            "avg_cpm": "2299.93103400"
+        },
+        {
+            "campaign_name": "Campaign_733",
+            "avg_cpc": "38.56888889",
+            "avg_cpm": "2314.13333300"
+        },
+        {
+            "campaign_name": "Campaign_734",
+            "avg_cpc": "62.63600000",
+            "avg_cpm": "2253.09352500"
+        },
+        {
+            "campaign_name": "Campaign_735",
+            "avg_cpc": "32.32727273",
+            "avg_cpm": "2250.63291100"
+        },
+        {
+            "campaign_name": "Campaign_736",
+            "avg_cpc": "36.25625000",
+            "avg_cpm": "2148.51851800"
+        },
+        {
+            "campaign_name": "Campaign_737",
+            "avg_cpc": "55.49000000",
+            "avg_cpm": "2249.59459400"
+        },
+        {
+            "campaign_name": "Campaign_738",
+            "avg_cpc": "56.76166667",
+            "avg_cpm": "2398.38028100"
+        },
+        {
+            "campaign_name": "Campaign_739",
+            "avg_cpc": "51.83666667",
+            "avg_cpm": "2338.49624000"
+        },
+        {
+            "campaign_name": "Campaign_740",
+            "avg_cpc": "29.53583333",
+            "avg_cpm": "2187.83950600"
+        },
+        {
+            "campaign_name": "Campaign_741",
+            "avg_cpc": "64.42000000",
+            "avg_cpm": "2252.44755200"
+        },
+        {
+            "campaign_name": "Campaign_742",
+            "avg_cpc": "29.65700000",
+            "avg_cpm": "2281.30769200"
+        },
+        {
+            "campaign_name": "Campaign_743",
+            "avg_cpc": "48.33285714",
+            "avg_cpm": "2255.53333300"
+        },
+        {
+            "campaign_name": "Campaign_744",
+            "avg_cpc": "63.23800000",
+            "avg_cpm": "2359.62686500"
+        },
+        {
+            "campaign_name": "Campaign_745",
+            "avg_cpc": "39.83375000",
+            "avg_cpm": "2326.05839400"
+        },
+        {
+            "campaign_name": "Campaign_746",
+            "avg_cpc": "37.59750000",
+            "avg_cpm": "2211.61764700"
+        },
+        {
+            "campaign_name": "Campaign_747",
+            "avg_cpc": "75.27000000",
+            "avg_cpm": "2048.16326500"
+        },
+        {
+            "campaign_name": "Campaign_748",
+            "avg_cpc": "41.60000000",
+            "avg_cpm": "2360.28368700"
+        },
+        {
+            "campaign_name": "Campaign_749",
+            "avg_cpc": "75.57000000",
+            "avg_cpm": "2318.09815900"
+        },
+        {
+            "campaign_name": "Campaign_750",
+            "avg_cpc": "36.14600000",
+            "avg_cpm": "2347.14285700"
+        },
+        {
+            "campaign_name": "Campaign_751",
+            "avg_cpc": "47.69428571",
+            "avg_cpm": "2196.44736800"
+        },
+        {
+            "campaign_name": "Campaign_752",
+            "avg_cpc": "22.55812500",
+            "avg_cpm": "2343.70129800"
+        },
+        {
+            "campaign_name": "Campaign_753",
+            "avg_cpc": "58.90500000",
+            "avg_cpm": "2340.59602600"
+        },
+        {
+            "campaign_name": "Campaign_754",
+            "avg_cpc": "45.68857143",
+            "avg_cpm": "2063.35483800"
+        },
+        {
+            "campaign_name": "Campaign_755",
+            "avg_cpc": "30.57272727",
+            "avg_cpm": "2402.14285700"
+        },
+        {
+            "campaign_name": "Campaign_756",
+            "avg_cpc": "36.32555556",
+            "avg_cpm": "2194.16107300"
+        },
+        {
+            "campaign_name": "Campaign_757",
+            "avg_cpc": "17.34588235",
+            "avg_cpm": "2233.93939300"
+        },
+        {
+            "campaign_name": "Campaign_758",
+            "avg_cpc": "52.37714286",
+            "avg_cpm": "2335.28662400"
+        },
+        {
+            "campaign_name": "Campaign_759",
+            "avg_cpc": "44.03142857",
+            "avg_cpm": "2068.59060400"
+        },
+        {
+            "campaign_name": "Campaign_760",
+            "avg_cpc": "79.32000000",
+            "avg_cpm": "2332.94117600"
+        },
+        {
+            "campaign_name": "Campaign_761",
+            "avg_cpc": "56.52833333",
+            "avg_cpm": "2246.15894000"
+        },
+        {
+            "campaign_name": "Campaign_762",
+            "avg_cpc": "74.23600000",
+            "avg_cpm": "2263.29268200"
+        },
+        {
+            "campaign_name": "Campaign_763",
+            "avg_cpc": "160.72500000",
+            "avg_cpm": "2216.89655100"
+        },
+        {
+            "campaign_name": "Campaign_764",
+            "avg_cpc": "69.61200000",
+            "avg_cpm": "2231.15384600"
+        },
+        {
+            "campaign_name": "Campaign_765",
+            "avg_cpc": "39.48250000",
+            "avg_cpm": "2288.84057900"
+        },
+        {
+            "campaign_name": "Campaign_766",
+            "avg_cpc": "59.62166667",
+            "avg_cpm": "2293.14102500"
+        },
+        {
+            "campaign_name": "Campaign_767",
+            "avg_cpc": "89.91500000",
+            "avg_cpm": "2366.18421000"
+        },
+        {
+            "campaign_name": "Campaign_768",
+            "avg_cpc": "50.61333333",
+            "avg_cpm": "2249.48148100"
+        },
+        {
+            "campaign_name": "Campaign_769",
+            "avg_cpc": "50.23857143",
+            "avg_cpm": "2211.76100600"
+        },
+        {
+            "campaign_name": "Campaign_770",
+            "avg_cpc": "33.32777778",
+            "avg_cpm": "2173.55072400"
+        },
+        {
+            "campaign_name": "Campaign_771",
+            "avg_cpc": "34.47400000",
+            "avg_cpm": "2268.02631500"
+        },
+        {
+            "campaign_name": "Campaign_772",
+            "avg_cpc": "157.62000000",
+            "avg_cpm": "2174.06896500"
+        },
+        {
+            "campaign_name": "Campaign_773",
+            "avg_cpc": "62.88833333",
+            "avg_cpm": "2418.78205100"
+        },
+        {
+            "campaign_name": "Campaign_774",
+            "avg_cpc": "62.97166667",
+            "avg_cpm": "2303.84146300"
+        },
+        {
+            "campaign_name": "Campaign_775",
+            "avg_cpc": "52.16000000",
+            "avg_cpm": "2296.35220100"
+        },
+        {
+            "campaign_name": "Campaign_776",
+            "avg_cpc": "110.95000000",
+            "avg_cpm": "2279.79452000"
+        },
+        {
+            "campaign_name": "Campaign_777",
+            "avg_cpc": "42.38555556",
+            "avg_cpm": "2384.18750000"
+        },
+        {
+            "campaign_name": "Campaign_778",
+            "avg_cpc": "92.19750000",
+            "avg_cpm": "2348.98089100"
+        },
+        {
+            "campaign_name": "Campaign_779",
+            "avg_cpc": "55.06500000",
+            "avg_cpm": "2278.55172400"
+        },
+        {
+            "campaign_name": "Campaign_780",
+            "avg_cpc": "156.72500000",
+            "avg_cpm": "2191.95804100"
+        },
+        {
+            "campaign_name": "Campaign_781",
+            "avg_cpc": "46.62428571",
+            "avg_cpm": "2282.30769200"
+        },
+        {
+            "campaign_name": "Campaign_782",
+            "avg_cpc": "83.01750000",
+            "avg_cpm": "2156.29870100"
+        },
+        {
+            "campaign_name": "Campaign_783",
+            "avg_cpc": "53.11500000",
+            "avg_cpm": "2182.80821900"
+        },
+        {
+            "campaign_name": "Campaign_784",
+            "avg_cpc": "54.60666667",
+            "avg_cpm": "2374.20289800"
+        },
+        {
+            "campaign_name": "Campaign_785",
+            "avg_cpc": "57.31833333",
+            "avg_cpm": "2292.73333300"
+        },
+        {
+            "campaign_name": "Campaign_786",
+            "avg_cpc": "51.73285714",
+            "avg_cpm": "2263.31250000"
+        },
+        {
+            "campaign_name": "Campaign_787",
+            "avg_cpc": "57.06333333",
+            "avg_cpm": "2194.74358900"
+        },
+        {
+            "campaign_name": "Campaign_788",
+            "avg_cpc": "52.24333333",
+            "avg_cpm": "2146.98630100"
+        },
+        {
+            "campaign_name": "Campaign_789",
+            "avg_cpc": "30.08333333",
+            "avg_cpm": "2375.00000000"
+        },
+        {
+            "campaign_name": "Campaign_790",
+            "avg_cpc": "55.43333333",
+            "avg_cpm": "2278.08219100"
+        },
+        {
+            "campaign_name": "Campaign_791",
+            "avg_cpc": "47.38142857",
+            "avg_cpm": "2225.97315400"
+        },
+        {
+            "campaign_name": "Campaign_792",
+            "avg_cpc": "47.90571429",
+            "avg_cpm": "2235.60000000"
+        },
+        {
+            "campaign_name": "Campaign_793",
+            "avg_cpc": "29.41454545",
+            "avg_cpm": "2157.06666600"
+        },
+        {
+            "campaign_name": "Campaign_794",
+            "avg_cpc": "92.02250000",
+            "avg_cpm": "2390.19480500"
+        },
+        {
+            "campaign_name": "Campaign_795",
+            "avg_cpc": "37.49000000",
+            "avg_cpm": "2343.12500000"
+        },
+        {
+            "campaign_name": "Campaign_796",
+            "avg_cpc": "59.78000000",
+            "avg_cpm": "2375.36423800"
+        },
+        {
+            "campaign_name": "Campaign_797",
+            "avg_cpc": "50.05285714",
+            "avg_cpm": "2245.96153800"
+        },
+        {
+            "campaign_name": "Campaign_798",
+            "avg_cpc": "40.64750000",
+            "avg_cpm": "2273.98601300"
+        },
+        {
+            "campaign_name": "Campaign_799",
+            "avg_cpc": "60.22400000",
+            "avg_cpm": "2214.11764700"
+        },
+        {
+            "campaign_name": "Campaign_800",
+            "avg_cpc": "44.40142857",
+            "avg_cpm": "2158.40277700"
+        },
+        {
+            "campaign_name": "Campaign_801",
+            "avg_cpc": "38.51555556",
+            "avg_cpm": "2358.09523800"
+        },
+        {
+            "campaign_name": "Campaign_802",
+            "avg_cpc": "32.35400000",
+            "avg_cpm": "2294.60992900"
+        },
+        {
+            "campaign_name": "Campaign_803",
+            "avg_cpc": "43.52111111",
+            "avg_cpm": "2373.87878700"
+        },
+        {
+            "campaign_name": "Campaign_804",
+            "avg_cpc": "113.28666667",
+            "avg_cpm": "2265.73333300"
+        },
+        {
+            "campaign_name": "Campaign_805",
+            "avg_cpc": "51.23428571",
+            "avg_cpm": "2284.33121000"
+        },
+        {
+            "campaign_name": "Campaign_806",
+            "avg_cpc": "69.77000000",
+            "avg_cpm": "2389.38356100"
+        },
+        {
+            "campaign_name": "Campaign_807",
+            "avg_cpc": "68.44200000",
+            "avg_cpm": "2427.02127600"
+        },
+        {
+            "campaign_name": "Campaign_808",
+            "avg_cpc": "56.60166667",
+            "avg_cpm": "2326.09589000"
+        },
+        {
+            "campaign_name": "Campaign_809",
+            "avg_cpc": "35.92200000",
+            "avg_cpm": "2460.41095800"
+        },
+        {
+            "campaign_name": "Campaign_810",
+            "avg_cpc": "43.22375000",
+            "avg_cpm": "2108.47560900"
+        },
+        {
+            "campaign_name": "Campaign_811",
+            "avg_cpc": "67.62833333",
+            "avg_cpm": "2279.60674100"
+        },
+        {
+            "campaign_name": "Campaign_812",
+            "avg_cpc": "40.54500000",
+            "avg_cpm": "2148.07947000"
+        },
+        {
+            "campaign_name": "Campaign_813",
+            "avg_cpc": "33.81222222",
+            "avg_cpm": "2270.97014900"
+        },
+        {
+            "campaign_name": "Campaign_814",
+            "avg_cpc": "73.85250000",
+            "avg_cpm": "2221.12781900"
+        },
+        {
+            "campaign_name": "Campaign_815",
+            "avg_cpc": "35.56909091",
+            "avg_cpm": "2328.92857100"
+        },
+        {
+            "campaign_name": "Campaign_816",
+            "avg_cpc": "57.32833333",
+            "avg_cpm": "2324.12162100"
+        },
+        {
+            "campaign_name": "Campaign_817",
+            "avg_cpc": "59.37714286",
+            "avg_cpm": "2271.25683000"
+        },
+        {
+            "campaign_name": "Campaign_818",
+            "avg_cpc": "28.91083333",
+            "avg_cpm": "2089.93975900"
+        },
+        {
+            "campaign_name": "Campaign_819",
+            "avg_cpc": "60.69428571",
+            "avg_cpm": "2259.89361700"
+        },
+        {
+            "campaign_name": "Campaign_820",
+            "avg_cpc": "76.99600000",
+            "avg_cpm": "2305.26946100"
+        },
+        {
+            "campaign_name": "Campaign_821",
+            "avg_cpc": "46.24250000",
+            "avg_cpm": "2326.66666600"
+        },
+        {
+            "campaign_name": "Campaign_822",
+            "avg_cpc": "45.81555556",
+            "avg_cpm": "2397.32558100"
+        },
+        {
+            "campaign_name": "Campaign_823",
+            "avg_cpc": "45.23142857",
+            "avg_cpm": "2245.53191400"
+        },
+        {
+            "campaign_name": "Campaign_824",
+            "avg_cpc": "55.34000000",
+            "avg_cpm": "2338.30985900"
+        },
+        {
+            "campaign_name": "Campaign_825",
+            "avg_cpc": "50.03000000",
+            "avg_cpm": "2455.46012200"
+        },
+        {
+            "campaign_name": "Campaign_826",
+            "avg_cpc": "41.64000000",
+            "avg_cpm": "2362.55319100"
+        },
+        {
+            "campaign_name": "Campaign_827",
+            "avg_cpc": "29.26000000",
+            "avg_cpm": "2349.34306500"
+        },
+        {
+            "campaign_name": "Campaign_828",
+            "avg_cpc": "33.10727273",
+            "avg_cpm": "2304.93670800"
+        },
+        {
+            "campaign_name": "Campaign_829",
+            "avg_cpc": "27.01500000",
+            "avg_cpm": "2205.30612200"
+        },
+        {
+            "campaign_name": "Campaign_830",
+            "avg_cpc": "30.95333333",
+            "avg_cpm": "2228.64000000"
+        },
+        {
+            "campaign_name": "Campaign_831",
+            "avg_cpc": "55.30500000",
+            "avg_cpm": "2336.83098500"
+        },
+        {
+            "campaign_name": "Campaign_832",
+            "avg_cpc": "53.39166667",
+            "avg_cpm": "2338.32116700"
+        },
+        {
+            "campaign_name": "Campaign_833",
+            "avg_cpc": "86.78250000",
+            "avg_cpm": "2142.77777700"
+        },
+        {
+            "campaign_name": "Campaign_834",
+            "avg_cpc": "99.29666667",
+            "avg_cpm": "2256.74242400"
+        },
+        {
+            "campaign_name": "Campaign_835",
+            "avg_cpc": "359.41000000",
+            "avg_cpm": "2412.14765100"
+        },
+        {
+            "campaign_name": "Campaign_836",
+            "avg_cpc": "53.41833333",
+            "avg_cpm": "2374.14814800"
+        },
+        {
+            "campaign_name": "Campaign_837",
+            "avg_cpc": "30.21416667",
+            "avg_cpm": "2324.16666600"
+        },
+        {
+            "campaign_name": "Campaign_838",
+            "avg_cpc": "34.08000000",
+            "avg_cpm": "2212.98701200"
+        },
+        {
+            "campaign_name": "Campaign_839",
+            "avg_cpc": "39.66250000",
+            "avg_cpm": "2203.47222200"
+        },
+        {
+            "campaign_name": "Campaign_840",
+            "avg_cpc": "83.60000000",
+            "avg_cpm": "2274.82993100"
+        },
+        {
+            "campaign_name": "Campaign_841",
+            "avg_cpc": "42.43000000",
+            "avg_cpm": "2357.22222200"
+        },
+        {
+            "campaign_name": "Campaign_842",
+            "avg_cpc": "91.97250000",
+            "avg_cpm": "2373.48387000"
+        },
+        {
+            "campaign_name": "Campaign_843",
+            "avg_cpc": "72.49333333",
+            "avg_cpm": "2416.44444400"
+        },
+        {
+            "campaign_name": "Campaign_844",
+            "avg_cpc": "36.13000000",
+            "avg_cpm": "2373.50364900"
+        },
+        {
+            "campaign_name": "Campaign_845",
+            "avg_cpc": "30.56166667",
+            "avg_cpm": "2170.05917100"
+        },
+        {
+            "campaign_name": "Campaign_846",
+            "avg_cpc": "23.08687500",
+            "avg_cpm": "2280.18518500"
+        },
+        {
+            "campaign_name": "Campaign_847",
+            "avg_cpc": "63.25666667",
+            "avg_cpm": "2314.26829200"
+        },
+        {
+            "campaign_name": "Campaign_848",
+            "avg_cpc": "30.71909091",
+            "avg_cpm": "2252.73333300"
+        },
+        {
+            "campaign_name": "Campaign_849",
+            "avg_cpc": "38.72000000",
+            "avg_cpm": "2196.87943200"
+        },
+        {
+            "campaign_name": "Campaign_850",
+            "avg_cpc": "34.37900000",
+            "avg_cpm": "2421.05633800"
+        },
+        {
+            "campaign_name": "Campaign_851",
+            "avg_cpc": "35.59000000",
+            "avg_cpm": "2287.92857100"
+        },
+        {
+            "campaign_name": "Campaign_852",
+            "avg_cpc": "29.82818182",
+            "avg_cpm": "2187.40000000"
+        },
+        {
+            "campaign_name": "Campaign_853",
+            "avg_cpc": "52.61142857",
+            "avg_cpm": "2455.20000000"
+        },
+        {
+            "campaign_name": "Campaign_854",
+            "avg_cpc": "52.48666667",
+            "avg_cpm": "2233.47517700"
+        },
+        {
+            "campaign_name": "Campaign_855",
+            "avg_cpc": "53.54333333",
+            "avg_cpm": "2294.71428500"
+        },
+        {
+            "campaign_name": "Campaign_856",
+            "avg_cpc": "37.66333333",
+            "avg_cpm": "2159.04458500"
+        },
+        {
+            "campaign_name": "Campaign_857",
+            "avg_cpc": "65.93400000",
+            "avg_cpm": "2242.65306100"
+        },
+        {
+            "campaign_name": "Campaign_858",
+            "avg_cpc": "32.00200000",
+            "avg_cpm": "2091.63398600"
+        },
+        {
+            "campaign_name": "Campaign_859",
+            "avg_cpc": "58.20600000",
+            "avg_cpm": "2139.92647000"
+        },
+        {
+            "campaign_name": "Campaign_860",
+            "avg_cpc": "56.25166667",
+            "avg_cpm": "2360.20979000"
+        },
+        {
+            "campaign_name": "Campaign_861",
+            "avg_cpc": "43.68666667",
+            "avg_cpm": "2488.48101200"
+        },
+        {
+            "campaign_name": "Campaign_862",
+            "avg_cpc": "62.92666667",
+            "avg_cpm": "2330.61728300"
+        },
+        {
+            "campaign_name": "Campaign_863",
+            "avg_cpc": "48.82857143",
+            "avg_cpm": "2373.61111100"
+        },
+        {
+            "campaign_name": "Campaign_864",
+            "avg_cpc": "326.22000000",
+            "avg_cpm": "2234.38356100"
+        },
+        {
+            "campaign_name": "Campaign_865",
+            "avg_cpc": "36.77500000",
+            "avg_cpm": "2536.20689600"
+        },
+        {
+            "campaign_name": "Campaign_866",
+            "avg_cpc": "41.49750000",
+            "avg_cpm": "2184.07894700"
+        },
+        {
+            "campaign_name": "Campaign_867",
+            "avg_cpc": "40.24625000",
+            "avg_cpm": "2190.27210800"
+        },
+        {
+            "campaign_name": "Campaign_868",
+            "avg_cpc": "41.56625000",
+            "avg_cpm": "2202.18543000"
+        },
+        {
+            "campaign_name": "Campaign_869",
+            "avg_cpc": "44.41000000",
+            "avg_cpm": "2292.12903200"
+        },
+        {
+            "campaign_name": "Campaign_870",
+            "avg_cpc": "28.90083333",
+            "avg_cpm": "2312.06666600"
+        },
+        {
+            "campaign_name": "Campaign_871",
+            "avg_cpc": "64.16400000",
+            "avg_cpm": "2197.39726000"
+        },
+        {
+            "campaign_name": "Campaign_872",
+            "avg_cpc": "55.10333333",
+            "avg_cpm": "2175.13157800"
+        },
+        {
+            "campaign_name": "Campaign_873",
+            "avg_cpc": "56.47500000",
+            "avg_cpm": "2244.03973500"
+        },
+        {
+            "campaign_name": "Campaign_874",
+            "avg_cpc": "25.51571429",
+            "avg_cpm": "2289.87179400"
+        },
+        {
+            "campaign_name": "Campaign_875",
+            "avg_cpc": "49.33166667",
+            "avg_cpm": "2208.88059700"
+        },
+        {
+            "campaign_name": "Campaign_876",
+            "avg_cpc": "37.68000000",
+            "avg_cpm": "2400.00000000"
+        },
+        {
+            "campaign_name": "Campaign_877",
+            "avg_cpc": "81.82250000",
+            "avg_cpm": "2371.66666600"
+        },
+        {
+            "campaign_name": "Campaign_878",
+            "avg_cpc": "41.28750000",
+            "avg_cpm": "2246.93877500"
+        },
+        {
+            "campaign_name": "Campaign_879",
+            "avg_cpc": "104.75666667",
+            "avg_cpm": "2277.31884000"
+        },
+        {
+            "campaign_name": "Campaign_880",
+            "avg_cpc": "41.26000000",
+            "avg_cpm": "2324.50704200"
+        },
+        {
+            "campaign_name": "Campaign_881",
+            "avg_cpc": "30.72727273",
+            "avg_cpm": "2331.03448200"
+        },
+        {
+            "campaign_name": "Campaign_882",
+            "avg_cpc": "27.99666667",
+            "avg_cpm": "2099.75000000"
+        },
+        {
+            "campaign_name": "Campaign_883",
+            "avg_cpc": "37.22375000",
+            "avg_cpm": "2142.37410000"
+        },
+        {
+            "campaign_name": "Campaign_884",
+            "avg_cpc": "43.98500000",
+            "avg_cpm": "2255.64102500"
+        },
+        {
+            "campaign_name": "Campaign_885",
+            "avg_cpc": "32.46777778",
+            "avg_cpm": "2282.89062500"
+        },
+        {
+            "campaign_name": "Campaign_886",
+            "avg_cpc": "33.21600000",
+            "avg_cpm": "2406.95652100"
+        },
+        {
+            "campaign_name": "Campaign_887",
+            "avg_cpc": "62.51200000",
+            "avg_cpm": "2264.92753600"
+        },
+        {
+            "campaign_name": "Campaign_888",
+            "avg_cpc": "38.83125000",
+            "avg_cpm": "2389.61538400"
+        },
+        {
+            "campaign_name": "Campaign_889",
+            "avg_cpc": "169.94500000",
+            "avg_cpm": "2312.17687000"
+        },
+        {
+            "campaign_name": "Campaign_890",
+            "avg_cpc": "45.51571429",
+            "avg_cpm": "2292.15827300"
+        },
+        {
+            "campaign_name": "Campaign_891",
+            "avg_cpc": "32.81272727",
+            "avg_cpm": "2241.86335400"
+        },
+        {
+            "campaign_name": "Campaign_892",
+            "avg_cpc": "59.97833333",
+            "avg_cpm": "2336.81818100"
+        },
+        {
+            "campaign_name": "Campaign_893",
+            "avg_cpc": "89.23500000",
+            "avg_cpm": "2348.28947300"
+        },
+        {
+            "campaign_name": "Campaign_894",
+            "avg_cpc": "58.63333333",
+            "avg_cpm": "2393.19727800"
+        },
+        {
+            "campaign_name": "Campaign_895",
+            "avg_cpc": "47.54833333",
+            "avg_cpm": "2113.25925900"
+        },
+        {
+            "campaign_name": "Campaign_896",
+            "avg_cpc": "47.55125000",
+            "avg_cpm": "2470.19480500"
+        },
+        {
+            "campaign_name": "Campaign_897",
+            "avg_cpc": "42.34250000",
+            "avg_cpm": "2320.13698600"
+        },
+        {
+            "campaign_name": "Campaign_898",
+            "avg_cpc": "56.34666667",
+            "avg_cpm": "2331.58620600"
+        },
+        {
+            "campaign_name": "Campaign_899",
+            "avg_cpc": "67.26400000",
+            "avg_cpm": "2102.00000000"
+        },
+        {
+            "campaign_name": "Campaign_900",
+            "avg_cpc": "34.77777778",
+            "avg_cpm": "2284.67153200"
+        },
+        {
+            "campaign_name": "Campaign_901",
+            "avg_cpc": "63.47200000",
+            "avg_cpm": "2316.49635000"
+        },
+        {
+            "campaign_name": "Campaign_902",
+            "avg_cpc": "34.89800000",
+            "avg_cpm": "2295.92105200"
+        },
+        {
+            "campaign_name": "Campaign_903",
+            "avg_cpc": "45.21285714",
+            "avg_cpm": "2434.53846100"
+        },
+        {
+            "campaign_name": "Campaign_904",
+            "avg_cpc": "44.27000000",
+            "avg_cpm": "2345.43046300"
+        },
+        {
+            "campaign_name": "Campaign_905",
+            "avg_cpc": "62.53600000",
+            "avg_cpm": "2265.79710100"
+        },
+        {
+            "campaign_name": "Campaign_906",
+            "avg_cpc": "69.60200000",
+            "avg_cpm": "2274.57516300"
+        },
+        {
+            "campaign_name": "Campaign_907",
+            "avg_cpc": "49.33166667",
+            "avg_cpm": "2294.49612400"
+        },
+        {
+            "campaign_name": "Campaign_908",
+            "avg_cpc": "56.64400000",
+            "avg_cpm": "2161.98473200"
+        },
+        {
+            "campaign_name": "Campaign_909",
+            "avg_cpc": "55.30428571",
+            "avg_cpm": "2404.53416100"
+        },
+        {
+            "campaign_name": "Campaign_910",
+            "avg_cpc": "55.71666667",
+            "avg_cpm": "2289.72602700"
+        },
+        {
+            "campaign_name": "Campaign_911",
+            "avg_cpc": "52.32714286",
+            "avg_cpm": "2394.05228700"
+        },
+        {
+            "campaign_name": "Campaign_912",
+            "avg_cpc": "41.44777778",
+            "avg_cpm": "2331.43750000"
+        },
+        {
+            "campaign_name": "Campaign_913",
+            "avg_cpc": "45.68375000",
+            "avg_cpm": "2201.62650600"
+        },
+        {
+            "campaign_name": "Campaign_914",
+            "avg_cpc": "125.50666667",
+            "avg_cpm": "2309.93865000"
+        },
+        {
+            "campaign_name": "Campaign_915",
+            "avg_cpc": "107.29666667",
+            "avg_cpm": "2266.83098500"
+        },
+        {
+            "campaign_name": "Campaign_916",
+            "avg_cpc": "68.15000000",
+            "avg_cpm": "2252.89256100"
+        },
+        {
+            "campaign_name": "Campaign_917",
+            "avg_cpc": "19.61176471",
+            "avg_cpm": "2315.27777700"
+        },
+        {
+            "campaign_name": "Campaign_918",
+            "avg_cpc": "42.85857143",
+            "avg_cpm": "2238.88059700"
+        },
+        {
+            "campaign_name": "Campaign_919",
+            "avg_cpc": "107.79333333",
+            "avg_cpm": "2277.32394300"
+        },
+        {
+            "campaign_name": "Campaign_920",
+            "avg_cpc": "54.86833333",
+            "avg_cpm": "2180.19867500"
+        },
+        {
+            "campaign_name": "Campaign_921",
+            "avg_cpc": "28.89333333",
+            "avg_cpm": "2222.56410200"
+        },
+        {
+            "campaign_name": "Campaign_922",
+            "avg_cpc": "55.68714286",
+            "avg_cpm": "2240.28735600"
+        },
+        {
+            "campaign_name": "Campaign_923",
+            "avg_cpc": "50.26000000",
+            "avg_cpm": "2284.54545400"
+        },
+        {
+            "campaign_name": "Campaign_924",
+            "avg_cpc": "34.04100000",
+            "avg_cpm": "2347.65517200"
+        },
+        {
+            "campaign_name": "Campaign_925",
+            "avg_cpc": "30.26545455",
+            "avg_cpm": "2361.13475100"
+        },
+        {
+            "campaign_name": "Campaign_926",
+            "avg_cpc": "48.26875000",
+            "avg_cpm": "2271.47058800"
+        },
+        {
+            "campaign_name": "Campaign_927",
+            "avg_cpc": "63.42333333",
+            "avg_cpm": "2408.48101200"
+        },
+        {
+            "campaign_name": "Campaign_928",
+            "avg_cpc": "57.36166667",
+            "avg_cpm": "2264.27631500"
+        },
+        {
+            "campaign_name": "Campaign_929",
+            "avg_cpc": "53.67500000",
+            "avg_cpm": "2267.95774600"
+        },
+        {
+            "campaign_name": "Campaign_930",
+            "avg_cpc": "42.24333333",
+            "avg_cpm": "2468.76623300"
+        },
+        {
+            "campaign_name": "Campaign_931",
+            "avg_cpc": "73.84200000",
+            "avg_cpm": "2251.28048700"
+        },
+        {
+            "campaign_name": "Campaign_932",
+            "avg_cpc": "40.91700000",
+            "avg_cpm": "2392.80701700"
+        },
+        {
+            "campaign_name": "Campaign_933",
+            "avg_cpc": "49.02428571",
+            "avg_cpm": "2185.79617800"
+        },
+        {
+            "campaign_name": "Campaign_934",
+            "avg_cpc": "50.85428571",
+            "avg_cpm": "2267.38853500"
+        },
+        {
+            "campaign_name": "Campaign_935",
+            "avg_cpc": "112.59666667",
+            "avg_cpm": "2378.80281600"
+        },
+        {
+            "campaign_name": "Campaign_936",
+            "avg_cpc": "52.62333333",
+            "avg_cpm": "2207.97202700"
+        },
+        {
+            "campaign_name": "Campaign_937",
+            "avg_cpc": "83.25000000",
+            "avg_cpm": "2361.70212700"
+        },
+        {
+            "campaign_name": "Campaign_938",
+            "avg_cpc": "88.48000000",
+            "avg_cpm": "2240.00000000"
+        },
+        {
+            "campaign_name": "Campaign_939",
+            "avg_cpc": "40.74428571",
+            "avg_cpm": "2318.78048700"
+        },
+        {
+            "campaign_name": "Campaign_940",
+            "avg_cpc": "35.32454545",
+            "avg_cpm": "2220.40000000"
+        },
+        {
+            "campaign_name": "Campaign_941",
+            "avg_cpc": "38.05800000",
+            "avg_cpm": "2424.07643300"
+        },
+        {
+            "campaign_name": "Campaign_942",
+            "avg_cpc": "30.90181818",
+            "avg_cpm": "2266.13333300"
+        },
+        {
+            "campaign_name": "Campaign_943",
+            "avg_cpc": "40.55857143",
+            "avg_cpm": "2118.73134300"
+        },
+        {
+            "campaign_name": "Campaign_944",
+            "avg_cpc": "37.54300000",
+            "avg_cpm": "2391.27388500"
+        },
+        {
+            "campaign_name": "Campaign_945",
+            "avg_cpc": "43.78125000",
+            "avg_cpm": "2304.27631500"
+        },
+        {
+            "campaign_name": "Campaign_946",
+            "avg_cpc": "39.20777778",
+            "avg_cpm": "2416.91780800"
+        },
+        {
+            "campaign_name": "Campaign_947",
+            "avg_cpc": "77.09250000",
+            "avg_cpm": "2187.02127600"
+        },
+        {
+            "campaign_name": "Campaign_948",
+            "avg_cpc": "29.02833333",
+            "avg_cpm": "2150.24691300"
+        },
+        {
+            "campaign_name": "Campaign_949",
+            "avg_cpc": "47.90000000",
+            "avg_cpm": "2296.57534200"
+        },
+        {
+            "campaign_name": "Campaign_950",
+            "avg_cpc": "65.14200000",
+            "avg_cpm": "2448.94736800"
+        },
+        {
+            "campaign_name": "Campaign_951",
+            "avg_cpc": "61.67000000",
+            "avg_cpm": "2202.50000000"
+        },
+        {
+            "campaign_name": "Campaign_952",
+            "avg_cpc": "39.22428571",
+            "avg_cpm": "2004.16058300"
+        },
+        {
+            "campaign_name": "Campaign_953",
+            "avg_cpc": "42.93000000",
+            "avg_cpm": "2101.46853100"
+        },
+        {
+            "campaign_name": "Campaign_954",
+            "avg_cpc": "60.29000000",
+            "avg_cpm": "2184.42028900"
+        },
+        {
+            "campaign_name": "Campaign_955",
+            "avg_cpc": "39.82000000",
+            "avg_cpm": "2389.20000000"
+        },
+        {
+            "campaign_name": "Campaign_956",
+            "avg_cpc": "33.29600000",
+            "avg_cpm": "2094.08805000"
+        },
+        {
+            "campaign_name": "Campaign_957",
+            "avg_cpc": "44.95375000",
+            "avg_cpm": "2320.19354800"
+        },
+        {
+            "campaign_name": "Campaign_958",
+            "avg_cpc": "43.98000000",
+            "avg_cpm": "2241.01910800"
+        },
+        {
+            "campaign_name": "Campaign_959",
+            "avg_cpc": "67.76200000",
+            "avg_cpm": "2369.30069900"
+        },
+        {
+            "campaign_name": "Campaign_960",
+            "avg_cpc": "42.48222222",
+            "avg_cpm": "2317.21212100"
+        },
+        {
+            "campaign_name": "Campaign_961",
+            "avg_cpc": "27.36384615",
+            "avg_cpm": "2419.93197200"
+        },
+        {
+            "campaign_name": "Campaign_962",
+            "avg_cpc": "69.23200000",
+            "avg_cpm": "2233.29032200"
+        },
+        {
+            "campaign_name": "Campaign_963",
+            "avg_cpc": "34.64700000",
+            "avg_cpm": "2112.62195100"
+        },
+        {
+            "campaign_name": "Campaign_964",
+            "avg_cpc": "45.52000000",
+            "avg_cpm": "2380.13071800"
+        },
+        {
+            "campaign_name": "Campaign_965",
+            "avg_cpc": "40.29444444",
+            "avg_cpm": "2197.87878700"
+        },
+        {
+            "campaign_name": "Campaign_966",
+            "avg_cpc": "29.22250000",
+            "avg_cpm": "2322.31788000"
+        },
+        {
+            "campaign_name": "Campaign_967",
+            "avg_cpc": "45.04875000",
+            "avg_cpm": "2370.98684200"
+        },
+        {
+            "campaign_name": "Campaign_968",
+            "avg_cpc": "37.77333333",
+            "avg_cpm": "2193.29032200"
+        },
+        {
+            "campaign_name": "Campaign_969",
+            "avg_cpc": "74.17166667",
+            "avg_cpm": "2330.00000000"
+        },
+        {
+            "campaign_name": "Campaign_970",
+            "avg_cpc": "31.57454545",
+            "avg_cpm": "2300.13245000"
+        },
+        {
+            "campaign_name": "Campaign_971",
+            "avg_cpc": "22.81230769",
+            "avg_cpm": "2263.81679300"
+        },
+        {
+            "campaign_name": "Campaign_972",
+            "avg_cpc": "29.86600000",
+            "avg_cpm": "2212.29629600"
+        },
+        {
+            "campaign_name": "Campaign_973",
+            "avg_cpc": "41.88000000",
+            "avg_cpm": "2279.18367300"
+        },
+        {
+            "campaign_name": "Campaign_974",
+            "avg_cpc": "43.14875000",
+            "avg_cpm": "2198.66242000"
+        },
+        {
+            "campaign_name": "Campaign_975",
+            "avg_cpc": "36.55000000",
+            "avg_cpm": "2298.74213800"
+        },
+        {
+            "campaign_name": "Campaign_976",
+            "avg_cpc": "50.03714286",
+            "avg_cpm": "2289.28104500"
+        },
+        {
+            "campaign_name": "Campaign_977",
+            "avg_cpc": "44.90714286",
+            "avg_cpm": "2261.51079100"
+        },
+        {
+            "campaign_name": "Campaign_978",
+            "avg_cpc": "73.71250000",
+            "avg_cpm": "2250.76335800"
+        },
+        {
+            "campaign_name": "Campaign_979",
+            "avg_cpc": "35.08555556",
+            "avg_cpm": "2208.18181800"
+        },
+        {
+            "campaign_name": "Campaign_980",
+            "avg_cpc": "48.30714286",
+            "avg_cpm": "2224.67105200"
+        },
+        {
+            "campaign_name": "Campaign_981",
+            "avg_cpc": "45.68375000",
+            "avg_cpm": "2503.21917800"
+        },
+        {
+            "campaign_name": "Campaign_982",
+            "avg_cpc": "37.05125000",
+            "avg_cpm": "2163.57664200"
+        },
+        {
+            "campaign_name": "Campaign_983",
+            "avg_cpc": "50.46666667",
+            "avg_cpm": "2276.69172900"
+        },
+        {
+            "campaign_name": "Campaign_984",
+            "avg_cpc": "72.28250000",
+            "avg_cpm": "2313.04000000"
+        },
+        {
+            "campaign_name": "Campaign_985",
+            "avg_cpc": "41.10875000",
+            "avg_cpm": "2332.41134700"
+        },
+        {
+            "campaign_name": "Campaign_986",
+            "avg_cpc": "58.58800000",
+            "avg_cpm": "2236.18320600"
+        },
+        {
+            "campaign_name": "Campaign_987",
+            "avg_cpc": "48.40714286",
+            "avg_cpm": "2403.19148900"
+        },
+        {
+            "campaign_name": "Campaign_988",
+            "avg_cpc": "52.92500000",
+            "avg_cpm": "2160.20408100"
+        },
+        {
+            "campaign_name": "Campaign_989",
+            "avg_cpc": "43.80857143",
+            "avg_cpm": "2433.80952300"
+        },
+        {
+            "campaign_name": "Campaign_990",
+            "avg_cpc": "52.24285714",
+            "avg_cpm": "2344.23076900"
+        },
+        {
+            "campaign_name": "Campaign_991",
+            "avg_cpc": "65.47800000",
+            "avg_cpm": "2372.39130400"
+        },
+        {
+            "campaign_name": "Campaign_992",
+            "avg_cpc": "35.90625000",
+            "avg_cpm": "2192.74809100"
+        },
+        {
+            "campaign_name": "Campaign_993",
+            "avg_cpc": "55.64166667",
+            "avg_cpm": "2436.86131300"
+        },
+        {
+            "campaign_name": "Campaign_994",
+            "avg_cpc": "320.77000000",
+            "avg_cpm": "2082.92207700"
+        },
+        {
+            "campaign_name": "Campaign_995",
+            "avg_cpc": "45.54000000",
+            "avg_cpm": "2183.42465700"
+        },
+        {
+            "campaign_name": "Campaign_996",
+            "avg_cpc": "52.25500000",
+            "avg_cpm": "2288.54014500"
+        },
+        {
+            "campaign_name": "Campaign_997",
+            "avg_cpc": "56.41500000",
+            "avg_cpm": "2287.09459400"
+        },
+        {
+            "campaign_name": "Campaign_998",
+            "avg_cpc": "41.08250000",
+            "avg_cpm": "2251.09589000"
+        },
+        {
+            "campaign_name": "Campaign_999",
+            "avg_cpc": "56.24333333",
+            "avg_cpm": "2249.73333300"
+        },
+        {
+            "campaign_name": "Campaign_1000",
+            "avg_cpc": "43.72142857",
+            "avg_cpm": "2391.01562500"
+        },
+        {
+            "campaign_name": "Campaign_1001",
+            "avg_cpc": "38.68125000",
+            "avg_cpm": "2326.69172900"
+        },
+        {
+            "campaign_name": "Campaign_1002",
+            "avg_cpc": "41.00500000",
+            "avg_cpm": "2310.14084500"
+        },
+        {
+            "campaign_name": "Campaign_1003",
+            "avg_cpc": "50.84714286",
+            "avg_cpm": "2388.79194600"
+        },
+        {
+            "campaign_name": "Campaign_1004",
+            "avg_cpc": "28.92416667",
+            "avg_cpm": "2196.77215100"
+        },
+        {
+            "campaign_name": "Campaign_1005",
+            "avg_cpc": "42.35555556",
+            "avg_cpm": "2282.63473000"
+        },
+        {
+            "campaign_name": "Campaign_1006",
+            "avg_cpc": "47.51500000",
+            "avg_cpm": "2421.14649600"
+        },
+        {
+            "campaign_name": "Campaign_1007",
+            "avg_cpc": "39.73375000",
+            "avg_cpm": "2207.43055500"
+        },
+        {
+            "campaign_name": "Campaign_1008",
+            "avg_cpc": "39.34000000",
+            "avg_cpm": "2145.81818100"
+        },
+        {
+            "campaign_name": "Campaign_1009",
+            "avg_cpc": "31.34909091",
+            "avg_cpm": "2298.93333300"
+        },
+        {
+            "campaign_name": "Campaign_1010",
+            "avg_cpc": "31.30300000",
+            "avg_cpm": "2268.33333300"
+        },
+        {
+            "campaign_name": "Campaign_1011",
+            "avg_cpc": "41.21250000",
+            "avg_cpm": "2258.21917800"
+        },
+        {
+            "campaign_name": "Campaign_1012",
+            "avg_cpc": "51.98000000",
+            "avg_cpm": "2136.16438300"
+        },
+        {
+            "campaign_name": "Campaign_1013",
+            "avg_cpc": "48.14714286",
+            "avg_cpm": "2356.85314600"
+        }
+    ],
+    "regional_revenue": [
+        {
+            "location": "India",
+            "total_revenue": "8420.5700"
+        },
+        {
+            "location": "Australia",
+            "total_revenue": "7843.6300"
+        },
+        {
+            "location": "Germany",
+            "total_revenue": "7791.9900"
+        },
+        {
+            "location": "UK",
+            "total_revenue": "7436.2100"
+        },
+        {
+            "location": "USA",
+            "total_revenue": "7419.2700"
+        }
+    ],
+    "top_users": [
+        {
+            "user_id": 562182,
+            "total_clicks": 2
+        },
+        {
+            "user_id": 654087,
+            "total_clicks": 2
+        },
+        {
+            "user_id": 37729,
+            "total_clicks": 2
+        },
+        {
+            "user_id": 177372,
+            "total_clicks": 2
+        },
+        {
+            "user_id": 178064,
+            "total_clicks": 2
+        },
+        {
+            "user_id": 622843,
+            "total_clicks": 2
+        },
+        {
+            "user_id": 321927,
+            "total_clicks": 2
+        },
+        {
+            "user_id": 556683,
+            "total_clicks": 2
+        },
+        {
+            "user_id": 588546,
+            "total_clicks": 2
+        },
+        {
+            "user_id": 12606,
+            "total_clicks": 2
+        }
+    ],
+    "budget_warnings": [],
+    "device_performance": [
+        {
+            "device": "Desktop",
+            "ctr_percentage": "5.0645"
+        },
+        {
+            "device": "Tablet",
+            "ctr_percentage": "4.9135"
+        },
+        {
+            "device": "Mobile",
+            "ctr_percentage": "4.8916"
+        }
+    ]
+}
