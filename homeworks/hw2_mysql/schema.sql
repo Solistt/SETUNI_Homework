@@ -32,6 +32,7 @@ CREATE TABLE campaigns (
     ad_slot_size VARCHAR(50),
     budget DECIMAL(15, 2),
     remaining_budget DECIMAL(15, 2),
+    INDEX idx_camp_name (name), -- Added for high-performance ETL joins
     CONSTRAINT fk_adv FOREIGN KEY (advertiser_id) REFERENCES advertisers(advertiser_id)
 ) ENGINE=InnoDB;
 

@@ -1,0 +1,52 @@
+{
+    "_id": 10,
+    "demographics": {
+        "age": 60,
+        "gender": "Female",
+        "location": "USA",
+        "interests": [
+            "Gaming",
+            "Sports"
+        ]
+    },
+    "sessions": [
+        {
+            "session_date": "2024-10-07",
+            "impressions": [
+                {
+                    "impression_id": "b593f583e15b4966ba1681232175c0b5",
+                    "timestamp": "2024-10-07T11:06:17",
+                    "device": "Mobile",
+                    "bid_amount": 1.87,
+                    "campaign": {
+                        "campaign_id": 458,
+                        "name": "Campaign_458",
+                        "advertiser_name": "Advertiser_47"
+                    },
+                    "category": "Age 24-43, Health, Germany",
+                    "click": {
+                        "click_timestamp": "2024-10-07T11:09:51",
+                        "revenue_generated": 3.26
+                    }
+                }
+            ]
+        },
+        {
+            "session_date": "2024-10-26",
+            "impressions": [
+                {
+                    "impression_id": "6fdfb7170457489a8615899cf9770193",
+                    "timestamp": "2024-10-26T23:06:46",
+                    "device": "Mobile",
+                    "bid_amount": 2.73,
+                    "campaign": {
+                        "campaign_id": 495,
+                        "name": "Campaign_495",
+                        "advertiser_name": "Advertiser_50"
+                    },
+                    "category": "Age 27-34, Education, Germany"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,452 @@
+[
+    {
+        "_id": {
+            "user_id": 1153,
+            "campaign_id": 831
+        },
+        "campaign_name": "Campaign_831",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 2048,
+            "campaign_id": 728
+        },
+        "campaign_name": "Campaign_728",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 2780,
+            "campaign_id": 45
+        },
+        "campaign_name": "Campaign_45",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 3878,
+            "campaign_id": 961
+        },
+        "campaign_name": "Campaign_961",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 4213,
+            "campaign_id": 923
+        },
+        "campaign_name": "Campaign_923",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 4467,
+            "campaign_id": 441
+        },
+        "campaign_name": "Campaign_441",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 4580,
+            "campaign_id": 363
+        },
+        "campaign_name": "Campaign_363",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 5173,
+            "campaign_id": 906
+        },
+        "campaign_name": "Campaign_906",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 6025,
+            "campaign_id": 747
+        },
+        "campaign_name": "Campaign_747",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 6612,
+            "campaign_id": 373
+        },
+        "campaign_name": "Campaign_373",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 8032,
+            "campaign_id": 71
+        },
+        "campaign_name": "Campaign_71",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 9722,
+            "campaign_id": 57
+        },
+        "campaign_name": "Campaign_57",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 9964,
+            "campaign_id": 581
+        },
+        "campaign_name": "Campaign_581",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 10388,
+            "campaign_id": 72
+        },
+        "campaign_name": "Campaign_72",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 10526,
+            "campaign_id": 981
+        },
+        "campaign_name": "Campaign_981",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 10737,
+            "campaign_id": 905
+        },
+        "campaign_name": "Campaign_905",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 13039,
+            "campaign_id": 925
+        },
+        "campaign_name": "Campaign_925",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 13674,
+            "campaign_id": 321
+        },
+        "campaign_name": "Campaign_321",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 16564,
+            "campaign_id": 836
+        },
+        "campaign_name": "Campaign_836",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 17952,
+            "campaign_id": 765
+        },
+        "campaign_name": "Campaign_765",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 18194,
+            "campaign_id": 100
+        },
+        "campaign_name": "Campaign_100",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 20452,
+            "campaign_id": 809
+        },
+        "campaign_name": "Campaign_809",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 22448,
+            "campaign_id": 156
+        },
+        "campaign_name": "Campaign_156",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 22957,
+            "campaign_id": 378
+        },
+        "campaign_name": "Campaign_378",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 23952,
+            "campaign_id": 959
+        },
+        "campaign_name": "Campaign_959",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 24978,
+            "campaign_id": 600
+        },
+        "campaign_name": "Campaign_600",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 25435,
+            "campaign_id": 645
+        },
+        "campaign_name": "Campaign_645",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 25652,
+            "campaign_id": 293
+        },
+        "campaign_name": "Campaign_293",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 25918,
+            "campaign_id": 394
+        },
+        "campaign_name": "Campaign_394",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 26345,
+            "campaign_id": 418
+        },
+        "campaign_name": "Campaign_418",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 26843,
+            "campaign_id": 6
+        },
+        "campaign_name": "Campaign_6",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 26963,
+            "campaign_id": 228
+        },
+        "campaign_name": "Campaign_228",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 28173,
+            "campaign_id": 855
+        },
+        "campaign_name": "Campaign_855",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 30564,
+            "campaign_id": 96
+        },
+        "campaign_name": "Campaign_96",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 31267,
+            "campaign_id": 101
+        },
+        "campaign_name": "Campaign_101",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 32366,
+            "campaign_id": 282
+        },
+        "campaign_name": "Campaign_282",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 34618,
+            "campaign_id": 395
+        },
+        "campaign_name": "Campaign_395",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 36655,
+            "campaign_id": 722
+        },
+        "campaign_name": "Campaign_722",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 37241,
+            "campaign_id": 789
+        },
+        "campaign_name": "Campaign_789",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 38669,
+            "campaign_id": 203
+        },
+        "campaign_name": "Campaign_203",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 40172,
+            "campaign_id": 333
+        },
+        "campaign_name": "Campaign_333",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 42184,
+            "campaign_id": 279
+        },
+        "campaign_name": "Campaign_279",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 43433,
+            "campaign_id": 17
+        },
+        "campaign_name": "Campaign_17",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 43673,
+            "campaign_id": 881
+        },
+        "campaign_name": "Campaign_881",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 47286,
+            "campaign_id": 973
+        },
+        "campaign_name": "Campaign_973",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 48621,
+            "campaign_id": 192
+        },
+        "campaign_name": "Campaign_192",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 48879,
+            "campaign_id": 456
+        },
+        "campaign_name": "Campaign_456",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 52481,
+            "campaign_id": 470
+        },
+        "campaign_name": "Campaign_470",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 54509,
+            "campaign_id": 31
+        },
+        "campaign_name": "Campaign_31",
+        "impressions_count": 2,
+        "clicks_count": 0
+    },
+    {
+        "_id": {
+            "user_id": 56354,
+            "campaign_id": 568
+        },
+        "campaign_name": "Campaign_568",
+        "impressions_count": 2,
+        "clicks_count": 0
+    }
+]

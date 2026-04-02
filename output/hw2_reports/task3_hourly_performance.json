@@ -1,0 +1,1602 @@
+[
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 0
+        },
+        "total_clicks": 2,
+        "total_revenue": 18.060000000000002
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 0
+        },
+        "total_clicks": 3,
+        "total_revenue": 8.92
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 0
+        },
+        "total_clicks": 3,
+        "total_revenue": 13.49
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 0
+        },
+        "total_clicks": 4,
+        "total_revenue": 16.12
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 0
+        },
+        "total_clicks": 2,
+        "total_revenue": 3.2199999999999998
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 0
+        },
+        "total_clicks": 2,
+        "total_revenue": 9.43
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 0
+        },
+        "total_clicks": 1,
+        "total_revenue": 6.33
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 0
+        },
+        "total_clicks": 2,
+        "total_revenue": 6.800000000000001
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 0
+        },
+        "total_clicks": 1,
+        "total_revenue": 7.08
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 0
+        },
+        "total_clicks": 2,
+        "total_revenue": 1.8900000000000001
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 1
+        },
+        "total_clicks": 1,
+        "total_revenue": 3.73
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 1
+        },
+        "total_clicks": 8,
+        "total_revenue": 55.86
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 1
+        },
+        "total_clicks": 1,
+        "total_revenue": 4.78
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 1
+        },
+        "total_clicks": 2,
+        "total_revenue": 6.67
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 1
+        },
+        "total_clicks": 1,
+        "total_revenue": 9.94
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 1
+        },
+        "total_clicks": 4,
+        "total_revenue": 25.64
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 1
+        },
+        "total_clicks": 2,
+        "total_revenue": 4.7
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 1
+        },
+        "total_clicks": 2,
+        "total_revenue": 14.219999999999999
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 1
+        },
+        "total_clicks": 1,
+        "total_revenue": 0.92
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 2
+        },
+        "total_clicks": 1,
+        "total_revenue": 3.61
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 2
+        },
+        "total_clicks": 1,
+        "total_revenue": 4.7
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 2
+        },
+        "total_clicks": 5,
+        "total_revenue": 20.76
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 2
+        },
+        "total_clicks": 2,
+        "total_revenue": 10.290000000000001
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 2
+        },
+        "total_clicks": 2,
+        "total_revenue": 8.7
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 2
+        },
+        "total_clicks": 1,
+        "total_revenue": 1.61
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 2
+        },
+        "total_clicks": 4,
+        "total_revenue": 23.47
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 3
+        },
+        "total_clicks": 7,
+        "total_revenue": 41.63
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 3
+        },
+        "total_clicks": 4,
+        "total_revenue": 22.23
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 3
+        },
+        "total_clicks": 1,
+        "total_revenue": 7.56
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 3
+        },
+        "total_clicks": 1,
+        "total_revenue": 6.96
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 3
+        },
+        "total_clicks": 2,
+        "total_revenue": 4.23
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 3
+        },
+        "total_clicks": 3,
+        "total_revenue": 21.009999999999998
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 3
+        },
+        "total_clicks": 3,
+        "total_revenue": 16.87
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 3
+        },
+        "total_clicks": 2,
+        "total_revenue": 13.36
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 4
+        },
+        "total_clicks": 3,
+        "total_revenue": 11.39
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 4
+        },
+        "total_clicks": 2,
+        "total_revenue": 2.09
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 4
+        },
+        "total_clicks": 4,
+        "total_revenue": 29.48
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 4
+        },
+        "total_clicks": 1,
+        "total_revenue": 8.02
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 4
+        },
+        "total_clicks": 3,
+        "total_revenue": 13.46
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 4
+        },
+        "total_clicks": 2,
+        "total_revenue": 11.55
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 4
+        },
+        "total_clicks": 2,
+        "total_revenue": 12.559999999999999
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 4
+        },
+        "total_clicks": 1,
+        "total_revenue": 0.71
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 4
+        },
+        "total_clicks": 1,
+        "total_revenue": 8.4
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 4
+        },
+        "total_clicks": 1,
+        "total_revenue": 3.07
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 5
+        },
+        "total_clicks": 2,
+        "total_revenue": 6.62
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 5
+        },
+        "total_clicks": 4,
+        "total_revenue": 24.310000000000002
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 5
+        },
+        "total_clicks": 2,
+        "total_revenue": 12.32
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 5
+        },
+        "total_clicks": 1,
+        "total_revenue": 9.08
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 5
+        },
+        "total_clicks": 6,
+        "total_revenue": 29.59
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 5
+        },
+        "total_clicks": 2,
+        "total_revenue": 9.37
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 5
+        },
+        "total_clicks": 2,
+        "total_revenue": 7.66
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 5
+        },
+        "total_clicks": 5,
+        "total_revenue": 17.67
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 5
+        },
+        "total_clicks": 2,
+        "total_revenue": 12.530000000000001
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 6
+        },
+        "total_clicks": 6,
+        "total_revenue": 45.46
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 6
+        },
+        "total_clicks": 1,
+        "total_revenue": 1.3
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 6
+        },
+        "total_clicks": 2,
+        "total_revenue": 19.4
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 6
+        },
+        "total_clicks": 1,
+        "total_revenue": 1.54
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 6
+        },
+        "total_clicks": 5,
+        "total_revenue": 31.45
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 6
+        },
+        "total_clicks": 2,
+        "total_revenue": 10.63
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 6
+        },
+        "total_clicks": 3,
+        "total_revenue": 14.65
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 6
+        },
+        "total_clicks": 3,
+        "total_revenue": 13.71
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 6
+        },
+        "total_clicks": 1,
+        "total_revenue": 2.64
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 7
+        },
+        "total_clicks": 2,
+        "total_revenue": 15.28
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 7
+        },
+        "total_clicks": 4,
+        "total_revenue": 26.939999999999998
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 7
+        },
+        "total_clicks": 2,
+        "total_revenue": 5.8100000000000005
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 7
+        },
+        "total_clicks": 2,
+        "total_revenue": 7.63
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 7
+        },
+        "total_clicks": 1,
+        "total_revenue": 6.23
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 7
+        },
+        "total_clicks": 4,
+        "total_revenue": 21.61
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 7
+        },
+        "total_clicks": 6,
+        "total_revenue": 34.68
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 7
+        },
+        "total_clicks": 5,
+        "total_revenue": 29.02
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 7
+        },
+        "total_clicks": 2,
+        "total_revenue": 17.15
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 7
+        },
+        "total_clicks": 1,
+        "total_revenue": 5.54
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 8
+        },
+        "total_clicks": 3,
+        "total_revenue": 17.55
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 8
+        },
+        "total_clicks": 2,
+        "total_revenue": 6.859999999999999
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 8
+        },
+        "total_clicks": 6,
+        "total_revenue": 42.48
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 8
+        },
+        "total_clicks": 3,
+        "total_revenue": 19.48
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 8
+        },
+        "total_clicks": 3,
+        "total_revenue": 17.68
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 8
+        },
+        "total_clicks": 3,
+        "total_revenue": 13.64
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 8
+        },
+        "total_clicks": 3,
+        "total_revenue": 4.27
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 9
+        },
+        "total_clicks": 2,
+        "total_revenue": 10.469999999999999
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 9
+        },
+        "total_clicks": 4,
+        "total_revenue": 22.07
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 9
+        },
+        "total_clicks": 2,
+        "total_revenue": 6.4
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 9
+        },
+        "total_clicks": 3,
+        "total_revenue": 15.02
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 9
+        },
+        "total_clicks": 2,
+        "total_revenue": 10.870000000000001
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 9
+        },
+        "total_clicks": 2,
+        "total_revenue": 13.58
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 9
+        },
+        "total_clicks": 3,
+        "total_revenue": 14.92
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 9
+        },
+        "total_clicks": 2,
+        "total_revenue": 11.26
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 9
+        },
+        "total_clicks": 3,
+        "total_revenue": 24.81
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 9
+        },
+        "total_clicks": 2,
+        "total_revenue": 12.84
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 10
+        },
+        "total_clicks": 2,
+        "total_revenue": 4.28
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 10
+        },
+        "total_clicks": 1,
+        "total_revenue": 5.74
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 10
+        },
+        "total_clicks": 2,
+        "total_revenue": 5.06
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 10
+        },
+        "total_clicks": 3,
+        "total_revenue": 11.8
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 10
+        },
+        "total_clicks": 2,
+        "total_revenue": 11.629999999999999
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 10
+        },
+        "total_clicks": 2,
+        "total_revenue": 4.13
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 10
+        },
+        "total_clicks": 1,
+        "total_revenue": 6.99
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 10
+        },
+        "total_clicks": 1,
+        "total_revenue": 7.45
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 11
+        },
+        "total_clicks": 3,
+        "total_revenue": 7.789999999999999
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 11
+        },
+        "total_clicks": 3,
+        "total_revenue": 13.42
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 11
+        },
+        "total_clicks": 2,
+        "total_revenue": 8.91
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 11
+        },
+        "total_clicks": 2,
+        "total_revenue": 9.91
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 11
+        },
+        "total_clicks": 6,
+        "total_revenue": 28.41
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 11
+        },
+        "total_clicks": 4,
+        "total_revenue": 24.6
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 11
+        },
+        "total_clicks": 4,
+        "total_revenue": 15.669999999999998
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 11
+        },
+        "total_clicks": 1,
+        "total_revenue": 9.26
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 11
+        },
+        "total_clicks": 1,
+        "total_revenue": 8.08
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 12
+        },
+        "total_clicks": 2,
+        "total_revenue": 10.27
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 12
+        },
+        "total_clicks": 1,
+        "total_revenue": 2.86
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 12
+        },
+        "total_clicks": 5,
+        "total_revenue": 29.41
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 12
+        },
+        "total_clicks": 4,
+        "total_revenue": 26.95
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 12
+        },
+        "total_clicks": 1,
+        "total_revenue": 5.88
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 12
+        },
+        "total_clicks": 3,
+        "total_revenue": 19.45
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 12
+        },
+        "total_clicks": 2,
+        "total_revenue": 8.72
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 12
+        },
+        "total_clicks": 3,
+        "total_revenue": 11.78
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 12
+        },
+        "total_clicks": 2,
+        "total_revenue": 15.530000000000001
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 13
+        },
+        "total_clicks": 1,
+        "total_revenue": 8.93
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 13
+        },
+        "total_clicks": 3,
+        "total_revenue": 19.509999999999998
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 13
+        },
+        "total_clicks": 2,
+        "total_revenue": 8.86
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 13
+        },
+        "total_clicks": 2,
+        "total_revenue": 8.33
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 13
+        },
+        "total_clicks": 3,
+        "total_revenue": 14.600000000000001
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 14
+        },
+        "total_clicks": 4,
+        "total_revenue": 22.91
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 14
+        },
+        "total_clicks": 2,
+        "total_revenue": 11.58
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 14
+        },
+        "total_clicks": 3,
+        "total_revenue": 21.23
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 14
+        },
+        "total_clicks": 2,
+        "total_revenue": 7.449999999999999
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 14
+        },
+        "total_clicks": 1,
+        "total_revenue": 7.06
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 14
+        },
+        "total_clicks": 2,
+        "total_revenue": 12.96
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 14
+        },
+        "total_clicks": 3,
+        "total_revenue": 16.45
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 14
+        },
+        "total_clicks": 3,
+        "total_revenue": 8.54
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 15
+        },
+        "total_clicks": 1,
+        "total_revenue": 4.52
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 15
+        },
+        "total_clicks": 1,
+        "total_revenue": 6.19
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 15
+        },
+        "total_clicks": 2,
+        "total_revenue": 5.140000000000001
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 15
+        },
+        "total_clicks": 1,
+        "total_revenue": 9.09
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 15
+        },
+        "total_clicks": 1,
+        "total_revenue": 4.63
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 15
+        },
+        "total_clicks": 1,
+        "total_revenue": 8.56
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 15
+        },
+        "total_clicks": 1,
+        "total_revenue": 9.4
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 15
+        },
+        "total_clicks": 3,
+        "total_revenue": 18.85
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 15
+        },
+        "total_clicks": 1,
+        "total_revenue": 8.37
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 15
+        },
+        "total_clicks": 1,
+        "total_revenue": 0.51
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 16
+        },
+        "total_clicks": 2,
+        "total_revenue": 10.73
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 16
+        },
+        "total_clicks": 2,
+        "total_revenue": 12.08
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 16
+        },
+        "total_clicks": 2,
+        "total_revenue": 9.34
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 16
+        },
+        "total_clicks": 2,
+        "total_revenue": 9.39
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 16
+        },
+        "total_clicks": 3,
+        "total_revenue": 10.55
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 16
+        },
+        "total_clicks": 1,
+        "total_revenue": 8.65
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 17
+        },
+        "total_clicks": 2,
+        "total_revenue": 4.16
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 17
+        },
+        "total_clicks": 1,
+        "total_revenue": 2.09
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 17
+        },
+        "total_clicks": 1,
+        "total_revenue": 8.12
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 17
+        },
+        "total_clicks": 2,
+        "total_revenue": 10.85
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 17
+        },
+        "total_clicks": 1,
+        "total_revenue": 4.49
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 17
+        },
+        "total_clicks": 2,
+        "total_revenue": 8.71
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 17
+        },
+        "total_clicks": 3,
+        "total_revenue": 14.75
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 17
+        },
+        "total_clicks": 1,
+        "total_revenue": 1.17
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 17
+        },
+        "total_clicks": 1,
+        "total_revenue": 8.07
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 18
+        },
+        "total_clicks": 2,
+        "total_revenue": 13.989999999999998
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 18
+        },
+        "total_clicks": 2,
+        "total_revenue": 16.1
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 18
+        },
+        "total_clicks": 3,
+        "total_revenue": 13.24
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 18
+        },
+        "total_clicks": 1,
+        "total_revenue": 2.18
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 18
+        },
+        "total_clicks": 1,
+        "total_revenue": 1.5
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 18
+        },
+        "total_clicks": 2,
+        "total_revenue": 12.969999999999999
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 18
+        },
+        "total_clicks": 4,
+        "total_revenue": 27.740000000000002
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 18
+        },
+        "total_clicks": 3,
+        "total_revenue": 16.240000000000002
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 19
+        },
+        "total_clicks": 2,
+        "total_revenue": 5.81
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 19
+        },
+        "total_clicks": 2,
+        "total_revenue": 15.169999999999998
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 19
+        },
+        "total_clicks": 4,
+        "total_revenue": 24.72
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 19
+        },
+        "total_clicks": 2,
+        "total_revenue": 14.6
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 19
+        },
+        "total_clicks": 2,
+        "total_revenue": 11.78
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 19
+        },
+        "total_clicks": 2,
+        "total_revenue": 16.32
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 19
+        },
+        "total_clicks": 1,
+        "total_revenue": 7.67
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 19
+        },
+        "total_clicks": 1,
+        "total_revenue": 3.22
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 19
+        },
+        "total_clicks": 2,
+        "total_revenue": 12.49
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 20
+        },
+        "total_clicks": 1,
+        "total_revenue": 7.96
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_457",
+            "hour": 20
+        },
+        "total_clicks": 4,
+        "total_revenue": 32.56
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 20
+        },
+        "total_clicks": 3,
+        "total_revenue": 16.19
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 20
+        },
+        "total_clicks": 2,
+        "total_revenue": 1.91
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 20
+        },
+        "total_clicks": 4,
+        "total_revenue": 21.119999999999997
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 20
+        },
+        "total_clicks": 4,
+        "total_revenue": 14.07
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 20
+        },
+        "total_clicks": 4,
+        "total_revenue": 11.18
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 20
+        },
+        "total_clicks": 2,
+        "total_revenue": 18.85
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 20
+        },
+        "total_clicks": 1,
+        "total_revenue": 3.76
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 20
+        },
+        "total_clicks": 3,
+        "total_revenue": 19.1
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 21
+        },
+        "total_clicks": 1,
+        "total_revenue": 1.96
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 21
+        },
+        "total_clicks": 2,
+        "total_revenue": 9.05
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 21
+        },
+        "total_clicks": 3,
+        "total_revenue": 11.99
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 21
+        },
+        "total_clicks": 1,
+        "total_revenue": 9.3
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 21
+        },
+        "total_clicks": 2,
+        "total_revenue": 8.95
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 21
+        },
+        "total_clicks": 3,
+        "total_revenue": 24.23
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 22
+        },
+        "total_clicks": 1,
+        "total_revenue": 6.62
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 22
+        },
+        "total_clicks": 3,
+        "total_revenue": 12.95
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 22
+        },
+        "total_clicks": 1,
+        "total_revenue": 0.96
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 22
+        },
+        "total_clicks": 3,
+        "total_revenue": 12.2
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 22
+        },
+        "total_clicks": 5,
+        "total_revenue": 24.09
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_455",
+            "hour": 22
+        },
+        "total_clicks": 1,
+        "total_revenue": 6.21
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_458",
+            "hour": 22
+        },
+        "total_clicks": 1,
+        "total_revenue": 9.56
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_456",
+            "hour": 23
+        },
+        "total_clicks": 1,
+        "total_revenue": 8.72
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_464",
+            "hour": 23
+        },
+        "total_clicks": 1,
+        "total_revenue": 1.27
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_461",
+            "hour": 23
+        },
+        "total_clicks": 1,
+        "total_revenue": 9.56
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_460",
+            "hour": 23
+        },
+        "total_clicks": 1,
+        "total_revenue": 2.66
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_463",
+            "hour": 23
+        },
+        "total_clicks": 4,
+        "total_revenue": 26.23
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_462",
+            "hour": 23
+        },
+        "total_clicks": 3,
+        "total_revenue": 9.72
+    },
+    {
+        "_id": {
+            "campaign": "Campaign_459",
+            "hour": 23
+        },
+        "total_clicks": 3,
+        "total_revenue": 17.89
+    }
+]

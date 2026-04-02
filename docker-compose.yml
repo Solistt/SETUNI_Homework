@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   db:
     image: mysql:8.0
@@ -11,10 +9,21 @@ services:
     ports:
       - "3306:3306"
     volumes:
-
       - homework1:/var/lib/mysql
+
+  mongodb:
+    image: mongo:6.0
+    container_name: adtech_mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root_password
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
 
 volumes:
   homework1:
     external: true
-
+  mongo_data:
