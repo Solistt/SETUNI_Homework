@@ -148,7 +148,7 @@ db.users.aggregate([
 
 1. **Start the Database Infrastructure:**
    ```bash
-   cd /Users/soloviov/Documents/GitHub/SETUNI_Homework
+   cd SETUNI_Homework
    docker-compose up -d
    ```
 
