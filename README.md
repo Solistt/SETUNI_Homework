@@ -1,60 +1,151 @@
-AdTech Data Pipeline (MySQL -> MongoDB)
-=====================================
+# AdTech Data Pipeline & Analytics API
 
-Overview
---------
-This repository contains an ETL pipeline and analytics tooling to move relational ad engagement data (MySQL) into a document-oriented schema in MongoDB. All code, comments, and documentation are English-only and follow enterprise security best practices: no hardcoded credentials, `.env` driven configuration, and centralized connection management.
+## Overview
 
-NoSQL Schema Strategy
-----------------------
-This project favors a user-centric document model where each user document contains an array of `sessions`, and each session contains an array of `impressions`.
+Full-stack AdTech analytics platform: CSV → MySQL → MongoDB ETL pipeline,
+FastAPI REST API with Redis read-through caching, and performance benchmarking.
 
-Example document shape (simplified):
+All code, comments, logs, and documentation are **English-only**. No hardcoded
+credentials — everything is driven by a root `.env` file.
 
+**Stack:** Python 3.10 · FastAPI · MySQL 8.0 · MongoDB 6.0 · Redis 7 · Docker Compose
+
+---
+
+## Quick Start
+
+```bash
+cp example.env .env          # fill in credentials (see example.env comments)
+docker-compose up -d --build # start MySQL, MongoDB, Redis, API
+bash scripts/run_all.sh      # seed data, run ETL, run benchmarks
+```
+
+Test the API:
+```bash
+curl http://127.0.0.1:8000/campaign/1/performance
+curl http://127.0.0.1:8000/advertiser/1/spending
+curl http://127.0.0.1:8000/user/1000/engagements
+```
+
+Tear down:
+```bash
+docker-compose down -v
+```
+
+---
+
+## Project Structure
+
+```
+SETUNI_Homework/
+├── .env                        # Credentials (not committed)
+├── .gitignore
+├── docker-compose.yml          # MySQL, MongoDB, Redis, API + healthchecks
+├── Dockerfile                  # API container image
+├── example.env                 # Template for .env
+│
+├── src/
+│   ├── api.py                  # FastAPI REST API (3 endpoints + Redis cache)
+│   ├── config.py               # Centralized env-var loader with validation
+│   ├── connection.py           # ConnectionFactory (MySQL, MongoDB)
+│   ├── etl_process.py          # CSV → MySQL ETL (batch loading)
+│   ├── mongo_loader.py         # MySQL → MongoDB streaming ETL
+│   ├── mongo_queries.py        # MongoDB aggregation pipelines (BI reports)
+│   ├── generate_reports.py     # Report generation to output/
+│   ├── benchmark.py            # Lightweight local benchmark
+│   ├── utils.py                # Custom JSON encoders
+│   └── requirements.txt
+│
+├── tests/
+│   └── benchmark_api.py        # Full cached vs direct-DB benchmark
+│
+├── scripts/
+│   └── run_all.sh              # End-to-end automation
+│
+├── output/                     # Generated reports & benchmark results
+├── screenshots/                # Demo screenshots per homework
+└── homeworks/
+    ├── hw2_mysql/              # SQL schema & queries
+    ├── hw3_mongodb/            # MongoDB ETL & queries docs
+    └── homework5/              # REST API + Redis caching docs
+```
+
+---
+
+## Homework Assignments
+
+| # | Topic | Key Files | Docs |
+|---|-------|-----------|------|
+| 2 | MySQL Schema & SQL Queries | `homeworks/hw2_mysql/`, `src/etl_process.py` | `homeworks/hw2_mysql/` |
+| 3 | MongoDB ETL & Aggregations | `src/mongo_loader.py`, `src/mongo_queries.py` | `homeworks/hw3_mongodb/README.md` |
+| 5 | REST API + Redis + Benchmarks | `src/api.py`, `tests/benchmark_api.py` | **`homeworks/homework5/README.md`** |
+
+---
+
+## NoSQL Schema Strategy
+
+User-centric document model — each user document contains embedded `sessions`,
+and each session contains embedded `impressions`:
+
+```json
 {
   "_id": 12345,
-  "demographics": { ... },
+  "demographics": { "age": 28, "country": "USA" },
   "sessions": [
     {
       "session_start": "2024-01-01T12:00:00Z",
-      "impressions": [ { "impression_id": "...", "campaign": {...}, "click": {...} } ]
+      "impressions": [
+        { "impression_id": "a1b2c3", "campaign": { "name": "Campaign_1" }, "click": { "click_id": "..." } }
+      ]
     }
   ]
 }
+```
 
-Embedding vs Referencing — Trade-offs for AdTech Workloads
----------------------------------------------------------
-- Embedding (used here for sessions and impressions):
-  - Pros: Fast reads for user-centric analytics and profile building; single-document atomicity simplifies upserts; efficient for workloads where most queries fetch a user's recent sessions or impressions.
-  - Cons: Documents can grow large for very active users; updating deeply nested arrays can be more costly for extremely high write throughput.
+### Embedding vs Referencing
 
-- Referencing (storing impressions as a separate collection with user_id foreign key):
-  - Pros: Better for unbounded event growth and independent scaling of read/write workloads. Easier to shard impressions by time or campaign.
-  - Cons: Requires joins (application-side or via $lookup) for user-centric reads, increasing query complexity and latency.
+| Approach | Pros | Cons |
+|----------|------|------|
+| **Embedding** (used here) | Fast single-document reads; atomic upserts; ideal for user-profile analytics | Documents grow for very active users; nested-array updates can be costly |
+| **Referencing** | Scales for unbounded event growth; easier to shard by time | Requires `$lookup` or app-side joins; higher read latency |
 
-Recommended pattern for production AdTech workloads
--------------------------------------------------
-- Use embedding for denormalized, read-heavy user profiles and recent sessions (hot-path queries).
-- Use referencing (separate impressions table/collection) for high-volume, append-only events that must scale horizontally.
-- Use TTL, bucketing, or time-partitioned collections for older impression data to keep document sizes bounded.
+**Production recommendation:** Embed for hot-path user profiles + recent sessions.
+Reference (separate collection) for high-volume, append-only events. Use TTL or
+time-bucketed collections to keep document sizes bounded.
 
-Security & Operations
----------------------
-- Populate a root-level `.env` from `example.env`. The repository `.gitignore` already excludes `.env`.
-- Docker Compose uses environment variable interpolation; no secrets are stored in `docker-compose.yml`.
-- The codebase uses a centralized `Config` and `ConnectionFactory` to validate and inject credentials at runtime.
+---
 
-Files changed in this refactor
------------------------------
-- `src/config.py` — validated configuration loader (fail-fast).
-- `src/connection.py` — connection factory for MySQL and MongoDB.
-- `src/mongo_loader.py` — streaming ETL, batch processing, sessionization, bulk upserts.
-- `src/mongo_queries.py` — optimized aggregation pipelines and safe JSON encoding.
-- `docker-compose.yml` — healthchecks, network isolation, and secret interpolation.
-- `example.env` — template for required environment variables.
+## Security & Operations
 
-Next steps
-----------
-- Fill `.env` from `example.env` with secure credentials and run the stack.
-- Run the ETL: `python -m src.mongo_loader` (or from inside the container after building).
-- Inspect output reports in `output/hw3_reports`.
+- **Zero hardcoding:** All credentials, hosts, and ports come from `.env`.
+- **Config validation:** `src/config.py` fails fast at startup if any required
+  variable is missing or empty.
+- **Docker network isolation:** Services communicate on an internal bridge network.
+  Port bindings are restricted to `127.0.0.1` (localhost only).
+- **Healthchecks:** MySQL, MongoDB, and Redis have Docker healthchecks; the API
+  container depends on all three being healthy before starting.
+- **`.gitignore`** blocks `.env`, `venv/`, `__pycache__/`, and IDE files.
+
+---
+
+## API & Caching (Homework 5)
+
+Three REST endpoints with **read-through Redis cache**:
+
+| Endpoint | DB | Cache TTL |
+|----------|----|-----------|
+| `GET /campaign/{id}/performance` | MySQL | 30 s |
+| `GET /advertiser/{id}/spending` | MySQL | 5 min |
+| `GET /user/{id}/engagements` | MongoDB | 60 s |
+
+Pass `?use_cache=false` to bypass Redis and query the DB directly.
+
+### Benchmark Results
+
+| Endpoint | Without Cache | With Cache | Speedup |
+|----------|--------------|------------|---------|
+| Campaign Performance | 0.0616 s | 0.0039 s | **15.9x** |
+| Advertiser Spending | 0.0338 s | 0.0025 s | **13.3x** |
+| User Engagements | 0.0031 s | 0.0022 s | 1.4x |
+
+Full details: [`homeworks/homework5/README.md`](homeworks/homework5/README.md)
