@@ -244,6 +244,8 @@ class MongoDataLoader:
 
 
 if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+
     # Fail-fast configuration load
     try:
         cfg = Config.load_from_env()

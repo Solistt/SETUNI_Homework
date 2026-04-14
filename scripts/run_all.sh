@@ -49,16 +49,18 @@ fi
 echo "[4/8] Copy .env into API container (to support scripts that use load_dotenv)"
 docker cp .env adtech_api:/app/.env || true
 
+DOCKER_ENV="-e MYSQL_HOST=adtech_mysql -e MONGO_HOST=adtech_mongo -e REDIS_HOST=adtech_redis"
+
 echo "[5/8] Insert sample data into MySQL"
 docker cp src/scripts/tmp_insert.py adtech_api:/app/tmp_insert.py
-docker exec adtech_api python3 /app/tmp_insert.py || echo "tmp_insert.py may have failed; check logs"
+docker exec $DOCKER_ENV adtech_api python3 /app/tmp_insert.py || echo "tmp_insert.py may have failed; check logs"
 
 echo "[6/8] Run ETL (MySQL -> MongoDB)"
-docker exec adtech_api /bin/sh -c "cd /app && python3 -u -m src.mongo_loader"
+docker exec $DOCKER_ENV adtech_api /bin/sh -c "cd /app && python3 -u -m src.mongo_loader"
 
 echo "[7/8] Run benchmark script (cached vs direct DB)"
 docker cp tests/benchmark_api.py adtech_api:/app/benchmark_api.py || true
-docker exec adtech_api /bin/sh -c "cd /app && python3 benchmark_api.py"
+docker exec $DOCKER_ENV adtech_api /bin/sh -c "cd /app && python3 benchmark_api.py"
 
 echo "[8/8] Retrieve benchmark results"
 mkdir -p output
