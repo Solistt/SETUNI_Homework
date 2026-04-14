@@ -1,191 +1,262 @@
-import mysql.connector
-from pymongo import MongoClient
 import uuid
-import datetime
-import os
+import logging
 from collections import defaultdict
+from datetime import datetime, timezone, timedelta
+
+from pymongo import UpdateOne
+
+from .config import Config
+from .connection import ConnectionFactory
+
+
+logger = logging.getLogger(__name__)
+
+
+def _to_hex_id(raw):
+    if raw is None:
+        return None
+    # If stored as binary(16) bytes
+    if isinstance(raw, (bytes, bytearray)):
+        try:
+            return uuid.UUID(bytes=raw).hex
+        except Exception:
+            try:
+                return raw.hex()
+            except Exception:
+                return str(raw)
+    # If already a UUID string
+    try:
+        return str(raw)
+    except Exception:
+        return None
+
 
 class MongoDataLoader:
-    """
-    ETL class to extract data from MySQL and load it into MongoDB
-    using a document-oriented schema optimized for engagement history.
-    """
-    def __init__(self, mysql_config, mongo_uri, mongo_db_name):
-        self.mysql_config = mysql_config
-        self.mongo_uri = mongo_uri
-        self.mongo_db_name = mongo_db_name
+    """ETL class to stream data from MySQL into MongoDB using batch and bulk operations."""
+
+    def __init__(self, config: Config, connection_factory: ConnectionFactory = None):
+        self.config = config
+        self.connection_factory = connection_factory or ConnectionFactory(config)
         self.mysql_conn = None
         self.mongo_client = None
+        self.users_col = None
 
     def connect(self):
-        print("Connecting to MySQL and MongoDB...")
-        try:
-            self.mysql_conn = mysql.connector.connect(**self.mysql_config)
-            self.mongo_client = MongoClient(self.mongo_uri)
-            self.mongo_db = self.mongo_client[self.mongo_db_name]
-            self.users_col = self.mongo_db['users']
-            
-            # Create indexes for the target collections
-            self.users_col.create_index("sessions.impressions.campaign.campaign_id")
-            self.users_col.create_index("sessions.impressions.campaign.advertiser_name")
-            self.users_col.create_index("sessions.impressions.category")
-            
-            print("Successfully connected to both databases.")
-        except Exception as e:
-            print(f"Error connecting to databases: {e}")
-            raise
+        logger.info("Connecting to MySQL and MongoDB (secrets loaded from environment).")
+        self.mysql_conn = self.connection_factory.get_mysql_connection()
+        self.mongo_client = self.connection_factory.get_mongo_client()
+        self.mongo_db = self.mongo_client[self.config.mongo_db]
+        self.users_col = self.mongo_db['users']
+
+        # Create helpful indexes for analytics
+        self.users_col.create_index("sessions.impressions.campaign.campaign_id")
+        self.users_col.create_index("sessions.impressions.campaign.advertiser_name")
+        self.users_col.create_index("sessions.impressions.category")
 
     def close(self):
         if self.mysql_conn:
-            self.mysql_conn.close()
+            try:
+                self.mysql_conn.close()
+            except Exception:
+                pass
         if self.mongo_client:
-            self.mongo_client.close()
+            try:
+                self.mongo_client.close()
+            except Exception:
+                pass
 
     def fetch_advertisers(self):
-        cursor = self.mysql_conn.cursor(dictionary=True)
-        cursor.execute("SELECT advertiser_id, name FROM advertisers")
-        return {row['advertiser_id']: row['name'] for row in cursor.fetchall()}
+        cur = self.mysql_conn.cursor(dictionary=True)
+        cur.execute("SELECT advertiser_id, name FROM advertisers")
+        rows = cur.fetchall()
+        cur.close()
+        return {row['advertiser_id']: row['name'] for row in rows}
 
     def fetch_campaigns(self):
-        cursor = self.mysql_conn.cursor(dictionary=True)
-        cursor.execute("SELECT campaign_id, advertiser_id, name, targeting_criteria FROM campaigns")
-        return {row['campaign_id']: row for row in cursor.fetchall()}
+        cur = self.mysql_conn.cursor(dictionary=True)
+        cur.execute("SELECT campaign_id, advertiser_id, name, targeting_criteria FROM campaigns")
+        rows = cur.fetchall()
+        cur.close()
+        return {row['campaign_id']: row for row in rows}
 
-    def load_data(self, batch_size=1000):
-        print("Extracting reference data (advertisers, campaigns)...")
+    def _normalize_ts(self, ts):
+        if ts is None:
+            return None
+        if isinstance(ts, datetime):
+            if ts.tzinfo is None:
+                return ts.replace(tzinfo=timezone.utc)
+            return ts.astimezone(timezone.utc)
+        return ts
+
+    def load_data(self, drop_existing=False):
+        logger.info("Begin ETL: extracting reference data and streaming users in batches.")
         advertisers = self.fetch_advertisers()
         campaigns = self.fetch_campaigns()
 
-        cursor = self.mysql_conn.cursor(dictionary=True)
-        
-        # Get users
-        cursor.execute("SELECT user_id, age, gender, location, interests, signup_date FROM users")
-        users = cursor.fetchall()
-        
-        print(f"Found {len(users)} users. Beginning extraction and loading to MongoDB...")
-        
-        # Fetch all clicks into memory (assuming dataset fits, otherwise we batch by user_id)
-        print("Fetching clicks...")
-        click_cur = self.mysql_conn.cursor(dictionary=True)
-        click_cur.execute("SELECT impression_id, click_timestamp, revenue_generated FROM clicks")
-        clicks = {uuid.UUID(bytes=row['impression_id']).hex: row for row in click_cur.fetchall()}
-        click_cur.close()
+        if drop_existing:
+            logger.info("Dropping existing users collection before reload.")
+            try:
+                self.users_col.drop()
+            except Exception:
+                pass
 
-        # Iterate users in batches
-        for i in range(0, len(users), batch_size):
-            user_batch = users[i:i+batch_size]
-            user_ids = [str(u['user_id']) for u in user_batch]
-            
-            if not user_ids:
+        batch_size = self.config.user_batch_size
+        bulk_size = self.config.bulk_write_batch_size
+        session_timeout = int(self.config.session_timeout_seconds)
+
+        offset = 0
+        total_loaded = 0
+
+        while True:
+            ucur = self.mysql_conn.cursor(dictionary=True)
+            ucur.execute(
+                "SELECT user_id, age, gender, location, interests, signup_date FROM users ORDER BY user_id LIMIT %s OFFSET %s",
+                (batch_size, offset),
+            )
+            users = ucur.fetchall()
+            ucur.close()
+
+            if not users:
                 break
-                
-            in_clause = ",".join(user_ids)
-            imp_query = f"""
-                SELECT impression_id, campaign_id, user_id, device, timestamp, bid_amount
-                FROM impressions
-                WHERE user_id IN ({in_clause})
-                ORDER BY timestamp ASC
-            """
-            
-            imp_cur = self.mysql_conn.cursor(dictionary=True)
-            imp_cur.execute(imp_query)
-            impressions = imp_cur.fetchall()
-            imp_cur.close()
+
+            user_ids = [u['user_id'] for u in users]
+
+            # Build parameter placeholders for the IN clause
+            placeholders = ','.join(['%s'] * len(user_ids))
+            imp_query = f'''
+                SELECT i.impression_id, i.campaign_id, i.user_id, i.device, i.timestamp, i.bid_amount,
+                       c.click_timestamp as click_timestamp, c.revenue_generated as revenue_generated
+                FROM impressions i
+                LEFT JOIN clicks c ON i.impression_id = c.impression_id
+                WHERE i.user_id IN ({placeholders})
+                ORDER BY i.user_id, i.timestamp ASC
+            '''
+
+            icur = self.mysql_conn.cursor(dictionary=True)
+            icur.execute(imp_query, tuple(user_ids))
+            impressions = icur.fetchall()
+            icur.close()
 
             # Group impressions by user
             user_impressions = defaultdict(list)
             for imp in impressions:
                 user_impressions[imp['user_id']].append(imp)
 
-            mongo_documents = []
-            
-            for user in user_batch:
+            # Prepare bulk upserts
+            bulk_ops = []
+
+            for user in users:
                 uid = user['user_id']
-                interests = str(user['interests']).split(',') if user.get('interests') else []
-                
-                # Group user's impressions into sessions (e.g., grouped by Day)
-                # In real scenario, a session is defined by inactivity, here we use Date for simplicity
-                sessions_map = defaultdict(list)
-                
-                for imp in user_impressions.get(uid, []):
-                    imp_id_hex = uuid.UUID(bytes=imp['impression_id']).hex
-                    imp_date = str(imp['timestamp'].date()) if imp['timestamp'] else 'unknown'
-                    
-                    camp = campaigns.get(imp['campaign_id'], {})
-                    adv_name = advertisers.get(camp.get('advertiser_id'), 'Unknown')
-                    
-                    # Target category logic (extract from targeting criteria or interest)
-                    category = camp.get('targeting_criteria', 'General')
-                    
-                    impression_doc = {
-                        "impression_id": imp_id_hex,
-                        "timestamp": imp['timestamp'],
-                        "device": imp['device'],
-                        "bid_amount": float(imp['bid_amount']) if imp['bid_amount'] is not None else None,
-                        "campaign": {
-                            "campaign_id": imp['campaign_id'],
-                            "name": camp.get('name'),
-                            "advertiser_name": adv_name
-                        },
-                        "category": category
-                    }
-                    
-                    if imp_id_hex in clicks:
-                        click = clicks[imp_id_hex]
-                        impression_doc["click"] = {
-                            "click_timestamp": click['click_timestamp'],
-                            "revenue_generated": float(click['revenue_generated']) if click['revenue_generated'] is not None else None
-                        }
-                    
-                    sessions_map[imp_date].append(impression_doc)
+                interests = (str(user.get('interests') or '')).split(',') if user.get('interests') else []
 
                 sessions = []
-                for s_date, s_imps in sessions_map.items():
-                    sessions.append({
-                        "session_date": s_date,
-                        "session_start": min(i["timestamp"] for i in s_imps),
-                        "impressions": s_imps
-                    })
-                
-                # Sort sessions by start date
-                sessions.sort(key=lambda x: x['session_start'])
+                current_session = None
+                last_ts = None
+
+                for imp in user_impressions.get(uid, []):
+                    imp_ts = self._normalize_ts(imp.get('timestamp'))
+                    imp_id_hex = _to_hex_id(imp.get('impression_id'))
+
+                    camp = campaigns.get(imp.get('campaign_id'), {})
+                    adv_name = advertisers.get(camp.get('advertiser_id'), 'Unknown')
+                    category = camp.get('targeting_criteria', 'General')
+
+                    impression_doc = {
+                        'impression_id': imp_id_hex,
+                        'timestamp': imp_ts,
+                        'device': imp.get('device'),
+                        'bid_amount': float(imp['bid_amount']) if imp.get('bid_amount') is not None else None,
+                        'campaign': {
+                            'campaign_id': imp.get('campaign_id'),
+                            'name': camp.get('name'),
+                            'advertiser_name': adv_name,
+                        },
+                        'category': category,
+                    }
+
+                    if imp.get('click_timestamp'):
+                        click_ts = self._normalize_ts(imp.get('click_timestamp'))
+                        impression_doc['click'] = {
+                            'click_timestamp': click_ts,
+                            'revenue_generated': float(imp['revenue_generated']) if imp.get('revenue_generated') is not None else None,
+                        }
+
+                    # Sessionization by inactivity timeout
+                    if current_session is None:
+                        current_session = {
+                            'session_start': imp_ts,
+                            'impressions': [impression_doc],
+                        }
+                    else:
+                        # If gap larger than timeout -> start new session
+                        gap = (imp_ts - last_ts).total_seconds() if (imp_ts and last_ts) else 0
+                        if gap > session_timeout:
+                            sessions.append(current_session)
+                            current_session = {'session_start': imp_ts, 'impressions': [impression_doc]}
+                        else:
+                            current_session['impressions'].append(impression_doc)
+
+                    last_ts = imp_ts
+
+                if current_session is not None:
+                    sessions.append(current_session)
+
+                # Sort sessions by start
+                sessions.sort(key=lambda s: s.get('session_start') or datetime(1970, 1, 1, tzinfo=timezone.utc))
 
                 mongo_doc = {
-                    "_id": uid,
-                    "demographics": {
-                        "age": user['age'],
-                        "gender": user['gender'],
-                        "location": user['location'],
-                        "interests": [i.strip() for i in interests]
+                    '_id': uid,
+                    'demographics': {
+                        'age': user.get('age'),
+                        'gender': user.get('gender'),
+                        'location': user.get('location'),
+                        'interests': [i.strip() for i in interests if i and i.strip()],
                     },
-                    "signup_date": datetime.datetime.combine(user['signup_date'], datetime.time()) if user['signup_date'] else None,
-                    "sessions": sessions
+                    'signup_date': (datetime.combine(user['signup_date'], datetime.min.time()).replace(tzinfo=timezone.utc)
+                                    if user.get('signup_date') else None),
+                    'sessions': sessions,
                 }
-                mongo_documents.append(mongo_doc)
 
-            if mongo_documents:
-                self.users_col.insert_many(mongo_documents)
-            
-            print(f"Loaded {i + len(user_batch)} / {len(users)} users to MongoDB.")
+                bulk_ops.append(UpdateOne({'_id': uid}, {'$set': mongo_doc}, upsert=True))
 
-if __name__ == "__main__":
-    mysql_config = {
-        'user': 'root',
-        'password': 'root_password',
-        'host': '127.0.0.1',
-        'database': 'adtech_db',
-    }
-    mongo_uri = "mongodb://root:root_password@127.0.0.1:27017/?authSource=admin"
-    mongo_db_name = "adtech_nosql"
-    
-    loader = MongoDataLoader(mysql_config, mongo_uri, mongo_db_name)
+                # Flush bulk operations when reaching bulk_size
+                if len(bulk_ops) >= bulk_size:
+                    try:
+                        self.users_col.bulk_write(bulk_ops, ordered=False)
+                        total_loaded += len(bulk_ops)
+                        logger.info(f"Flushed {len(bulk_ops)} user documents to MongoDB.")
+                    except Exception as e:
+                        logger.exception("Bulk write failed")
+                    bulk_ops = []
+
+            # Flush any remaining operations for this batch
+            if bulk_ops:
+                try:
+                    self.users_col.bulk_write(bulk_ops, ordered=False)
+                    total_loaded += len(bulk_ops)
+                    logger.info(f"Flushed {len(bulk_ops)} user documents to MongoDB.")
+                except Exception:
+                    logger.exception("Final bulk write failed")
+
+            offset += batch_size
+
+        logger.info(f"ETL complete. Total user documents upserted: {total_loaded}")
+
+
+if __name__ == '__main__':
+    # Fail-fast configuration load
+    try:
+        cfg = Config.load_from_env()
+    except Exception as e:
+        logger.error("Configuration error: %s", str(e))
+        raise
+
+    loader = MongoDataLoader(cfg)
     try:
         loader.connect()
-        # Drop collection for clean reload
-        loader.users_col.drop()
-        loader.load_data(batch_size=5000)
-        print("ETL to MongoDB completed successfully.")
-    except Exception as e:
-        print(f"ETL failed: {e}")
+        loader.load_data(drop_existing=True)
+        logger.info("ETL to MongoDB completed successfully.")
+    except Exception:
+        logger.exception("ETL failed")
     finally:
         loader.close()

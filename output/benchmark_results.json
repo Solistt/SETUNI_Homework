@@ -1,0 +1,20 @@
+{
+  "campaign_performance": {
+    "cold_ms": 13.849332999598118,
+    "warm_avg_ms": 0.9665375997428782,
+    "direct_avg_ms": 7.309570799770881,
+    "warm_p50_ms": 0.9152709999398212
+  },
+  "advertiser_spending": {
+    "cold_ms": 7.666542000151821,
+    "warm_avg_ms": 0.8762876001128461,
+    "direct_avg_ms": 7.202220799990755,
+    "warm_p50_ms": 0.8836245006023091
+  },
+  "user_engagements": {
+    "cold_ms": 6.198667000717251,
+    "warm_avg_ms": 0.9744334001879906,
+    "direct_avg_ms": 1.0006501001043944,
+    "warm_p50_ms": 0.9406044991919771
+  }
+}

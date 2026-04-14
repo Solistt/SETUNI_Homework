@@ -1,29 +1,100 @@
+version: '3.8'
 services:
   db:
     image: mysql:8.0
     container_name: adtech_mysql
     restart: always
     environment:
-      MYSQL_DATABASE: adtech_db
-      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-adtech_db}
+      # Development default root password (override in .env for real deployments)
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpass}
+      # Optional non-root user created by the official image (do NOT set to 'root')
+      MYSQL_USER: ${MYSQL_USER:-adtech}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-adtechpass}
     ports:
-      - "3306:3306"
+      - "127.0.0.1:3306:3306"
     volumes:
       - homework1:/var/lib/mysql
+      - ./homeworks/hw2_mysql/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    networks:
+      - internal_net
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   mongodb:
     image: mongo:6.0
     container_name: adtech_mongo
     restart: always
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: root_password
+      # Development defaults for MongoDB root user (override in .env for production)
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME:-root}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD:-rootpass}
     ports:
-      - "27017:27017"
+      - "127.0.0.1:27017:27017"
     volumes:
       - mongo_data:/data/db
+    networks:
+      - internal_net
+    healthcheck:
+      # Use mongosh to ping the server with auth
+      test: ["CMD-SHELL", "mongosh --norc --quiet --username $$MONGO_INITDB_ROOT_USERNAME --password $$MONGO_INITDB_ROOT_PASSWORD --authenticationDatabase admin --eval \"db.adminCommand('ping')\""]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7.0-alpine
+    container_name: adtech_redis
+    restart: always
+    ports:
+      - "127.0.0.1:6379:6379"
+    networks:
+      - internal_net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: .
+    container_name: adtech_api
+    restart: always
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      # MySQL connection (defaults for local development)
+      MYSQL_USER: ${MYSQL_USER:-adtech}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-adtechpass}
+      MYSQL_HOST: ${MYSQL_HOST:-db}
+      MYSQL_PORT: ${MYSQL_PORT:-3306}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-adtech_db}
+
+      # MongoDB connection (defaults for local development)
+      MONGO_USER: ${MONGO_USER:-root}
+      MONGO_PASSWORD: ${MONGO_PASSWORD:-rootpass}
+      MONGO_HOST: ${MONGO_HOST:-mongodb}
+      MONGO_PORT: ${MONGO_PORT:-27017}
+      MONGO_DB: ${MONGO_DB:-adtech_mongo}
+      MONGO_URI: ${MONGO_URI}
+
+      # Redis
+      REDIS_HOST: ${REDIS_HOST:-redis}
+      REDIS_PORT: ${REDIS_PORT:-6379}
+    depends_on:
+      - db
+      - mongodb
+      - redis
+    networks:
+      - internal_net
 
 volumes:
   homework1:
-    external: true
   mongo_data:
+
+networks:
+  internal_net:
+    driver: bridge

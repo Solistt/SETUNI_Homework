@@ -1,22 +1,25 @@
+import os
+import sys
+
+# Allow running this file directly (e.g., `python src/etl_process.py`) by ensuring
+# the repository root is on `sys.path` so `src` package imports resolve.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import pandas as pd
 import mysql.connector
 import uuid
-import sys
-import os
-from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+try:
+    from .config import Config
+except Exception:
+    from src.config import Config
+
 
 class AdTechETL:
     def __init__(self):
-        self.config = {
-            'user': os.getenv('MYSQL_USER', 'root'),
-            'password': os.getenv('MYSQL_ROOT_PASSWORD', 'root_password'),
-            'host': os.getenv('MYSQL_HOST', '127.0.0.1'),
-            'database': os.getenv('MYSQL_DATABASE', 'adtech_db'),
-            'autocommit': True  # Essential for large 1M+ row loads to prevent lock timeouts
-        }
+        cfg = Config.load_from_env()
+        self.config = cfg.get_mysql_config()
+        self.data_paths = cfg.get_data_paths()
         self.conn = None
         self.cursor = None
 
@@ -28,10 +31,9 @@ class AdTechETL:
     def load_source_data(self, limit=1000000):
         """Read CSV files into DataFrames."""
         print(f"--> [1/5] Loading source files (limit={limit} rows)...")
-        # Ensure these paths are correct for your local environment
-        self.u_df = pd.read_csv('/Users/soloviov/adtech_project/users.csv')
-        self.c_df = pd.read_csv('/Users/soloviov/adtech_project/campaigns.csv')
-        self.e_df = pd.read_csv('/Users/soloviov/adtech_project/ad_events_header_updated.csv', 
+        self.u_df = pd.read_csv(self.data_paths['users'])
+        self.c_df = pd.read_csv(self.data_paths['campaigns'])
+        self.e_df = pd.read_csv(self.data_paths['events'],
                                 nrows=limit, low_memory=False)
 
     def clean_data(self):

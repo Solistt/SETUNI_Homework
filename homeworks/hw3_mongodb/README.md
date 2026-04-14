@@ -70,12 +70,20 @@ db.users.find(
 ### Task 3: Time-Windowed Ad Performance Analysis
 ```javascript
 db.users.aggregate([
-  {"$unwind": "$sessions"},
-  {"$unwind": "$sessions.impressions"},
+  // Stage 1: Early filter using an index to reduce documents processed.
+  // This stage dramatically improves performance by filtering before unwinding.
   {"$match": {
      "sessions.impressions.campaign.advertiser_name": "TechCorp",
      "sessions.impressions.click": {"$exists": true}
   }},
+  // Stage 2: Unwind arrays to de-normalize documents for grouping.
+  {"$unwind": "$sessions"},
+  {"$unwind": "$sessions.impressions"},
+  // Stage 3: Match again on the specific unwound impression to ensure accuracy.
+  {"$match": {
+     "sessions.impressions.campaign.advertiser_name": "TechCorp"
+  }},
+  // Stage 4: Group by campaign and time window to aggregate results.
   {"$group": {
      "_id": {
          "campaign_id": "$sessions.impressions.campaign.campaign_id",
@@ -88,6 +96,7 @@ db.users.aggregate([
      "total_clicks": {"$sum": 1},
      "total_revenue": {"$sum": "$sessions.impressions.click.revenue_generated"}
   }},
+  // Stage 5: Sort the results for presentation.
   {"$sort": {"_id.date": -1, "_id.hour": -1}}
 ]);
 ```
@@ -157,10 +166,11 @@ db.users.aggregate([
    *Take a screenshot of the script output and verify the created files in `src/homeworks/homework3/output/` folder.*
 
 4. **Verify MongoDB using MongoSH (Optional):**
-   You can verify the data visually by connecting to the MongoDB container:
-   ```bash
-   docker exec -it adtech_mongo mongosh -u root -p root_password
-   > use adtech_nosql
-   > db.users.findOne()
-   ```
-   *Take a screenshot of a user document in mongosh.*
+  You can verify the data visually by connecting to the MongoDB container. For security, source your `.env` first and then use the variables rather than embedding secrets directly:
+  ```bash
+  source ../..../example.env  # or set your env vars from your local .env file
+  docker exec -it adtech_mongo mongosh -u "$MONGO_INITDB_ROOT_USERNAME" -p "$MONGO_INITDB_ROOT_PASSWORD"
+  > use adtech_nosql
+  > db.users.findOne()
+  ```
+  *Take a screenshot of a user document in mongosh.*
