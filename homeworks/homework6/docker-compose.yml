@@ -1,0 +1,93 @@
+version: "3.8"
+
+# Standalone Spark + MongoDB stack for Homework 6
+# Usage:
+#   1. Place the Amazon Reviews TSV in ./data/amazon_reviews.csv
+#   2. docker-compose up -d mongodb
+#   3. docker-compose run --rm spark-submit
+#   (MongoDB is also reachable at localhost:27018 for manual queries)
+
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: hw6_mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpass
+      MONGO_INITDB_DATABASE: amazon_reviews
+    ports:
+      - "127.0.0.1:27018:27017"
+    volumes:
+      - hw6_mongo_data:/data/db
+      - ./mongo-init:/docker-entrypoint-initdb.d:ro
+    networks:
+      - hw6_net
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "mongosh --norc --quiet -u root -p rootpass --authenticationDatabase admin --eval \"db.adminCommand('ping')\"",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  spark-master:
+    image: apache/spark:3.5.0
+    container_name: hw6_spark_master
+    user: root
+    environment:
+      - SPARK_NO_DAEMONIZE=true
+    ports:
+      - "127.0.0.1:8080:8080"
+      - "127.0.0.1:7077:7077"
+    networks:
+      - hw6_net
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+
+  spark-worker:
+    image: apache/spark:3.5.0
+    container_name: hw6_spark_worker
+    user: root
+    environment:
+      - SPARK_NO_DAEMONIZE=true
+    depends_on:
+      - spark-master
+    networks:
+      - hw6_net
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+
+  # One-shot container that submits the PySpark job
+  spark-submit:
+    image: apache/spark:3.5.0
+    container_name: hw6_spark_submit
+    user: root
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      spark-master:
+        condition: service_started
+      spark-worker:
+        condition: service_started
+    environment:
+      CSV_PATH: /data/amazon_reviews.csv
+      MONGO_URI: mongodb://root:rootpass@mongodb:27017/amazon_reviews?authSource=admin
+      MONGO_DB: amazon_reviews
+    volumes:
+      - ./spark_etl.py:/opt/spark_etl.py:ro
+      - ./data:/data:ro
+    networks:
+      - hw6_net
+    command: >
+      /opt/spark/bin/spark-submit
+        --master local[*]
+        --packages org.mongodb.spark:mongo-spark-connector_2.12:10.3.0
+        /opt/spark_etl.py
+
+volumes:
+  hw6_mongo_data:
+
+networks:
+  hw6_net:
+    driver: bridge

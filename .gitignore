@@ -18,3 +18,5 @@ __pycache__/
 .idea/
 .vscode/
 *.swp
+# Large data files
+homeworks/homework6/data/
