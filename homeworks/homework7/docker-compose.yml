@@ -1,0 +1,113 @@
+services:
+  cassandra:
+    image: cassandra:4.1
+    container_name: hw7_cassandra
+    restart: unless-stopped
+    environment:
+      CASSANDRA_CLUSTER_NAME: hw7_cluster
+      CASSANDRA_DC: datacenter1
+      CASSANDRA_ENDPOINT_SNITCH: GossipingPropertyFileSnitch
+    ports:
+      - "127.0.0.1:9042:9042"
+    volumes:
+      - hw7_cassandra_data:/var/lib/cassandra
+    networks:
+      - hw7_net
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'DESCRIBE KEYSPACES' 2>/dev/null || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 60s
+
+  cassandra-init:
+    image: cassandra:4.1
+    container_name: hw7_cassandra_init
+    depends_on:
+      cassandra:
+        condition: service_healthy
+    volumes:
+      - ./cassandra_schema.cql:/schema.cql:ro
+    networks:
+      - hw7_net
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+        for i in $(seq 1 20); do
+          cqlsh cassandra -f /schema.cql && echo "Schema applied." && exit 0
+          echo "Retry $i/20 — waiting 5s..."
+          sleep 5
+        done
+        exit 1
+    restart: "no"
+
+  redis:
+    image: redis:7
+    container_name: hw7_redis
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6379:6379"
+    networks:
+      - hw7_net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  spark-submit:
+    image: apache/spark:3.5.0
+    container_name: hw7_spark_submit
+    user: root
+    depends_on:
+      cassandra-init:
+        condition: service_completed_successfully
+    environment:
+      CASSANDRA_HOST: cassandra
+      CASSANDRA_KEYSPACE: amazon_reviews
+      CSV_PATH: /data/amazon_reviews.csv
+      CSV_SEPARATOR: ","
+    volumes:
+      - ./spark_etl.py:/opt/spark_etl.py:ro
+      - ./data:/data:ro
+    networks:
+      - hw7_net
+    command: >
+      /opt/spark/bin/spark-submit
+        --master local[*]
+        --packages com.datastax.spark:spark-cassandra-connector_2.12:3.5.0
+        --conf spark.cassandra.connection.host=cassandra
+        --conf spark.sql.extensions=com.datastax.spark.connector.CassandraSparkExtensions
+        /opt/spark_etl.py
+    restart: "no"
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hw7_api
+    restart: unless-stopped
+    depends_on:
+      cassandra-init:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+    environment:
+      CASSANDRA_HOST: cassandra
+      CASSANDRA_PORT: "9042"
+      CASSANDRA_KEYSPACE: amazon_reviews
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      CACHE_TTL: "300"
+    ports:
+      - "127.0.0.1:8000:8000"
+    networks:
+      - hw7_net
+
+volumes:
+  hw7_cassandra_data:
+
+networks:
+  hw7_net:
+    driver: bridge
