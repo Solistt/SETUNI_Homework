@@ -1,0 +1,90 @@
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.6.1
+    container_name: hw9_zookeeper
+    restart: unless-stopped
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "127.0.0.1:2182:2181"
+    networks:
+      - hw9_net
+
+  kafka:
+    image: confluentinc/cp-kafka:7.6.1
+    container_name: hw9_kafka
+    restart: unless-stopped
+    depends_on:
+      - zookeeper
+    ports:
+      - "127.0.0.1:9093:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:29092,PLAINTEXT_HOST://0.0.0.0:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9093
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+    networks:
+      - hw9_net
+    healthcheck:
+      # Probe the internal listener used by containers (29092), not host-mapped 9092/9093.
+      test: ["CMD-SHELL", "kafka-broker-api-versions --bootstrap-server localhost:29092 > /dev/null 2>&1"]
+      interval: 10s
+      timeout: 15s
+      retries: 12
+      start_period: 20s
+
+  producer:
+    build:
+      context: ../homework8
+      dockerfile: Dockerfile
+    image: hw8-tweet-producer:latest
+    container_name: hw9_tweet_producer
+    depends_on:
+      kafka:
+        condition: service_healthy
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:29092
+      INPUT_FILE: /data/amazon_reviews.csv
+      TOPIC: tweets
+      MIN_MSGS_PER_SEC: "10"
+      MAX_MSGS_PER_SEC: "15"
+      MAX_RUNTIME_SECONDS: "${MAX_RUNTIME_SECONDS:-900}"
+    volumes:
+      - ./data/amazon_reviews.csv:/data/amazon_reviews.csv:ro
+    networks:
+      - hw9_net
+    restart: "no"
+
+  consumer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hw9-tweet-consumer:latest
+    container_name: hw9_tweet_consumer
+    depends_on:
+      kafka:
+        condition: service_healthy
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:29092
+      TOPIC: tweets
+      GROUP_ID: "${GROUP_ID:-hw9_tweet_consumer_group}"
+      OUTPUT_DIR: /output
+      AUTO_OFFSET_RESET: earliest
+      POLL_TIMEOUT_MS: "1000"
+      LOG_EVERY: "100"
+    volumes:
+      - ./output:/output
+    networks:
+      - hw9_net
+    restart: unless-stopped
+
+networks:
+  hw9_net:
+    driver: bridge

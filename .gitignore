@@ -19,6 +19,7 @@ __pycache__/
 .vscode/
 *.swp
 # Large data files
+*.csv
 homeworks/homework6/data/
 homeworks/homework7/data/*.csv
 homeworks/homework7/data/*.tsv
