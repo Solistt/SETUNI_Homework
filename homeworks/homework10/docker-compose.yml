@@ -1,0 +1,206 @@
+name: hw10
+
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.6.1
+    container_name: hw10_zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    networks:
+      - hw10_net
+
+  kafka:
+    image: confluentinc/cp-kafka:7.6.1
+    container_name: hw10_kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9094:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:9094
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "false"
+    healthcheck:
+      test: ["CMD-SHELL", "kafka-topics --bootstrap-server localhost:9092 --list >/dev/null 2>&1 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    networks:
+      - hw10_net
+
+  kafka-init:
+    image: confluentinc/cp-kafka:7.6.1
+    container_name: hw10_kafka_init
+    depends_on:
+      kafka:
+        condition: service_healthy
+    command: >
+      bash -c "
+        kafka-topics --bootstrap-server kafka:9092 --create --if-not-exists --topic input --partitions 1 --replication-factor 1 &&
+        kafka-topics --bootstrap-server kafka:9092 --create --if-not-exists --topic processed --partitions 1 --replication-factor 1
+      "
+    restart: "no"
+    networks:
+      - hw10_net
+
+  cassandra:
+    image: cassandra:4.1
+    container_name: hw10_cassandra
+    ports:
+      - "9043:9042"
+    environment:
+      MAX_HEAP_SIZE: 512M
+      HEAP_NEWSIZE: 128M
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'DESCRIBE KEYSPACES' >/dev/null 2>&1 || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 20
+    networks:
+      - hw10_net
+
+  cassandra-init:
+    image: cassandra:4.1
+    container_name: hw10_cassandra_init
+    depends_on:
+      cassandra:
+        condition: service_healthy
+    volumes:
+      - ./cassandra/init.cql:/init.cql:ro
+    command: ["/bin/bash", "-c", "cqlsh cassandra 9042 -f /init.cql"]
+    restart: "no"
+    networks:
+      - hw10_net
+
+  spark-master:
+    image: apache/spark:3.5.1
+    container_name: hw10_spark_master
+    command:
+      - /opt/spark/bin/spark-class
+      - org.apache.spark.deploy.master.Master
+      - --host
+      - spark-master
+      - --port
+      - "7077"
+      - --webui-port
+      - "8080"
+    ports:
+      - "7077:7077"
+      - "8081:8080"
+    networks:
+      - hw10_net
+
+  spark-worker:
+    image: apache/spark:3.5.1
+    container_name: hw10_spark_worker
+    depends_on:
+      - spark-master
+    command:
+      - /opt/spark/bin/spark-class
+      - org.apache.spark.deploy.worker.Worker
+      - -c
+      - "2"
+      - -m
+      - 2G
+      - --webui-port
+      - "8081"
+      - spark://spark-master:7077
+    ports:
+      - "8082:8081"
+    networks:
+      - hw10_net
+
+  generator:
+    build:
+      context: ./generator
+    container_name: hw10_generator
+    depends_on:
+      kafka-init:
+        condition: service_completed_successfully
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      KAFKA_TOPIC: input
+      WIKIMEDIA_STREAM_URL: https://stream.wikimedia.org/v2/stream/page-create
+      MAX_RUNTIME_SECONDS: ${MAX_RUNTIME_SECONDS:-300}
+    networks:
+      - hw10_net
+
+  stream-processor:
+    image: apache/spark:3.5.1
+    container_name: hw10_stream_processor
+    depends_on:
+      spark-master:
+        condition: service_started
+      kafka-init:
+        condition: service_completed_successfully
+    command: >
+      /bin/bash -lc "
+      mkdir -p /tmp/.ivy2/cache &&
+      /opt/spark/bin/spark-submit
+      --master spark://spark-master:7077
+      --conf spark.jars.ivy=/tmp/.ivy2
+      --conf spark.cores.max=1
+      --conf spark.executor.memory=512m
+      --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1
+      /opt/hw10/jobs/process_stream.py
+      "
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      INPUT_TOPIC: input
+      OUTPUT_TOPIC: processed
+      CHECKPOINT_DIR: /tmp/hw10/checkpoints/process_stream
+    volumes:
+      - ./spark_jobs:/opt/hw10/jobs:ro
+    restart: unless-stopped
+    networks:
+      - hw10_net
+
+  cassandra-writer:
+    image: apache/spark:3.5.1
+    container_name: hw10_cassandra_writer
+    depends_on:
+      spark-master:
+        condition: service_started
+      kafka-init:
+        condition: service_completed_successfully
+      cassandra-init:
+        condition: service_completed_successfully
+    command: >
+      /bin/bash -lc "
+      mkdir -p /tmp/.ivy2/cache &&
+      /opt/spark/bin/spark-submit
+      --master spark://spark-master:7077
+      --conf spark.jars.ivy=/tmp/.ivy2
+      --conf spark.cores.max=1
+      --conf spark.executor.memory=512m
+      --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1,com.datastax.spark:spark-cassandra-connector_2.12:3.5.1
+      /opt/hw10/jobs/write_to_cassandra.py
+      "
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      PROCESSED_TOPIC: processed
+      CASSANDRA_HOST: cassandra
+      CASSANDRA_KEYSPACE: hw10
+      CASSANDRA_TABLE: page_creations
+      CHECKPOINT_DIR: /tmp/hw10/checkpoints/write_to_cassandra
+    volumes:
+      - ./spark_jobs:/opt/hw10/jobs:ro
+    restart: unless-stopped
+    networks:
+      - hw10_net
+
+networks:
+  hw10_net:
+    name: hw10_net
+
+volumes:
+  cassandra_data:
+    name: hw10_cassandra_data
